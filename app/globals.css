@@ -1,6 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import "tailwindcss";
 
+
 :root {
+  --background: #FFFFFF;
+  --foreground: #0D0D0D;
+
+  --whitish-secondary: #F6F8ED;
+  --green-accent: #318250;
+  --lemon-accent: #D7E84A;
+  --grayish-primary: #D5E6DC;
+  --bleus-secondary: #0F496F;
+  --blackish-primary: #0D0D0D;
+  --Lighter-BlueShade:#577F9A;
+
+  /* --textFont: 'fira-sans', sans-serif;
+  --headingFont: 'poppins', sans-serif; */
+};
+
+@theme {
+  --color-background: var(--background);
+  --foreground: var(--foreground);
+
+  --color-whitish-secondary: var(--whitish-secondary);
+  --color-green-accent: var(--green-accent);
+  --color-lemon-accent: var(--lemon-accent);
+  --color-grayish-primary: var(--grayish-primary);
+  --color-bleus-secondary: var(--bleus-secondary);
+  --color-blackish-primary: var(--blackish-primary);
+  --color-Lighter-BlueShade:var(--Lighter-BlueShade);
+
+  /* --font-poppins: var(--font-poppins);
+  --font-fira-sans: var(--font-fira-sans); */
+  /* --font-headingFont: var(--headingFont);
+  --font-textFont: var(--textFont); */
+  --font-poppins: Poppins, sans-serif;
+  --font-firasans: Fira Sans, sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  @apply font-firasans;
+  /*font-family: var(--textFont), sans-serif;*/
+}
+
+h1, h2, h3, h4, h5 {
+  @apply font-poppins;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* @keyframes pulse-loop {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.05); opacity: 0.8; }
+}
+
+.animate-pulse-loop {
+  animation: pulse-loop 1s ease-in-out infinite;
+} */
+ /* @keyframes color-pulse {
+  0% {
+    background: radial-gradient(circle, #318250 0%, #318250 100%);
+  }
+  50% {
+    background: radial-gradient(circle, #4ea76b 0%, #318250 100%);
+  }
+  100% {
+    background: radial-gradient(circle, #318250 0%, #318250 100%);
+  }
+}
+
+.animate-color-pulse {
+  animation: color-pulse 1.5s ease-in-out infinite;
+} */
+
+@keyframes ripple {
+  0% {
+    background-position: center;
+    background-size: 0% 0%;
+    opacity: 0.6;
+  }
+  70% {
+    background-size: 250% 250%;
+    opacity: 0.2;
+  }
+  100% {
+    background-size: 300% 300%;
+    opacity: 0;
+  }
+}
+
+.animate-ripple {
+  position: relative;
+  overflow: hidden;
+}
+
+.animate-ripple::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, #318250 30%, transparent 70%);
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  animation: ripple 1.5s ease-out infinite;
+  pointer-events: none; /* don't block clicks */
+}
+
+
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -23,4 +139,4 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-}
+} */

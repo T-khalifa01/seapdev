@@ -1,0 +1,36 @@
+this is the first script to pass data to db from app script
+function syncToDB() {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Form Responses 1"); // adjust sheet name
+  var data = sheet.getDataRange().getValues();
+  
+  // First row = headers
+  var headers = data[0];
+  
+  // Select the columns you want by header name["Name", "Phone", "Email", "State", "Final_LGA"]
+  var colsToSend = ["Timestamp", "which state are you in", "Full Name", "Phone Number", "Email Address", "Office Address", "Estimated LGA Population", "Estimated Number of households without electricity meter", "Are there power distribution challenges in your LGA?", "Do you have communities not connected to the national grid?", "Would you support off-grid hybrid power (gas + solar) deployment?", "Number of Registered Tricycles (Keke)", "Number of Commercial Motorcycles (Okada)", "Number of Mini Buses / Vans", "Would you support a CNG/electric conversion project?", "Top 5 crops grown in your LGA", "Are there existing agro-processing centers?", "Agro-Processing opportunities needed?", "Is there land for agro expansion or industrial farming?", "If Yes, how many hectares?", "Are there known mineral deposits?", "If yes, list types of minerals", "Are licensed miners operating currently?", "What support is needed to attract mining investment?", "Is there a designated industrial park/area?", "What types of industries would thrive in your LGA?", "Does your LGA have road, power, or water access for industry?", "Would you support land/public asset allocation for investment?", "33kv", "11kv", "415v", "What specific investment priorities/projects would you like to see in your LGA? ", "Would you be willing to meet technical or investor teams?", "What is the primary cooking fuel in your LGA?", "What is the price of Cooking gas per/kg in your LGA?", "What percentage of households in your LGA cook with Gas? ", "final LGAs"];
+  
+  // Get indexes for the selected columns
+  var colIndexes = colsToSend.map(function(col) {
+    return headers.indexOf(col);
+  });
+  
+  // Collect rows (skip the header row)
+  var payload = data.slice(1).map(function(row) {
+    return colIndexes.map(function(i) {
+      return row[i];
+    });
+  });
+  
+  // Send to your API
+  var url = "https://your-api-url.com/sync"; // replace with your API endpoint
+  var options = {
+    method: "post",
+    contentType: "application/json",
+    payload: JSON.stringify({
+      rows: payload
+    })
+  };
+  
+  var response = UrlFetchApp.fetch(url, options);
+  Logger.log(response.getContentText());
+}

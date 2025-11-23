@@ -78,7 +78,7 @@ const Mining = () => {
             {/* Heading */}
             <h1
               id="hero-title"
-              className="flex text-xl leading-[1.2] text-whitish-secondary z-[3] justify-self-start
+              className="flex text-xl leading-[1.2] text-whitish-secondary z-3 justify-self-start
                         md:text-lg md:font-semibold
                         lg:text-xl md:w-3/4
                         xl:text-xl"
@@ -87,7 +87,7 @@ const Mining = () => {
             </h1>
             {/* Heading */}
             <h3              id="hero-sub-title"
-              className="flex text-xl leading-[1.2] text-whitish-secondary z-[3]
+              className="flex text-xl leading-[1.2] text-whitish-secondary z-3
                         md:text-2xl md:font-semibold
                         lg:text-3xl md:w-3/4
                         xl:text-5xl"
@@ -97,18 +97,18 @@ const Mining = () => {
     
             {/* Subheading */}
             <div
-              className="flex  text-md leading-[1.6] text-whitish-secondary z-[3]
+              className="flex  text-md leading-[1.6] text-whitish-secondary z-3
                         md:text-base
                         lg:text-lg lg:leading-normal md:w-3/4
                         xl:text-xl"
             >
               <p>
-                Unlocking Nigeria's mineral wealth. SEAP empowers sustainable mining with smart infrastructure and energy-secure solutions.
+                Unlocking Nigeria&apos;s mineral wealth. SEAP empowers sustainable mining with smart infrastructure and energy-secure solutions.
               </p>
             </div>
     
             {/* CTA Button */}
-            <div className="z-[3] flex  self-stretch pr-10 pt-[3px] md:pr-0 md:pt-4 md:items-end">
+            <div className="z-3 flex  self-stretch pr-10 pt-[3px] md:pr-0 md:pt-4 md:items-end">
               <Button
                 href="/investment-form"
                 label="Invest in Nigeria's future"
@@ -136,7 +136,7 @@ const Mining = () => {
               className={`
                 flex flex-col items-start gap-6
                 w-full
-                lg:flex-grow lg:max-w-[640px]
+                lg:grow lg:max-w-[640px]
               `}
             >
               {/* Main Heading for the section */}
@@ -150,11 +150,11 @@ const Mining = () => {
                   lg:text-3xl
                 `}
               >
-                Powering Nigeria's Agricultural Value Chains with Smart Infrastructure
+                Powering Nigeria&apos;s Agricultural Value Chains with Smart Infrastructure
               </h2>
               {/* Description Paragraph */}
               <p className="self-stretch text-base leading-normal sm:text-lg">
-                SEAP supports sustainable and energy-secure mining by enabling access to hybrid power, digital mapping tools, and sector-focused infrastructure in Nigeria's mineral-rich LGAs. By bridging operational gaps and improving visibility across the mining landscape, we are helping unlock Nigeria's vast untapped mineral wealth while promoting regulatory compliance and environmental stewardship.
+                SEAP supports sustainable and energy-secure mining by enabling access to hybrid power, digital mapping tools, and sector-focused infrastructure in Nigeria&apos;s mineral-rich LGAs. By bridging operational gaps and improving visibility across the mining landscape, we are helping unlock Nigeria&apos;s vast untapped mineral wealth while promoting regulatory compliance and environmental stewardship.
               </p>
               {/* Feature Cards List - Semantically a list of key features */}
               <div className="pt-4 w-full flex flex-col gap-2 items-center leading-normal
@@ -169,11 +169,11 @@ const Mining = () => {
 
               className={`
                 relative w-full rounded-xl overflow-hidden
-                aspect-[480/512]
+                aspect-480/512
                 h-auto
 
-                md:w-full md:h-[384px] md:justify-center
-                lg:w-[480px] lg:h-[512px] lg:flex-shrink-0
+                md:w-full md:h-96 md:justify-center
+                lg:w-[480px] lg:h-[512px] lg:shrink-0
               `}
             >
               <Image
@@ -223,34 +223,34 @@ const Mining = () => {
             className={`
               flex flex-col items-start gap-6
               w-full
-              lg:flex-grow xl:max-w-[640px]
+              lg:grow xl:max-w-[640px]
             `}
           >
             <div className="font-fira-sans flex flex-col gap-2 leading-[1.6] mt-6">
               <p className="text-base md:text-lg">
-                Nigeria is home to over 1,000 registered mining operations, ranging from small-scale quarries to medium-sized extractive projects. However, many of these sites face persistent challenges, including unreliable power supply, limited access to clean water, and inefficient logistics, which hinder operational capacity and scale. Meanwhile, more than 80% of Nigeria's documented mineral deposits remain underexploited. These untapped zones often lack basic infrastructure, deterring both local and foreign investment. Through localized, grid-independent hybrid power systems and modular infrastructure deployment, SEAP seeks to unlock these dormant reserves and transform them into productive, income-generating assets.
+                Nigeria is home to over 1,000 registered mining operations, ranging from small-scale quarries to medium-sized extractive projects. However, many of these sites face persistent challenges, including unreliable power supply, limited access to clean water, and inefficient logistics, which hinder operational capacity and scale. Meanwhile, more than 80% of Nigeria&apos;s documented mineral deposits remain underexploited. These untapped zones often lack basic infrastructure, deterring both local and foreign investment. Through localized, grid-independent hybrid power systems and modular infrastructure deployment, SEAP seeks to unlock these dormant reserves and transform them into productive, income-generating assets.
               </p>
               <div className="text-base md:text-lg" />
                 <h4 className="font-poppins text-xl">Regulatory Guidance</h4>
                 <p>
-                  SEAP's mining interventions are developed in alignment with national regulations under the Federal Ministry of Mines and Steel Development. We collaborate closely with state-level Mineral Resources & Environmental Committees (MIREMs) to streamline processes and ensure legal compliance. This includes support for Small-Scale Mining Leases (SSML), Exploration Licenses (EL), and the enforcement of Environmental Impact Assessments (EIAs). We also encourage adherence to Community Development Agreements (CDAs), particularly in areas where mining operations interface with vulnerable populations. SEAP aims to pilot emission and water use standards tailored for hybrid-powered mining sites, and in future phases, will integrate geo-certification protocols using data verification and blockchain-ready records to ensure transparency and traceability.
+                  SEAP&apos;s mining interventions are developed in alignment with national regulations under the Federal Ministry of Mines and Steel Development. We collaborate closely with state-level Mineral Resources & Environmental Committees (MIREMs) to streamline processes and ensure legal compliance. This includes support for Small-Scale Mining Leases (SSML), Exploration Licenses (EL), and the enforcement of Environmental Impact Assessments (EIAs). We also encourage adherence to Community Development Agreements (CDAs), particularly in areas where mining operations interface with vulnerable populations. SEAP aims to pilot emission and water use standards tailored for hybrid-powered mining sites, and in future phases, will integrate geo-certification protocols using data verification and blockchain-ready records to ensure transparency and traceability.
                 </p>
                 <div className="text-base md:text-lg" />
                 <h4 className="font-poppins text-xl">Investment Opportunities</h4>
                 <p>
-                  To operationalize the sector's potential, SEAP offers a series of investable interventions. Hybrid mini-grids—customized for mining applications—will be deployed across 1-3 sites per LGA, with investment requirements ranging between $300,000 and $750,000 and potential returns of 15-20%. Modular ore processing units are also part of the model, designed to match local mineral profiles. These facilities typically require $200,000 to $400,000 in capital input and promise ROIs of 18-22%. To power data-driven exploration and development, SEAP will offer GIS-based mining maps and insights under a regional licensing scheme, enabling developers and exploration firms to make informed decisions. Finally, water treatment systems essential for mineral processing will be introduced in clustered LGAs, with investments between $80,000 and $150,000 and an expected ROI of 12-15%.
+                  To operationalize the sector&apos;s potential, SEAP offers a series of investable interventions. Hybrid mini-grids—customized for mining applications—will be deployed across 1-3 sites per LGA, with investment requirements ranging between $300,000 and $750,000 and potential returns of 15-20%. Modular ore processing units are also part of the model, designed to match local mineral profiles. These facilities typically require $200,000 to $400,000 in capital input and promise ROIs of 18-22%. To power data-driven exploration and development, SEAP will offer GIS-based mining maps and insights under a regional licensing scheme, enabling developers and exploration firms to make informed decisions. Finally, water treatment systems essential for mineral processing will be introduced in clustered LGAs, with investments between $80,000 and $150,000 and an expected ROI of 12-15%.
                 </p>
                 <div className="text-base md:text-lg" />
                 <p>
-                  SEAP's approach to mining is about more than minerals—it's about building a cleaner, more resilient foundation for industrialization, community growth, and sustainable resource management.
+                  SEAP&apos;s approach to mining is about more than minerals—it&apos;s about building a cleaner, more resilient foundation for industrialization, community growth, and sustainable resource management.
                 </p>
             </div>
             <div className={`leading-[1.6] w-full`}>
               <p className="mb-4">
-                SEAP targets over 20,000 households per LGA, providing access to clean cooking through decentralized refueling infrastructure, home delivery systems, and community hubs. Both biogas and LPCNG fuel sources are deployed—biogas produced locally from waste and organic matter, and LPCNG sourced through Nigeria"s expanding gas network. The program also equips schools, hospitals, religious centers, and correctional facilities with institutional-scale cooking systems.
+                SEAP targets over 20,000 households per LGA, providing access to clean cooking through decentralized refueling infrastructure, home delivery systems, and community hubs. Both biogas and LPCNG fuel sources are deployed—biogas produced locally from waste and organic matter, and LPCNG sourced through Nigeria&apos;s expanding gas network. The program also equips schools, hospitals, religious centers, and correctional facilities with institutional-scale cooking systems.
               </p>
               <p className="mb-4">
-                SEAP's Agriculture & Agribusiness interventions are designed to attract high-impact, capital-efficient investments across processing, storage, and data infrastructure. In each LGA, investors can tap into growing demand for agro-logistics and post-harvest facilities. Solar-powered cold rooms, mini rice or cassava mills, and grain silos are viable with IRRs ranging from 15% to 28%. Regionally, dairy processing zones offer strong returns through value-added product lines. Additionally, nationwide access to GIS data tools offers subscription-based revenue models for aggrotech startups and analytics firms.
+                SEAP&apos;s Agriculture & Agribusiness interventions are designed to attract high-impact, capital-efficient investments across processing, storage, and data infrastructure. In each LGA, investors can tap into growing demand for agro-logistics and post-harvest facilities. Solar-powered cold rooms, mini rice or cassava mills, and grain silos are viable with IRRs ranging from 15% to 28%. Regionally, dairy processing zones offer strong returns through value-added product lines. Additionally, nationwide access to GIS data tools offers subscription-based revenue models for aggrotech startups and analytics firms.
               </p>
             </div>
           <div className="w-full pt-4 md:pt-0">

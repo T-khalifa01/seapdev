@@ -29,7 +29,7 @@ const page = () => {
         {/* Category and Read Time */}
 
         <div className="flex flex-wrap items-center gap-x-4 text-sm font-semibold md:flex-nowrap">
-          <div className="flex items-center justify-center rounded-full px-3 py-2 px-1">
+          <div className="flex items-center justify-center rounded-full py-2 px-1">
             <span className="text-center">Updates</span>
           </div>
           <div>
@@ -41,7 +41,7 @@ const page = () => {
         <h1 className="font-font-poppins text-3xl leading-tight mt-4 
                        md:text-4xl md:mt-8 
                        lg:text-5xl lg:leading-[1.2]">
-          AfDB Mobilizes $2.2B to Spark Nigeria's Agro-Processing Boom
+          AfDB Mobilizes $2.2B to Spark Nigeria&apos;s Agro-Processing Boom
         </h1>
 
         {/* Featured Image */}
@@ -128,7 +128,7 @@ const page = () => {
 
           <blockquote className="mt-6 font-poppins border-l-4 border-green-600 bg-grayish-primary px-6 py-4 italic  rounded-md
                        flex flex-col items-start"> {/* Changed items-start to items-end */}
-              "We have been able, I would like to say, to mobilize $2.2billion of investment interest to support the second phase across Nigeria"
+              &quot;We have been able, I would like to say, to mobilize $2.2billion of investment interest to support the second phase across Nigeria&quot;
               <footer className="text-sm text-gray-700 mt-2 self-end flex">&mdash; Akinwumi Adesina, President, AfDB </footer>
           </blockquote>
 
@@ -144,8 +144,8 @@ const page = () => {
           </h2>
           <ul className="list-disc list-inside  space-y-3">
             <li><strong>Agro-Processing Industrialization:</strong> Aligns with SEAP's efforts in agribusiness hubs, solar-powered processing, and cold-chain infrastructure.</li>
-            <li><strong>Rural-Led Infrastructure:</strong> Zones located in rural and peri-urban LGAs echo SEAP's deployment areas for hybrid energy and clean cooking.</li>
-            <li><strong>Financing Models: Multi-stakeholder backing—including Arab Bank for Economic Development, Afreximbank, Sahara Farms fintech, and French/U.S. institutions:</strong> mirrors SEAP's blended finance approach between DFIs, private equity, and local developers .</li>
+            <li><strong>Rural-Led Infrastructure:</strong> Zones located in rural and peri-urban LGAs echo SEAP&apos;s deployment areas for hybrid energy and clean cooking.</li>
+            <li><strong>Financing Models: Multi-stakeholder backing—including Arab Bank for Economic Development, Afreximbank, Sahara Farms fintech, and French/U.S. institutions:</strong> mirrors SEAP&apos;s blended finance approach between DFIs, private equity, and local developers .</li>
           </ul>
 
           <div className=" p-6 sm:p-8 md:p-10 lg:p-8 max-w-3xl w-full"> {/*rounded-lg shadow-md */}

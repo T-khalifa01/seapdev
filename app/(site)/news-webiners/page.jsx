@@ -59,7 +59,7 @@ const NewsWebiners = () => {
       {/* Full-width Image Section */}
       <div
         className={`
-          relative w-full overflow-hidden flex-shrink-0
+          relative w-full overflow-hidden shrink-0
           h-[300px]
           sm:h-[400px]
           md:h-[500px]
@@ -109,7 +109,7 @@ const NewsWebiners = () => {
                 md:text-xl
                 lg:text-3xl
               `}> {/* Semantic: Main heading for the section */}
-            Stay Updated on SEAP's Latest Developments
+            Stay Updated on SEAP&apos;s Latest Developments
           </h2>
         </div>
 
@@ -124,7 +124,7 @@ const NewsWebiners = () => {
         >
           {/* Description Paragraph */}
           <p className="self-stretch text-base leading-normal text-center md:text-left sm:text-lg">
-            Our News & Media page is your go-to source for the latest updates on SEAP's initiatives and achievements. Stay informed about our progress in delivering sustainable energy solutions across Nigeria.
+            Our News & Media page is your go-to source for the latest updates on SEAP&apos;s initiatives and achievements. Stay informed about our progress in delivering sustainable energy solutions across Nigeria.
           </p>
         </div>
       </div>
@@ -194,7 +194,7 @@ const NewsWebiners = () => {
           text-3xl
           sm:text-4xl
           md:text-5xl
-          lg:w-[768px]
+          lg:w-3xl
           lg:mx-auto
         `}
       >
@@ -208,7 +208,7 @@ const NewsWebiners = () => {
           pr-0 pt-0
           text-center
           md:text-left
-          lg:w-full lg:max-w-[768px]
+          lg:w-full lg:max-w-3xl
            lg:pt-2
           lg:mx-auto
         `}
@@ -218,7 +218,7 @@ const NewsWebiners = () => {
         </p>
       </div>
 
-      <div className=" lg:max-w-[768px] w-full
+      <div className=" lg:max-w-3xl w-full
           lg:mx-auto  pt-4 md:pt-0">
         {/* Mobile/Tablet Accordion (below lg)xl:block flex flex-col*/}
         <div className="  ">
@@ -238,7 +238,7 @@ const NewsWebiners = () => {
               <h1
                 id="contact-us-heading"
                 className={`
-                  z-[2] md:text-3xl md:font-semibold
+                  z-2 md:text-3xl md:font-semibold
                           lg:text-4xl text-2xl leading-[1.2]
                 `}
               >
@@ -248,7 +248,7 @@ const NewsWebiners = () => {
               {/* Descriptive Paragraph */}
               <p
                 className={`
-                  z-[2] md:text-base
+                  z-2 md:text-base
                           lg:text-lg lg:leading-normal md:max-w-2/3
                   text-md leading-[1.6]
                 `}

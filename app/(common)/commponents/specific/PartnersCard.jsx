@@ -11,7 +11,7 @@ const PartnersCard = ({pic, alt, partner, fullName, desc, styles}) => {
       `}
     >
       {/* 1. Partner Logo */}
-      <div className={`relative overflow-hidden rounded-lg flex-shrink-0
+      <div className={`relative overflow-hidden rounded-lg shrink-0
                       ${styles}`}>
         {/* <Image
           src={pic}
@@ -50,7 +50,7 @@ const PartnersCard = ({pic, alt, partner, fullName, desc, styles}) => {
         </p>
 
         {/* 4. Description */}
-        <div className={`flex-grow pt-4 w-full max-w-[284px] /* Spacing from full name, max-width for readability */`}>
+        <div className={`grow pt-4 w-full max-w-[284px] /* Spacing from full name, max-width for readability */`}>
           <p className={`font-fira-sans text-sm md:text-base leading-[1.6] text-center`}>
             {desc}
           </p>

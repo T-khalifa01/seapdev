@@ -19,23 +19,23 @@ const NewsSec = () => {
 
         {/* Section Heading & Subtitle */}
         <p className={`font-poppins font-semibold leading-normal text-sm
-                       md:text-base max-w-[1280px]`}>
+                       md:text-base max-w-7xl`}>
             Blog
         </p>
         <h2 className={`  pt-2 leading-[1.2]
                         text-[36px]
                         sm:text-[40px]
                         md:text-[48px]
-                        lg:text-[56px] max-w-[1280px]`}>
+                        lg:text-[56px] max-w-7xl`}>
             Latest Insights and Updates
         </h2>
         <h4 className={`  pt-4 leading-normal
                        text-base
-                       md:text-lg max-w-[1280px]`}>
+                       md:text-lg max-w-7xl`}>
             Discover the latest in sustainable energy initiatives.
         </h4>
 
-        <div className={`flex w-full max-w-[1280px] lg:justify-center mb-4 `}> {/* flex-row items-center gap-8 self-stretch pt-4
+        <div className={`flex w-full max-w-7xl lg:justify-center mb-4 `}> {/* flex-row items-center gap-8 self-stretch pt-4
                          md:flex-row md:flex-nowrap md:gap-12 md:pt-8
                          lg:pt-4 lg:flex-nowrapLG: original gap, no wrap */}
           <article className={`flex flex-col items-center gap-2 self-stretch mt-4 mb-4 w-full
@@ -82,7 +82,7 @@ const NewsSec = () => {
                   <div className={` flex items-start self-stretch leading-normal text-sm pb-4
                                   md:text-base`}> {/* MD/LG */}
                       <p>
-                          Private capital is key to unlocking Nigeria's trillion-naira infrastructure ambitions — and SEAP is ready to lead from the front.
+                          Private capital is key to unlocking Nigeria&apos;s trillion-naira infrastructure ambitions — and SEAP is ready to lead from the front.
                       </p>
                   </div>
 
@@ -100,13 +100,13 @@ const NewsSec = () => {
         {/* News Cards Grid */}
         {/* Mobile/SM/MD: each row will stack, cards inside will also stack or go 2-col based on NewsCard's responsiveness */}
         <div className={`flex flex-col items-center gap-8 self-stretch pt-4 pd-4
-                         md:flex-row md:flex-wrap md:items-start md:items-stretch md:gap-12 md:pt-8
+                         md:flex-row md:flex-wrap  md:items-stretch md:gap-12 md:pt-8
                          lg:pt-4 lg:flex-nowrap`}> {/* LG: original gap, no wrap */}
             <NewsCard tag={news1.tag} time={news1.time} title={news1.title} desc={news1.desc} link={'/news-webiners/mini-grids'} imgSrc={news1.img} />
             <NewsCard tag={news2.tag} time={news2.time} title={news2.title} desc={news2.desc} link={'/news-webiners/afdb-mobilizes'} imgSrc={news2.img}/>
         </div>
         <div className={`flex flex-col items-center gap-8 self-stretch pt-4
-                         md:flex-row md:flex-wrap md:items-start md:items-stretch md:gap-12 md:pt-4
+                         md:flex-row md:flex-wrap  md:items-stretch md:gap-12 md:pt-4
                          lg:flex-nowrap`}> {/* LG: original gap, no wrap */}
             <NewsCard tag={news3.tag} time={news3.time} title={news3.title} desc={news3.desc} link={'/news-webiners/seap-kickoff'} imgSrc={news3.img}/>
             <NewsCard tag={news4.tag} time={news4.time} title={news4.title} desc={news4.desc} link={'/news-webiners/china-news'} imgSrc={news4.img}/>

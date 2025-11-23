@@ -13,8 +13,8 @@ const SmallInvestCard = ({ title, description, icon, link, seoLabel }) => {
     <article className={`flex flex-col items-start gap-6 overflow-clip rounded-xl md:rounded-2xl border border-solid border-neutral-950/10 bg-whitish-secondary px-6 lg:px-2 md:px-6 pt-6 pb-6 w-full
                         sm:h-[349px]
                         md:w-[calc(50%-8px)] 
-                        lg:w-[calc(50%-16px)] lg:flex-shrink-0 lg:min-h-[333px]`}>
-      <svg width="48" height="48" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className="flex justify-center items-center w-12 h-12 flex-shrink-0 text-green-accent
+                        lg:w-[calc(50%-16px)] lg:shrink-0 lg:min-h-[333px]`}>
+      <svg width="48" height="48" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className="flex justify-center items-center w-12 h-12 shrink-0 text-green-accent
                              ">
           <path d={icon} className="-green-accent"/>
       </svg>

@@ -75,7 +75,7 @@ const page = () => {
               <h1
                 id="about-us-heading"
                 className={`
-                  z-[2] md:text-3xl md:font-semibold
+                  z-2 md:text-3xl md:font-semibold
                           lg:text-4xl text-2xl leading-[1.2] text-whitish-secondary
                 `}
               >
@@ -85,7 +85,7 @@ const page = () => {
               {/* Descriptive Paragraph */}
               <p
                 className={`
-                  z-[2] md:text-base
+                  z-2 md:text-base
                           lg:text-lg lg:leading-normal md:max-w-2/3
                   text-md leading-[1.6] text-whitish-secondary
                 `}
@@ -126,7 +126,7 @@ const page = () => {
             min-[1270px]:text-[40px] min-[1270px]:w-[600px] min-[1270px]:text-left
           `}
         >
-          Powering Nigeria's Future, One LGA at a Time
+          Powering Nigeria&apos;s Future, One LGA at a Time
         </h3>
 
         {/* New Paragraph */}
@@ -145,7 +145,7 @@ const page = () => {
       {/* Existing Project Cards Container */}
       <div 
         className={`
-          flex flex-grow flex-col gap-4 leading-[1.6] justify-center items-center
+          flex grow flex-col gap-4 leading-[1.6] justify-center items-center
           md:grid md:grid-cols-3 md:gap-x-4 md:gap-y-2 md:justify-items-center md:items-start md:leading-normal
           lg:gap-x-4 lg:gap-y-4
           min-[1270px]:flex min-[1270px]:flex-row min-[1270px]:flex-nowrap min-[1270px]:justify-center min-[1270px]:items-start min-[1270px]:gap-4
@@ -222,7 +222,7 @@ const page = () => {
         >
           {/* Description Paragraph */}
           <p className={`text-base leading-[1.6] md:text-lg`}>
-            Nigeria's energy transition is gaining momentum through data-backed, decentralized infrastructure projects. The SEAP pilot phase demonstrates the scale, resilience, and replicability of hybrid systems across diverse local contexts.
+            Nigeria&apos;s energy transition is gaining momentum through data-backed, decentralized infrastructure projects. The SEAP pilot phase demonstrates the scale, resilience, and replicability of hybrid systems across diverse local contexts.
           </p>
 
           {/* Statistic Cards Container - Holds the two individual statistic cards */}
@@ -289,7 +289,7 @@ const page = () => {
               <h1
                 id="about-us-heading"
                 className={`
-                  z-[2] md:text-3xl md:font-semibold
+                  z-2 md:text-3xl md:font-semibold
                           lg:text-4xl text-2xl leading-[1.2] text-whitish-secondary
                 `}
               >
@@ -299,14 +299,14 @@ const page = () => {
               {/* Descriptive Paragraph */}
               <p
                 className={`
-                  z-[2] md:text-base
+                  z-2 md:text-base
                           lg:text-lg lg:leading-normal md:max-w-2/3
                   text-md leading-[1.6] text-whitish-secondary
                 `}
               >
                 Your contribution helps provide safe, low-emission cooking kits to families in need. Join us in ending toxic smoke and energy poverty!
               </p>
-              <div className={`z-[3] flex`}>
+              <div className={`z-3 flex`}>
         <Button
           label={"invest in Nigeria's sustainable cooking future" }
           type={'solid'}

@@ -75,28 +75,28 @@ const page = () => {
                           <h1
                             id="about-us-heading"
                             className={`
-                              z-[2] md:text-3xl md:font-semibold
+                              z-2 md:text-3xl md:font-semibold
                                       lg:text-4xl text-2xl leading-[1.2] text-whitish-secondary
                             `}
                           >
-                            Empower Nigeria's Future
+                            Empower Nigeria&apos;s Future
                           </h1>
 
                           {/* Descriptive Paragraph */}
                           <p
                             className={`
-                              z-[2] md:text-base
+                              z-2 md:text-base
                                       lg:text-lg lg:leading-normal md:max-w-2/3
                               text-md leading-[1.6] text-whitish-secondary
                             `}
                           >
-                            Discover how SEAP is transforming lives through sustainable energy projects across Nigeria's diverse communities.
+                            Discover how SEAP is transforming lives through sustainable energy projects across Nigeria&apos;s diverse communities.
                           </p>
                         </section>
 
             <section className="self-stretch px-4 sm:px-16 py-16 sm:py-28 bg-Color-Scheme-1-Background flex flex-col justify-center items-center overflow-hidden">
-              <div className="w-full max-w-[1280px] flex flex-col justify-center items-center gap-4 sm:gap-8">
-                <h2 className="text-center sm:text-left self-start w-full max-w-[768px] text-4xl font-normal leading-[48px] sm:leading-[52px] tracking-tight font-font-poppins">
+              <div className="w-full max-w-7xl flex flex-col justify-center items-center gap-4 sm:gap-8">
+                <h2 className="text-center sm:text-left self-start w-full max-w-3xl text-4xl font-normal leading-12 sm:leading-[52px] tracking-tight font-font-poppins">
                   Explore Key Investment Areas for Sustainable Energy in Nigeria
                 </h2>
 
@@ -119,7 +119,7 @@ const page = () => {
             <LgaSec/>
 
             <section className="bg-whitish-secondary px-4 py-8 sm:px-16 sm:py-16 flex justify-center items-center overflow-hidden">
-  <div className="w-full max-w-[1280px]">
+  <div className="w-full max-w-7xl">
     <div className="flex flex-col sm:flex-row justify-center sm:justify-between items-center gap-10 sm:gap-12">
       
       {/* Text and button content */}
@@ -132,7 +132,7 @@ const page = () => {
           {/* Descriptive paragraph */}
           <p className="text-sm sm:text-base md:text-lg font-normal max-w-lg">
             Contact us today to explore investment opportunities and make a
-            difference in Nigeria's energy landscape.
+            difference in Nigeria&apos;s energy landscape.
           </p>
         </div>
 

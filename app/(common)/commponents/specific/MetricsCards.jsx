@@ -3,7 +3,7 @@
 
 const MetricsCards = ({cardsData}) => {
   return (
-<div className=" flex flex-grow flex-col gap-4 leading-[1.6]
+<div className=" flex grow flex-col gap-4 leading-[1.6]
                 sm:grid sm:grid-cols-2 sm:gap-x-4 sm:gap-y-8 sm:justify-items-center sm:self-stretch sm:leading-normal sm:justify-center
                 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-16 md:justify-items-center md:self-stretch md:leading-normal md:justify-center
                 lg:grid-cols-4 lg:gap-8
@@ -15,12 +15,12 @@ const MetricsCards = ({cardsData}) => {
                         lg:w-48
                         lg:px-1 lg:pb-2">
 
-                <svg width="48" height="48" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className="flex justify-center items-center w-12 h-12 flex-shrink-0 mb-2 text-green-accent
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className="flex justify-center items-center w-12 h-12 shrink-0 mb-2 text-green-accent
                             lg:mb-2 ">
                     <path d={card.svg} className="-green-accent"/>
                 </svg>
 
-                <div className="flex flex-col items-center text-xl leading-[1.4] flex-shrink-0 self-stretch
+                <div className="flex flex-col items-center text-xl leading-[1.4] shrink-0 self-stretch
                             md:max-w-[296px]
                             lg:text-xl lg:font-semibold lg:leading-[1.4]">
                     {card.subText ? (
@@ -34,7 +34,7 @@ const MetricsCards = ({cardsData}) => {
                 </div>
 
                 {/* Spacer: This flex-grow element pushes the description to the bottom */}
-                <div className="flex-grow"></div>
+                <div className="grow"></div>
 
                 {/* Description (Paragraph): Pushed to the bottom of the card */}
                 <div className="flex items-center justify-center self-stretch mt-2

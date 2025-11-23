@@ -123,17 +123,17 @@ const page = () => {
             Reliable Power for Rural Nigerians at Scale
           </h2>
           <p>
-            In a landmark collaboration, the <b>Rural Electrification Agency (REA)</b> signed a $200 million Memorandum of Understanding (MoU) with <b>WeLight</b>, a pan-African distributed renewable energy firm, on <b>March 10, 2025</b>, to deploy <b>400 mini-grids and 50 larger MetroGrids</b> across Nigeria's underserved rural and peri-urban regions
+            In a landmark collaboration, the <b>Rural Electrification Agency (REA)</b> signed a $200 million Memorandum of Understanding (MoU) with <b>WeLight</b>, a pan-African distributed renewable energy firm, on <b>March 10, 2025</b>, to deploy <b>400 mini-grids and 50 larger MetroGrids</b> across Nigeria&apos;s underserved rural and peri-urban regions
           </p>
 
           <blockquote className="mt-6 font-font-poppins border-l-4 border-green-600 bg-grayish-primary px-6 py-4 italic  rounded-md
                        flex flex-col items-start"> {/* Changed items-start to items-end */}
-              "This MOU not only represents a leap toward providing clean electricity to millions in Nigeria but also supports WeLight's ambition to become a truly pan-African company,"
+              &quot;This MOU not only represents a leap toward providing clean electricity to millions in Nigeria but also supports WeLight's ambition to become a truly pan-African company,&quot;
               <footer className="text-sm text-gray-700 mt-2 self-end flex">&mdash; Romain de Villeneuve, CEO, WeLight</footer>
           </blockquote>
 
           <p className="mt-6 font-font-fira-sans">
-            Backed by critical support from the <b>World Bank and African Development Bank (AfDB)</b>, the project aligns with Nigeria's ambition to raise renewables from <b>22% to 50% of its energy mix</b>, delivering clean and consistent power to an estimated <b>1.52 million residents</b>
+            Backed by critical support from the <b>World Bank and African Development Bank (AfDB)</b>, the project aligns with Nigeria&apos;s ambition to raise renewables from <b>22% to 50% of its energy mix</b>, delivering clean and consistent power to an estimated <b>1.52 million residents</b>
           </p>
         </section>
 
@@ -145,14 +145,14 @@ const page = () => {
           <ul className="list-disc list-inside font-font-fira-sans space-y-3">
             <li><strong>Rural Electrification Boost:</strong> Instantly expands access in locations formerly too remote for grid extension.</li>
             <li><strong>Economic Revitalization:</strong> Enables businesses and critical services—schools, clinics, cold storage—to function predictably.</li>
-            <li><strong>Investor Momentum:</strong>Aligns with SEAP's PPP-aligned models for hybrid power, smart cooking, and e-mobility solutions.</li>
+            <li><strong>Investor Momentum:</strong>Aligns with SEAP&apos;s PPP-aligned models for hybrid power, smart cooking, and e-mobility solutions.</li>
           </ul>
 
           <div className=" p-6 sm:p-8 md:p-10 lg:p-8 max-w-3xl w-full"> {/*rounded-lg shadow-md */}
             <div className="relative pl-8 sm:pl-6">
                 <span className="absolute left-0 top-0 text-6xl leading-none text-green-accent font-sans">“</span>
                 <p className="font-bold font-font-fira-sans italic text-lg sm:text-xl md:text-2xl lg:text-3xl leading-snug text-bleus-secondary">
-                    This is a pivotal step in Nigeria's energy transition, demonstrating that clean, renewable infrastructure can scale with private capital.
+                    This is a pivotal step in Nigeria&apos;s energy transition, demonstrating that clean, renewable infrastructure can scale with private capital.
                 </p>
             </div>
           </div>
@@ -161,11 +161,11 @@ const page = () => {
         {/* Section 3 */}
         <section className="pb-12 sm:pb-8">
           <h2 className="text-2xl md:text-3xl font-font-poppins font-semibold mb-4 ">
-            SEAP's Strategic Next Steps
+            SEAP&apos;s Strategic Next Steps
           </h2>
           <ol className="list-decimal list-inside space-y-3 font-font-fira-sans">
             <li><strong>Developer Integration</strong> - SEAP is evaluating how its hybrid mini-grid and clean cooking offerings can build on these PPP frameworks.</li>
-            <li><strong>Financier Alignment</strong> - Invitations are out to DFIs and impact investors to co-finance rollouts anchored in SEAP's proven project templates.</li>
+            <li><strong>Financier Alignment</strong> - Invitations are out to DFIs and impact investors to co-finance rollouts anchored in SEAP&apos;s proven project templates.</li>
             <li><strong>Webinar Invite</strong> - <b>Join our session on July 2, 2025,</b> to explore how PPP infrastructure platforms like this open avenues in energy, agri, and mobility for SEAP stakeholders.</li>
           </ol>
         </section>

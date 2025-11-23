@@ -67,7 +67,7 @@ const UtilityScale = () => {
             {/* Heading */}
             <h1
               id="hero-title"
-              className="flex text-md leading-[1.2] text-whitish-secondary z-[3] justify-self-start
+              className="flex text-md leading-[1.2] text-whitish-secondary z-3 justify-self-start
                         md:text-lg md:font-semibold
                         lg:text-xl md:w-3/4
                         xl:text-xl"
@@ -76,7 +76,7 @@ const UtilityScale = () => {
             </h1>
             {/* Heading */}
             <h3              id="hero-sub-title"
-              className="flex text-xl leading-[1.2] text-whitish-secondary z-[3]
+              className="flex text-xl leading-[1.2] text-whitish-secondary z-3
                         md:text-2xl md:font-semibold
                         lg:text-3xl md:w-3/4
                         xl:text-5xl"
@@ -86,7 +86,7 @@ const UtilityScale = () => {
     
             {/* Subheading */}
             <div
-              className="flex  text-md leading-[1.6] text-whitish-secondary z-[3]
+              className="flex  text-md leading-[1.6] text-whitish-secondary z-3
                         md:text-base
                         lg:text-lg lg:leading-normal md:w-3/4
                         xl:text-xl"
@@ -97,7 +97,7 @@ const UtilityScale = () => {
             </div>
     
             {/* CTA Button */}
-            <div className="z-[3] flex  self-stretch pr-10 pt-[3px] md:pr-0 md:pt-4 md:items-end">
+            <div className="z-3 flex  self-stretch pr-10 pt-[3px] md:pr-0 md:pt-4 md:items-end">
               <Button
                 href="/investment-form"
                 label="Invest in Nigeria's future"
@@ -137,7 +137,7 @@ const UtilityScale = () => {
                 md:text-xl
                 lg:text-3xl
               `} >
-            'Empowering Remote Communities with Decentralized Energy Solutions for a Sustainable Future'
+            &apos;Empowering Remote Communities with Decentralized Energy Solutions for a Sustainable Future&apos;
           </h5>
         </div>
 
@@ -146,12 +146,12 @@ const UtilityScale = () => {
             className={`
               flex flex-col items-start gap-6
               w-full
-              lg:flex-grow xl:max-w-[640px]
+              lg:grow xl:max-w-[640px]
             `}
           >
 
             <p className="self-stretch text-base leading-normal sm:text-lg">
-              Leveraging SEAP's GIS platform and satellite datasets (e.g., Global Solar Atlas), we identify optimal sites for utility-scale solar across Nigeria. Criteria include terrain suitability, land use, proximity to grid infrastructure, and irradiation levels—all essential for high-yield solar power plants.
+              Leveraging SEAP&apos;s GIS platform and satellite datasets (e.g., Global Solar Atlas), we identify optimal sites for utility-scale solar across Nigeria. Criteria include terrain suitability, land use, proximity to grid infrastructure, and irradiation levels—all essential for high-yield solar power plants.
             </p>
             {/* Feature Cards List - Semantically a list of key features */}
             <div className="pt-4 w-full flex flex-col gap-4 items-center leading-normal
@@ -172,7 +172,7 @@ const UtilityScale = () => {
                   `}
               >
                   {/* <Communities className="h-12 w-12" /> */}
-                  <svg width="48" height="48" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className="flex justify-center items-center w-12 h-12 flex-shrink-0 mb-2 text-green-accent
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className="flex justify-center items-center w-12 h-12 shrink-0 mb-2 text-green-accent
                           lg:mb-2 ">
                     <path d={icons.eco} className=""/>
                   </svg>
@@ -193,7 +193,7 @@ const UtilityScale = () => {
                   `}
               >
                   {/* <Electric_car className="h-12 w-12" /> */}
-                  <svg width="48" height="48" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className="flex justify-center items-center w-12 h-12 flex-shrink-0 mb-2 text-green-accent
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className="flex justify-center items-center w-12 h-12 shrink-0 mb-2 text-green-accent
                           lg:mb-2 ">
                     <path d={icons.intrests} className=""/>
                   </svg>
@@ -207,15 +207,15 @@ const UtilityScale = () => {
             </div>
             <div className="flex flex-col gap-2 leading-[1.6] mt-6">
           <p className="text-base md:text-lg">
-            SEAP's utility-scale solar program is designed to accelerate Nigeria's clean energy transition by developing high-capacity solar farms that integrate with national and regional grids. Leveraging the SEAP GIS platform and satellite tools like the Global Solar Atlas, optimal locations are selected based on terrain suitability, irradiation levels, proximity to grid lines, and land-use data. These metrics ensure bankable solar infrastructure with long-term yield viability and environmental resilience.
+            SEAP&apos;s utility-scale solar program is designed to accelerate Nigeria&apos;s clean energy transition by developing high-capacity solar farms that integrate with national and regional grids. Leveraging the SEAP GIS platform and satellite tools like the Global Solar Atlas, optimal locations are selected based on terrain suitability, irradiation levels, proximity to grid lines, and land-use data. These metrics ensure bankable solar infrastructure with long-term yield viability and environmental resilience.
           </p>
           <div className="text-base md:text-lg" />
             <p>
-              According to the Global Solar Atlas, Nigeria receives strong solar radiation across most regions, with global horizontal irradiation (GHI) ranging from 4.5 to 6.0 kWh/m²/day. This allows for both fixed-tilt and solar tracking systems, boosting the performance of utility-scale projects. These irradiation profiles are central to SEAP's solar yield models and capacity planning.
+              According to the Global Solar Atlas, Nigeria receives strong solar radiation across most regions, with global horizontal irradiation (GHI) ranging from 4.5 to 6.0 kWh/m²/day. This allows for both fixed-tilt and solar tracking systems, boosting the performance of utility-scale projects. These irradiation profiles are central to SEAP&apos;s solar yield models and capacity planning.
             </p>
             <div className="text-base md:text-lg" />
             <p>
-              SEAP aligns with Nigeria's national target of achieving 2 GW of utility-scale solar by 2025 and contributing to the broader 30:30:30 energy vision (30% renewable share by 2030). The rollout is structured in phases: Phase 1 (2026-2027) will deploy 100-200MW across 3-5 high-priority sites, while Phase 2 (2028-2030) aims for an additional 300-500 MW, focusing on industrial corridors and economic zones. Prominent benchmarks include the 200 MW Ashama Solar Power Station in Delta State and the 50 MW Abiba Solar Farm in Kaduna, both referenced in national solar development frameworks.
+              SEAP aligns with Nigeria&apos;s national target of achieving 2 GW of utility-scale solar by 2025 and contributing to the broader 30:30:30 energy vision (30% renewable share by 2030). The rollout is structured in phases: Phase 1 (2026-2027) will deploy 100-200MW across 3-5 high-priority sites, while Phase 2 (2028-2030) aims for an additional 300-500 MW, focusing on industrial corridors and economic zones. Prominent benchmarks include the 200 MW Ashama Solar Power Station in Delta State and the 50 MW Abiba Solar Farm in Kaduna, both referenced in national solar development frameworks.
             </p>
             <div className="text-base md:text-lg" />
             <p>
@@ -223,7 +223,7 @@ const UtilityScale = () => {
             </p>
             <div className="text-base md:text-lg" />
             <p>
-              With over 73 MW of solar capacity installed in Nigeria as of 2024, the country currently ranks 5th in Africa. However, the policy landscape is becoming increasingly favorable—particularly with NERC's anticipated utility-scale auctions and incentives for private sector-led IPPs. SEAP's pipeline of investment-ready solar projects is strategically designed to tap into this momentum, helping drive Nigeria's industrial growth, job creation, and climate action goals.
+              With over 73 MW of solar capacity installed in Nigeria as of 2024, the country currently ranks 5th in Africa. However, the policy landscape is becoming increasingly favorable—particularly with NERC's anticipated utility-scale auctions and incentives for private sector-led IPPs. SEAP&apos;s pipeline of investment-ready solar projects is strategically designed to tap into this momentum, helping drive Nigeria&apos;s industrial growth, job creation, and climate action goals.
             </p>
         </div>
           </div>

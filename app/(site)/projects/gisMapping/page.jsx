@@ -69,7 +69,7 @@ const GisMapping = () => {
             <h1
               id="about-us-heading"
               className={`
-                z-[2] md:text-3xl md:font-semibold
+                z-2 md:text-3xl md:font-semibold
                         lg:text-4xl text-2xl leading-[1.2] text-whitish-secondary
               `}
             >
@@ -79,12 +79,12 @@ const GisMapping = () => {
             {/* Descriptive Paragraph */}
             <p
               className={`
-                z-[2] md:text-base
+                z-2 md:text-base
                         lg:text-lg lg:leading-normal md:max-w-2/3
                 text-md leading-[1.6] text-whitish-secondary
               `}
             >
-              Discover SEAP's strategic phased approach to delivering sustainable energy across Nigeria's local government areas.
+              Discover SEAP&apos;s strategic phased approach to delivering sustainable energy across Nigeria&apos;s local government areas.
             </p>
           </section>
 
@@ -125,7 +125,7 @@ const GisMapping = () => {
             className={`
               flex flex-col items-start gap-6
               w-full
-              lg:flex-grow xl:max-w-[640px]
+              lg:grow xl:max-w-[640px]
             `}
           >
             <div className={`leading-[1.6] w-full`}>
@@ -134,7 +134,7 @@ const GisMapping = () => {
               </p>
               <div className=" flex flex-col gap-6 leading-[1.6] mt-6">
                 <p className="text-base md:text-lg">
-                  The geospatial system draws from a rich mix of data sources including high-resolution satellite imagery from Sentinel, Landsat, and commercial providers, drone surveys for terrain analysis, and public utility data covering grid lines, transformers, and substations. It also integrates demographic datasets, IoT sensor feeds from SEAP's energy assets, and administrative data from ALGON and local governments.
+                  The geospatial system draws from a rich mix of data sources including high-resolution satellite imagery from Sentinel, Landsat, and commercial providers, drone surveys for terrain analysis, and public utility data covering grid lines, transformers, and substations. It also integrates demographic datasets, IoT sensor feeds from SEAP&apos;s energy assets, and administrative data from ALGON and local governments.
                 </p>
                 <p className="text-base md:text-lg">
                   To monitor progress and performance, SEAP maintains a centralized GIS analytics dashboard that tracks energy access, deployment milestones, and environmental impact. The platform includes live energy overlays, project geotags, CO₂e savings by region, and real-time activity in clean cooking and e-mobility hubs. Sector-specific filters allow users to drill into data for healthcare, telecom, agriculture, and more—giving all stakeholders unprecedented visibility and control.
@@ -173,7 +173,7 @@ const GisMapping = () => {
               <h1
                 id="about-us-heading"
                 className={`
-                  z-[2] md:text-3xl md:font-semibold
+                  z-2 md:text-3xl md:font-semibold
                           lg:text-4xl text-2xl leading-[1.2] text-whitish-secondary
                 `}
               >
@@ -183,14 +183,14 @@ const GisMapping = () => {
               {/* Descriptive Paragraph */}
               <p
                 className={`
-                  z-[2] md:text-base
+                  z-2 md:text-base
                           lg:text-lg lg:leading-normal md:max-w-2/3
                   text-md leading-[1.6] text-whitish-secondary
                 `}
               >
                 Express your interest in clean energy solutions for your local government and community.
               </p>
-              <div className={`z-[3] flex`}>
+              <div className={`z-3 flex`}>
         <Button
           href={'/investment-form'}
           label={"Invest in Nigeria's sustainable  future" }

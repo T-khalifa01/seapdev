@@ -20,19 +20,17 @@ const Faqs = ({ Questions, answers }) => {
       <summary
         className={`
           flex items-center justify-between 
-          gap-x-4 gap-y-3 /* Smaller gap for mobile */
+          gap-x-4 gap-y-3
           border-t border-solid border-x-black/10 border-y-black/10 
-          py-4 /* Smaller vertical padding for mobile */
-          min-[1270px]:flex-nowrap /* Original class, though summary handles wrapping fine */
-          
-          /* Ensure text is not cut off by padding/icon, full width */
+          py-4
+          min-[1270px]:flex-nowrap
+
           w-full
+
+          list-none
+          [&::-webkit-details-marker]:hidden
           
-          /* Remove default summary marker */
-          list-none /* Hide default arrow */
-          [&::-webkit-details-marker]:hidden /* Hide default arrow for WebKit */
-          
-          focus:outline-none focus:ring-2 focus:ring-blue-400 /* Accessibility focus style */
+          focus:outline-none focus:ring-2 focus:ring-blue-400
         `}
         onClick={toggleOpen} // Toggle our state when summary is clicked
       >
@@ -50,7 +48,7 @@ const Faqs = ({ Questions, answers }) => {
         </h3>
 
         {/* Conditional Icon Rendering */}
-        <span className="flex-shrink-0 h-6 w-6 ">
+        <span className="shrink-0 h-6 w-6 ">
           {isOpen ? (
             <svg className="h-6 w-6 "  stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
              <path   d={icons.chevron.up}></path>

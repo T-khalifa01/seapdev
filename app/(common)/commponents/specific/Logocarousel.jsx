@@ -14,8 +14,8 @@ const LogoCarousel = () => {
         {/* Carousel */}
         <div className="relative w-full overflow-hidden">
           {/* fade edges */}
-          <div className="absolute right-0 top-0 h-full w-24 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none" />
-          <div className="absolute left-0 top-0 h-full w-24 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
+          <div className="absolute right-0 top-0 h-full w-24 bg-linear-to-l from-white to-transparent z-10 pointer-events-none" />
+          <div className="absolute left-0 top-0 h-full w-24 bg-linear-to-r from-white to-transparent z-10 pointer-events-none" />
 
           <div className="carousel-track flex gap-12 md:gap-20 items-center">
             {/* duplicated content for infinite scroll */}

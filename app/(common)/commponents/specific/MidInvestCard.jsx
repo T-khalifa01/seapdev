@@ -12,12 +12,12 @@ const MidInvestCard = ({ title, description, img, link, seoLabel }) => {
     <article className="flex flex-col  gap-2.5 overflow-clip rounded-xl md:rounded-2xl border border-solid border-neutral-950/10 bg-whitish-secondary w-full 
                         md:flex-row  md:w-full
                         lg:w-full lg:h-[340px] ">
-        <div className={`relative flex w-full aspect-[588/340] overflow-hidden  `}>
+        <div className={`relative flex w-full aspect-588/340 overflow-hidden  `}>
             <Image src={img} alt={title} fill
             style={{ objectFit: "cover", objectPosition: "center" }}/>
         </div>
 
-        <div className="flex flex-col items-start gap-2 px-2 md:gap-4 py-6 w-full px-6 sm:px-12 md:px-4 md:pt-20 lg:pt-8
+        <div className="flex flex-col items-start gap-2  md:gap-4 py-6 w-full px-6 sm:px-12 md:px-4 md:pt-20 lg:pt-8
                         ">
             <h3 className=" text-xl font-semibold leading-[1.4]">
                 {title}

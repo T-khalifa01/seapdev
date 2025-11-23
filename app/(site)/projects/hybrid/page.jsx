@@ -84,7 +84,7 @@ const Hybrid = () => {
               <h1
                 id="about-us-heading"
                 className={`
-                  z-[2] md:text-3xl md:font-semibold
+                  z-2 md:text-3xl md:font-semibold
                           lg:text-4xl text-2xl leading-[1.2] text-whitish-secondary
                 `}
               >
@@ -94,7 +94,7 @@ const Hybrid = () => {
               {/* Descriptive Paragraph */}
               <p
                 className={`
-                  z-[2] md:text-base
+                  z-2 md:text-base
                           lg:text-lg lg:leading-normal md:max-w-2/3
                   text-md leading-[1.6] text-whitish-secondary
                 `}
@@ -218,7 +218,7 @@ const Hybrid = () => {
                   </p>
             </article>
           </div>
-          <div className="hidden flex flex-col justify-end border-b-2 py-1 sm:hidden"/>
+          <div className=" flex flex-col justify-end border-b-2 py-1 sm:hidden"/>
 
           {/* Right Column of Section 2's content (your 'sec2') */}
           <div className="flex  justify-between gap-4
@@ -279,7 +279,7 @@ const Hybrid = () => {
                 md:text-xl
                 lg:text-3xl
               `} >
-            Hybrid Solar-Gas Power Systems: Scalable Infrastructure for Nigeria's Clean Energy Future
+            Hybrid Solar-Gas Power Systems: Scalable Infrastructure for Nigeria&apos;s Clean Energy Future
           </h5>
         </div>
 
@@ -288,7 +288,7 @@ const Hybrid = () => {
             className={`
               flex flex-col items-start gap-6
               w-full
-              lg:flex-grow xl:max-w-[640px]
+              lg:grow xl:max-w-[640px]
             `}
           >
             <div className={`leading-[1.6] w-full`}>
@@ -316,7 +316,7 @@ const Hybrid = () => {
               </ul>
 
               <p className="mb-4 mt-6">
-                The <b>Sustainable Energy Access Projects (SEAP)</b> aim to deploy up to 5-MW of hybrid solar and gas power in each of Nigeria's 774 LGAs. Each system is designed to deliver 30-40 GWh of electricity annually, supporting critical infrastructure such as schools, health centers, SMEs, and agro-processing hubs. The pilot phase will launch in Kano, Imo, and Cross River States in Q3-Q4 2025, with each site hosting a 3 MW solar PV array paired with a 2 MW gas generator, totaling 15 MW installed capacity and an estimated 75 GWh output annually.
+                The <b>Sustainable Energy Access Projects (SEAP)</b> aim to deploy up to 5-MW of hybrid solar and gas power in each of Nigeria&apos;s 774 LGAs. Each system is designed to deliver 30-40 GWh of electricity annually, supporting critical infrastructure such as schools, health centers, SMEs, and agro-processing hubs. The pilot phase will launch in Kano, Imo, and Cross River States in Q3-Q4 2025, with each site hosting a 3 MW solar PV array paired with a 2 MW gas generator, totaling 15 MW installed capacity and an estimated 75 GWh output annually.
               </p>
               {/* The h-[26px] divs were for spacing, replaced by mb-4 on paragraphs*/}
               <p className="mb-4">
@@ -384,7 +384,7 @@ const Hybrid = () => {
               <h1
                 id="about-us-heading"
                 className={`
-                  z-[2] md:text-3xl md:font-semibold
+                  z-2 md:text-3xl md:font-semibold
                           lg:text-4xl text-2xl leading-[1.2] text-whitish-secondary
                 `}
               >
@@ -394,14 +394,14 @@ const Hybrid = () => {
               {/* Descriptive Paragraph */}
               <p
                 className={`
-                  z-[2] md:text-base
+                  z-2 md:text-base
                           lg:text-lg lg:leading-normal md:max-w-2/3
                   text-md leading-[1.6] text-whitish-secondary
                 `}
               >
-                Contact us today to explore investment opportunities and make a difference in Nigeria's energy landscape.
+                Contact us today to explore investment opportunities and make a difference in Nigeria&apos;s energy landscape.
               </p>
-              <div className={`z-[3] flex`}>
+              <div className={`z-3 flex`}>
         <Button
           href={'/investment-form'}
           label={"Invest in Nigeria's sustainable future" }

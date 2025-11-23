@@ -162,7 +162,7 @@ const page = () => {
           </blockquote> */}
           <blockquote className="mt-6 font-font-poppins border-l-4 border-green-600 bg-grayish-primary px-6 py-4 italic  rounded-md
                        flex flex-col items-start"> {/* Changed items-start to items-end */}
-              "We are no longer talking about vision. We are implementing"
+              &quot;We are no longer talking about vision. We are implementing&quot;
               <footer className="text-sm text-gray-700 mt-2 self-end flex">&mdash; President Bola Ahmed Tinubu</footer>
           </blockquote>
 
@@ -177,7 +177,7 @@ const page = () => {
             Key Themes Relevant to SEAP
           </h2>
           <ul className="list-disc list-inside font-font-fira-sans space-y-3">
-            <li><strong>From Projects to Bankability:</strong> Many discussions centered on transitioning infrastructure plans into investment-ready pipelines — echoing SEAP's hybrid energy and clean cooking frameworks already underway in 774 LGAs.</li>
+            <li><strong>From Projects to Bankability:</strong> Many discussions centered on transitioning infrastructure plans into investment-ready pipelines — echoing SEAP&apos;s hybrid energy and clean cooking frameworks already underway in 774 LGAs.</li>
             <li><strong>Local Content & Tech Transfer:</strong> Global players emphasized capacity building and knowledge-sharing, aligning with SEAP's partnership model (CKCEP, DAS, ALGON).</li>
             <li><strong>Blended Finance as Default:</strong>The ICRC introduced a new platform to track private capital in PPP projects. SEAP is exploring integration into this national registry to improve investor confidence.</li>
           </ul>
@@ -189,7 +189,7 @@ const page = () => {
             <div className="relative pl-8 sm:pl-6">
                 <span className="absolute left-0 top-0 text-6xl leading-none text-green-accent font-sans">“</span>
                 <p className="font-bold font-font-fira-sans italic text-lg sm:text-xl md:text-2xl lg:text-3xl leading-snug text-bleus-secondary">
-                    Nigeria is no longer the future —   <br/>   it's the present for infrastructure scale
+                    Nigeria is no longer the future —   <br/>   it&apos;s the present for infrastructure scale
                 </p>
             </div>
           </div>
@@ -198,7 +198,7 @@ const page = () => {
         {/* Section 3 */}
         <section className="pb-12 sm:pb-8">
           <h2 className="text-2xl md:text-3xl font-font-poppins font-semibold mb-4 ">
-            SEAP's Strategic Next Steps
+            SEAP&apos;s Strategic Next Steps
           </h2>
           <ol className="list-decimal list-inside space-y-3 font-font-fira-sans">
             <li><strong>Integrate hybrid energy systems</strong> into processing zones to ensure reliable, cost-effective operations.</li>

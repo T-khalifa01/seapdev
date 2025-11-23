@@ -189,7 +189,7 @@ const LgaSec = () => {
                 <div className="flex flex-col w-full items-start gap-6 pt-4 lg:flex-row lg:items-center lg:justify-between lg:pt-8">
             <div className="max-w-prose text-base leading-normal  md:text-lg">
                 <p>
-                Discover your community's potential. Simply select your state and LGA below to access detailed data and local investment opportunities.
+                Discover your community&apos;s potential. Simply select your state and LGA below to access detailed data and local investment opportunities.
                 </p>
             </div>
 
@@ -229,7 +229,7 @@ const LgaSec = () => {
         </div>
     {stateOnly ? (
         <section> {/* */}
-            <div className="flex flex-col lg:flex-row w-full min-h-screen gap-6 p-6 bg-grayish-primary md:min-w-[393px] lg:min-w-[672px] xl:min-w-[864px] rounded-lg">
+            <div className="flex flex-col lg:flex-row w-full min-h-screen gap-6 p-6 bg-grayish-primary md:min-w-[393px] lg:min-w-2xl xl:min-w-[864px] rounded-lg">
                 <div className="flex-1 lg:max-w-[50%] p-4 rounded-xl shadow bg-whitish-secondary">
                     <div className="flex items-center justify-between relative ">
                         <button onClick={handleClose} className=" top-4 left-4 p-2 rounded-full hover:bg-gray-100 transition" aria-label="Back">
@@ -288,7 +288,7 @@ const LgaSec = () => {
                         {lgaPaths && lgaPaths.length > 0 ? (
                             <Button href={`../../../investment-form`} label={`Invest In ${selectedLGA}`} type={'outlined'} ariaLabel={'Invest-In-selectedLGA'}/>
                         ) : (
-                            <div className="flex flex-grow items-center justify-center rounded-[100px] border border-solid border-x-[gainsboro] border-y-[gainsboro] bg-gray-300 p-2.5 [box-shadow:inset_0px_-4px_0px_0px_rgba(150,150,150,1)] md:flex-grow-0 md:px-4 md:py-2.5 md:[box-shadow:inset_0px_-4px_0px_0px_rgba(150,150,150,1)] lg:px-6 pointer-events-none">
+                            <div className="flex grow items-center justify-center rounded-[100px] border border-solid border-x-[gainsboro] border-y-[gainsboro] bg-gray-300 p-2.5 [box-shadow:inset_0px_-4px_0px_0px_rgba(150,150,150,1)] md:grow-0 md:px-4 md:py-2.5 md:[box-shadow:inset_0px_-4px_0px_0px_rgba(150,150,150,1)] lg:px-6 pointer-events-none">
                                 <span className="text-center font-medium font-poppins sm:text-lg md:text-2xl leading-normal text-neutral-500">
                                     Invest In {selectedLGA}
                                 </span>
@@ -344,7 +344,7 @@ const LgaSec = () => {
         </section> 
     ) : (
         <div className="flex flex-col items-center justify-center self-stretch pt-16">
-            <svg viewBox={`0 0 ${909} ${738.1}`} fill='currentColor' className="w-full h-auto max-w-[900px] fill-grayish-primary  stroke-green-accent stroke-[1] self-center justify-self-center" role="lga-map" aria-labelledby="nigerian-svg-map">
+            <svg viewBox={`0 0 ${909} ${738.1}`} fill='currentColor' className="w-full h-auto max-w-[900px] fill-grayish-primary  stroke-green-accent stroke-1 self-center justify-self-center" role="lga-map" aria-labelledby="nigerian-svg-map">
                 {statesSvg.map((path) => (
                     <path
                         d={path.svgPath}

@@ -17,9 +17,9 @@ const NavList = ({ iconSrc, title, desc, href, onClick, big }) => {
           </svg>
         ) : (
           // Optional: A simple div placeholder or a generic icon if no specific icon is provided
-          <div className="h-6 w-6 bg-gray-200 rounded-full flex-shrink-0"></div>
+          <div className="h-6 w-6 bg-gray-200 rounded-full shrink-0"></div>
         )}
-        <div className="flex flex-col flex-grow leading-normal">
+        <div className="flex flex-col grow leading-normal">
           <h4 className=" font-semibold text-lg leading-normal group-hover:text-green-accent transition-colors duration-200">
             {title}
           </h4>

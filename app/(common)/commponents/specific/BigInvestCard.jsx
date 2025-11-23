@@ -12,12 +12,12 @@ const BigInvestCard = ({ title, desc1, href , img, seoLabel }) => {
     <article className={`flex flex-col items-center gap-6 overflow-clip rounded-xl md:rounded-2xl border border-solid border-neutral-950/10 bg-whitish-secondary pt-12 w-full
                         md:w-full`}>
         <div className={`flex items-center self-stretch px-6 sm:px-8 md:px-12 max-w-[624px]`}>
-            <h3 className={`flex-grow text-2xl font-semibold leading-[1.2]`}>
+            <h3 className={`grow text-2xl font-semibold leading-[1.2]`}>
                 {title}
             </h3>
         </div>
         <div className={`flex items-center self-stretch px-6 sm:px-8 md:px-12 max-w-[624px]`}>
-            <p className={`flex-grow`}>{desc1}</p>
+            <p className={`grow`}>{desc1}</p>
         </div>
         <div className={`flex items-end self-stretch px-6 sm:px-8 md:px-12 pt-2`}>
             <Button label={'Learn More'} href={`${href}`} type={'outlined'} ariaLabel={'invest-button'} seoLabel={seoLabel}  >
@@ -26,7 +26,7 @@ const BigInvestCard = ({ title, desc1, href , img, seoLabel }) => {
                 </svg>
             </Button>
         </div>
-        <div className={`flex flex-col items-center justify-end pt-6 relative w-full aspect-[624/360] overflow-hidden`}>
+        <div className={`flex flex-col items-center justify-end pt-6 relative w-full aspect-624/360 overflow-hidden`}>
             <Image
             src={img}
             alt={title}

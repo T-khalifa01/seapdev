@@ -80,7 +80,7 @@ const AgricAgriBusiness = () => {
             {/* Heading */}
             <h1
               id="hero-title"
-              className="flex text-xl leading-[1.2] text-whitish-secondary z-[3] justify-self-start
+              className="flex text-xl leading-[1.2] text-whitish-secondary z-3 justify-self-start
                         md:text-lg md:font-semibold
                         lg:text-xl md:w-3/4
                         xl:text-xl"
@@ -89,7 +89,7 @@ const AgricAgriBusiness = () => {
             </h1>
             {/* Heading */}
             <h3              id="hero-sub-title"
-              className="flex text-xl leading-[1.2] text-whitish-secondary z-[3]
+              className="flex text-xl leading-[1.2] text-whitish-secondary z-3
                         md:text-2xl md:font-semibold
                         lg:text-3xl md:w-3/4
                         xl:text-5xl"
@@ -99,18 +99,18 @@ const AgricAgriBusiness = () => {
     
             {/* Subheading */}
             <div
-              className="flex  text-md leading-[1.6] text-whitish-secondary z-[3]
+              className="flex  text-md leading-[1.6] text-whitish-secondary z-3
                         md:text-base
                         lg:text-lg lg:leading-normal md:w-3/4
                         xl:text-xl"
             >
               <p>
-                Discover how SEAP's electric mobility initiatives are reshaping Nigeria's transportation landscape for a sustainable future.
+                Discover how SEAP&apos;s electric mobility initiatives are reshaping Nigeria&apos;s transportation landscape for a sustainable future.
               </p>
             </div>
     
             {/* CTA Button */}
-            <div className="z-[3] flex  self-stretch pr-10 pt-[3px] md:pr-0 md:pt-4 md:items-end">
+            <div className="z-3 flex  self-stretch pr-10 pt-[3px] md:pr-0 md:pt-4 md:items-end">
               <Button
                 href="/investment-form"
                 label="Invest in Nigeria's future"
@@ -138,7 +138,7 @@ const AgricAgriBusiness = () => {
               className={`
                 flex flex-col items-start gap-6
                 w-full
-                lg:flex-grow lg:max-w-[640px]
+                lg:grow lg:max-w-[640px]
               `}
             >
               {/* Main Heading for the section */}
@@ -152,11 +152,11 @@ const AgricAgriBusiness = () => {
             lg:text-[40px]
                 `}
               >
-                Powering Nigeria's Agricultural Value Chains with Smart Infrastructure
+                Powering Nigeria&apos;s Agricultural Value Chains with Smart Infrastructure
               </h2>
               {/* Description Paragraph */}
               <p className="self-stretch text-base leading-normal sm:text-lg">
-                SEAP's integrated infrastructure model supports agricultural transformation by addressing energy, data, and value chain gaps across Nigeria's farming communities. From powering irrigation and processing to enabling storage and distribution, we're helping Nigeria unlock the full potential of its Agri-economy with technology, precision data, and clean energy at its core.
+                SEAP&apos;s integrated infrastructure model supports agricultural transformation by addressing energy, data, and value chain gaps across Nigeria's farming communities. From powering irrigation and processing to enabling storage and distribution, we&apos;re helping Nigeria unlock the full potential of its Agri-economy with technology, precision data, and clean energy at its core.
               </p>
               {/* Feature Cards List - Semantically a list of key features */}
               <div className="pt-4 w-full flex flex-col gap-2 items-center leading-normal
@@ -175,7 +175,7 @@ const AgricAgriBusiness = () => {
                     `}
                 >
                     
-                    <svg width="48" height="48" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className="flex justify-center items-center w-12 h-12 flex-shrink-0 mb-2 text-green-accent
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className="flex justify-center items-center w-12 h-12 shrink-0 mb-2 text-green-accent
                             lg:mb-2 ">
                       <path d={icons.agriculture} className=""/>
                     </svg>
@@ -194,7 +194,7 @@ const AgricAgriBusiness = () => {
             <div
               className={`
                 relative w-full rounded-xl overflow-hidden
-          aspect-[288/307]
+          aspect-288/307
           h-auto
           md:w-full   md:h-[512px]
           
@@ -249,12 +249,12 @@ const AgricAgriBusiness = () => {
             className={`
               flex flex-col items-start gap-6
               w-full
-              lg:flex-grow xl:max-w-[640px]
+              lg:grow xl:max-w-[640px]
             `}
           >
             <div className={`leading-[1.6] w-full`}>
               <p className="text-base md:text-lg">
-                <b>SEAP's agriculture and agribusiness strategy</b> presents high-impact, scalable investment opportunities across Nigeria's LGAs. Through our GIS data and infrastructure-first model, we enable investors to fund agri-projects with lower risk and higher returns. For instance, modular processing units tailored to specific crops like cassava and maize can be deployed in high-yield zones with solar microgrids ensuring round-the-clock operations.
+                <b>SEAP&apos;s agriculture and agribusiness strategy</b> presents high-impact, scalable investment opportunities across Nigeria&apos;s LGAs. Through our GIS data and infrastructure-first model, we enable investors to fund agri-projects with lower risk and higher returns. For instance, modular processing units tailored to specific crops like cassava and maize can be deployed in high-yield zones with solar microgrids ensuring round-the-clock operations.
               </p>
               <div className="text-base md:text-lg" />
                 <p>
@@ -267,10 +267,10 @@ const AgricAgriBusiness = () => {
               </div>
               <div className={`leading-[1.6] w-full`}>
                 <p className="mb-4">
-                  SEAP targets over 20,000 households per LGA, providing access to clean cooking through decentralized refueling infrastructure, home delivery systems, and community hubs. Both biogas and LPCNG fuel sources are deployed—biogas produced locally from waste and organic matter, and LPCNG sourced through Nigeria"s expanding gas network. The program also equips schools, hospitals, religious centers, and correctional facilities with institutional-scale cooking systems.
+                  SEAP targets over 20,000 households per LGA, providing access to clean cooking through decentralized refueling infrastructure, home delivery systems, and community hubs. Both biogas and LPCNG fuel sources are deployed—biogas produced locally from waste and organic matter, and LPCNG sourced through Nigeria&apos;s expanding gas network. The program also equips schools, hospitals, religious centers, and correctional facilities with institutional-scale cooking systems.
                 </p>
                 <p className="mb-4">
-                  SEAP's Agriculture & Agribusiness interventions are designed to attract high-impact, capital-efficient investments across processing, storage, and data infrastructure. In each LGA, investors can tap into growing demand for agro-logistics and post-harvest facilities. Solar-powered cold rooms, mini rice or cassava mills, and grain silos are viable with IRRs ranging from 15% to 28%. Regionally, dairy processing zones offer strong returns through value-added product lines. Additionally, nationwide access to GIS data tools offers subscription-based revenue models for aggrotech startups and analytics firms.
+                  SEAP&apos;s Agriculture & Agribusiness interventions are designed to attract high-impact, capital-efficient investments across processing, storage, and data infrastructure. In each LGA, investors can tap into growing demand for agro-logistics and post-harvest facilities. Solar-powered cold rooms, mini rice or cassava mills, and grain silos are viable with IRRs ranging from 15% to 28%. Regionally, dairy processing zones offer strong returns through value-added product lines. Additionally, nationwide access to GIS data tools offers subscription-based revenue models for aggrotech startups and analytics firms.
                 </p>
               </div>
             <div className="w-full pt-4 md:pt-0">

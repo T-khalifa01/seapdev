@@ -126,7 +126,7 @@ const page = () => {
           </p>
 
           <p>
-            Hosted by the <strong>Hangzhou Regional Center (Asia-Pacific) for Small Hydro Power (HRC)</strong> and sponsored by <b>China's Ministry of Commerce</b>, the seminar served as a powerful platform to explore clean energy innovation, low-carbon policy, and real-world technologies driving energy access in developing nations.
+            Hosted by the <strong>Hangzhou Regional Center (Asia-Pacific) for Small Hydro Power (HRC)</strong> and sponsored by <b>China&apos;s Ministry of Commerce</b>, the seminar served as a powerful platform to explore clean energy innovation, low-carbon policy, and real-world technologies driving energy access in developing nations.
           </p>
 
           {/* <blockquote className="mt-6 border-l-4 border-green-600 bg-green-50 px-6 py-4 italic text-gray-900 rounded-md">
@@ -135,7 +135,7 @@ const page = () => {
           </blockquote> */}
           <blockquote className="mt-6 font-font-poppins border-l-4 border-green-600 bg-grayish-primary px-6 py-4 italic  rounded-md
                        flex flex-col items-start"> {/* Changed items-start to items-end */}
-              "We embarked on a fulfilling and productive journey together"
+              &quot;We embarked on a fulfilling and productive journey together&quot;
               <footer className="text-sm text-gray-700 mt-2 self-end flex">&mdash; Mr. Xu Zhifeng, Director General, HRC</footer>
           </blockquote>
 
@@ -149,16 +149,16 @@ const page = () => {
             <li><strong>Policy integration for sustainable development</strong></li>
           </ul>
           <p className="mt-6 font-font-fira-sans">
-            Study tours included the <b>Laoshikan and Fushi Hydropower Stations</b>, showcasing China's green construction achievements, and visits to the <b>NARI Group Corporation </b>for a first-hand look at next-gen renewable energy systems and hydraulic simulations.
+            Study tours included the <b>Laoshikan and Fushi Hydropower Stations</b>, showcasing China&apos;s green construction achievements, and visits to the <b>NARI Group Corporation </b>for a first-hand look at next-gen renewable energy systems and hydraulic simulations.
           </p>
         </section>
 
         <section>
           <h2 className="text-2xl md:text-3xl font-semibold font-font-poppins mb-4">
-            Nigeria's Voice in Global Energy Dialogue
+            Nigeria&apos;s Voice in Global Energy Dialogue
           </h2>
           <p className="mt-6 font-font-fira-sans">
-            A Nigerian participant described the seminar as “timely and enriching,” acknowledging China and HRC for their technical leadership in climate adaptation and energy capacity building. She expressed confidence that<b> Nigeria's SEAP </b>efforts can benefit from this shared global wisdom.
+            A Nigerian participant described the seminar as &ldquo;timely and enriching,&ldquo; acknowledging China and HRC for their technical leadership in climate adaptation and energy capacity building. She expressed confidence that<b> Nigeria&apos;s SEAP </b>efforts can benefit from this shared global wisdom.
           </p>
 
           {/* <blockquote className="mt-6 border-l-4 border-gray-400 bg-gray-50 px-6 py-4 italic text-gray-800 rounded-md">
@@ -168,7 +168,7 @@ const page = () => {
             <div className="relative pl-8 sm:pl-6">
                 <span className="absolute left-0 top-0 text-6xl leading-none text-green-accent font-sans">“</span>
                 <p className="font-bold font-font-fira-sans italic text-lg sm:text-xl md:text-2xl lg:text-3xl leading-snug text-bleus-secondary">
-                    We've explored sustainable energy, especially China's renewables approach. —   <br/>   Let's take this momentum home and apply it where it matters most.
+                    We&apos;ve explored sustainable energy, especially China&apos;s renewables approach. —   <br/>   Let&apos;s take this momentum home and apply it where it matters most.
                 </p>
             </div>
           </div>
@@ -180,7 +180,7 @@ const page = () => {
 
         <section className="pb-12 sm:pb-8">
           <h2 className="text-2xl md:text-3xl font-font-poppins font-semibold mb-4 ">
-            SEAP's Strategic Next Steps
+            SEAP&apos;s Strategic Next Steps
           </h2>
           <p className="mt-6 font-font-fira-sans">
             SEAP aligns closely with the shared values of this global initiative — community-led, data-informed, and technology-driven. With similar goals in climate resilience, renewable energy, and local development, SEAP remains committed to fostering global partnerships that deliver real results at the grassroots level.

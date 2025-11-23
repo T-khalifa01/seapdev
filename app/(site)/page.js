@@ -93,7 +93,7 @@ export default function Home() {
         <BgCarousel images={images}/>
         <h1
           id="hero-title"
-          className="flex text-2xl leading-[1.2] text-whitish-secondary z-[3]
+          className="flex text-2xl leading-[1.2] text-whitish-secondary z-3
                     md:text-3xl md:font-semibold
                     lg:text-4xl w-3/4"
         >
@@ -102,18 +102,18 @@ export default function Home() {
 
         {/* Subheading */}
         <div
-          className="flex  text-md leading-[1.6] text-whitish-secondary z-[3]
+          className="flex  text-md leading-[1.6] text-whitish-secondary z-3
                     md:text-base
                     lg:text-lg lg:leading-normal w-4/6"
         >
           <p>
-            Delivering clean, affordable energy across Nigeria's LGAs - powering lives
+            Delivering clean, affordable energy across Nigeria&apos;s LGAs - powering lives
             through hybrid systems, e-mobility, and clean cooking.
           </p>
         </div>
 
         {/* CTA Button */}
-        <div className="z-[3] flex  self-stretch pr-10 pt-[3px] md:pr-0 md:pt-4 md:items-end">
+        <div className="z-3 flex  self-stretch pr-10 pt-[3px] md:pr-0 md:pt-4 md:items-end">
           <Button
             href="/invest-Opportunities"
             label="Explore Investment Opportunities"
@@ -134,12 +134,12 @@ export default function Home() {
 
         <h2 id="key-metrics-title" className=" text-2xl leading-[1.2]
                     md:text-4xl
-                    lg:w-[768px] ">
+                    lg:w-3xl ">
             Key Metrics
         </h2>
 
-        <div className=" flex flex-grow flex-col gap-2 leading-[1.6]
-                    sm: md:grid  sm:gap-x-2 sm:gap-y-8 sm:justify-items-center sm:self-stretch sm:leading-normal
+        <div className=" flex grow flex-col gap-2 leading-[1.6]
+                    sm:gap-x-2 sm:gap-y-8 sm:justify-items-center sm:self-stretch sm:leading-normal
                     md: md:grid  md:gap-x-8 md:gap-y-16 md:justify-items-center md:self-stretch md:leading-normal
                      lg:gap-8 lg:justify-items-center items-center ">
 
@@ -162,12 +162,12 @@ export default function Home() {
             {/* Section Title */}
             <h2 id="projects-title" className={` flex justify-self-center text-2xl leading-[1.3]
                         md:text-4xl md:w-full
-                        lg:w-[768px] lg:mx-auto`}>
+                        lg:w-3xl lg:mx-auto`}>
                 Explore Our Current Projects Driving Sustainable Impact Across Nigeria
             </h2>
 
             {/* Project Cards Container */}
-            <div className={` flex flex-grow flex-col gap-4 justify-center items-center
+            <div className={` flex grow flex-col gap-4 justify-center items-center
                         md:grid md:grid-cols-3 md:gap-x-4 md:gap-y-2 md:justify-items-center md:items-start md:leading-normal
                         lg:gap-x-4 lg:gap-y-4
                         min-[1270px]:flex min-[1270px]:flex-row min-[1270px]:flex-nowrap min-[1270px]:justify-center min-[1270px]:items-start min-[1270px]:gap-4 `}>
@@ -193,13 +193,13 @@ export default function Home() {
                     aria-labelledby="investment-title">
 
             <div className="flex flex-col items-center gap-2 md:gap-6 w-full
-                            lg:max-w-[768px]">
+                            lg:max-w-3xl">
                 <h2 id="investment-title" className={`text-center text-2xl leading-[1.2] w-full
                             md:text-4xl`}>
                     Investment Opportunities
                 </h2>
                 <h3 className={`w-full text-center text-lg leading-normal`}>
-                    Unlocking Nigeria's Clean Energy Future
+                    Unlocking Nigeria&apos;s Clean Energy Future
                 </h3>
             </div>
 
@@ -207,7 +207,7 @@ export default function Home() {
                              lg:flex-row lg:flex-nowrap lg:justify-center lg:items-start lg:gap-4 lg:pt-14`}>
 
                 <div className={`flex flex-col items-center gap-8 w-full
-                                 lg:items-start lg:w-1/2 lg:flex-shrink-0 `}>
+                                 lg:items-start lg:w-1/2 lg:shrink-0 `}>
                     <BigInvestCard
                         title={investBigCardData1.title}
                         desc1={investBigCardData1.description1}
@@ -234,7 +234,7 @@ export default function Home() {
                 </div>
 
                 <div className={`flex flex-col items-center gap-8 w-full
-                                 lg:items-start lg:w-1/2 lg:flex-shrink-0 `}>
+                                 lg:items-start lg:w-1/2 lg:shrink-0 `}>
                     <MidInvestCard
                         title={investMidCardData.title}
                         description={investMidCardData.description}
@@ -265,14 +265,14 @@ export default function Home() {
                             lg:flex-nowrap">
 
                 {/* Text Content Block */}
-                <div className="flex flex-col gap-6 self-stretch flex-grow">
+                <div className="flex flex-col gap-6 self-stretch grow">
                     <h2 className=" text-2xl leading-[1.2]
                                    md:text-3xl">
                         Explore Investment Opportunities Today
                     </h2>
                     <p className="font-fira-sans text-base leading-normal
                                   md:text-lg">
-                        Join us in transforming Nigeria's energy landscape.
+                        Join us in transforming Nigeria&apos;s energy landscape.
                     </p>
                 </div>
 

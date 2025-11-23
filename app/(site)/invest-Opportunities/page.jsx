@@ -75,7 +75,7 @@ const InvestOpp = () => {
             {/* Heading */}
             <h1
               id="hero-title"
-              className="flex text-xl leading-[1.2] text-whitish-secondary z-[3] justify-self-start
+              className="flex text-xl leading-[1.2] text-whitish-secondary z-3 justify-self-start
                         md:text-lg md:font-semibold
                         lg:text-xl md:w-3/4
                         xl:text-xl"
@@ -84,7 +84,7 @@ const InvestOpp = () => {
             </h1>
             {/* Heading */}
             <h3              id="hero-sub-title"
-              className="flex text-xl leading-[1.2] text-whitish-secondary z-[3]
+              className="flex text-xl leading-[1.2] text-whitish-secondary z-3
                         md:text-2xl md:font-semibold
                         lg:text-3xl md:w-3/4
                         xl:text-5xl"
@@ -94,18 +94,18 @@ const InvestOpp = () => {
     
             {/* Subheading */}
             <div
-              className="flex  text-md leading-[1.6] text-whitish-secondary z-[3]
+              className="flex  text-md leading-[1.6] text-whitish-secondary z-3
                         md:text-base
                         lg:text-lg lg:leading-normal md:w-3/4
                         xl:text-xl"
             >
               <p>
-                Explore diverse sectors driving Nigeria's clean energy future: energy, transport, agri-business, and mining.
+                Explore diverse sectors driving Nigeria&apos;s clean energy future: energy, transport, agri-business, and mining.
               </p>
             </div>
     
             {/* CTA Button */}
-            <div className="z-[3] flex  self-stretch pr-10 pt-[3px] md:pr-0 md:pt-4 md:items-end">
+            <div className="z-3 flex  self-stretch pr-10 pt-[3px] md:pr-0 md:pt-4 md:items-end">
               <Button
                 href="/investment-form"
                 label="Invest in Nigeria's future"
@@ -154,7 +154,7 @@ const InvestOpp = () => {
                 sm:text-lg
                 md:text-xl
                 lg:text-3xl">
-            Unlocking Nigeria's Clean Energy Future One Sector at a Time
+            Unlocking Nigeria&apos;s Clean Energy Future One Sector at a Time
           </h2>
         </div>
 
@@ -170,7 +170,7 @@ const InvestOpp = () => {
         >
           {/* Replaced empty div with margin-bottom for semantic spacing */}
           <p className="mb-7">
-            The Sustainable Energy Access Projects (SEAP) is opening up bold investment opportunities across Nigeria's most underserved markets — with clean infrastructure as the backbone. From local EV charging networks to utility-scale solar farms, SEAP connects high-impact projects to forward-thinking investors, technical partners, and financiers.
+            The Sustainable Energy Access Projects (SEAP) is opening up bold investment opportunities across Nigeria&apos;s most underserved markets — with clean infrastructure as the backbone. From local EV charging networks to utility-scale solar farms, SEAP connects high-impact projects to forward-thinking investors, technical partners, and financiers.
           </p>
           <p className="mb-7">
             Whether you're looking to fund innovation, co-develop long-term assets, or support scalable public-private initiatives, SEAP provides bankable, shovel-ready investment pipelines backed by government partnerships, spatial data, and clear returns.
@@ -188,7 +188,7 @@ const InvestOpp = () => {
 
 
             {/* Project Cards Container */}
-            <div className={` flex flex-grow flex-col gap-4 leading-[1.6] justify-center items-center
+            <div className={` flex grow flex-col gap-4 leading-[1.6] justify-center items-center
                         md:grid md:grid-cols-2 md:gap-x-4 md:gap-y-10 md:justify-items-center md:items-start md:leading-normal md:pb-6
                         lg:gap-x-4 lg:gap-y-16 lg:pb-6 lg:grid-cols-3
                         `}>

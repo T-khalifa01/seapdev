@@ -87,7 +87,7 @@ const Nav = () => {
 
           {/* Logo and Main Links (MD & LG) */}
           <div className="flex items-center gap-x-8 lg:gap-x-12"> 
-            <Link href="/" className="flex-shrink-0"  >
+            <Link href="/" className="shrink-0"  >
               <Image src="/images/Normal-SEAP-logo.svg" alt="SEAP logo" width={84} height={36} priority={true} />
             </Link>
             <ul className="flex items-center gap-x-6 text-blackish-primary font-poppins text-sm lg:text-base"> {/* Smaller font for MD */}
@@ -122,7 +122,7 @@ const Nav = () => {
           </div>
 
           {/* Placeholder for Desktop Button (MD & LG) */}
-          <div className="flex-shrink-0">
+          <div className="shrink-0">
             <Button href="/contact-us" type='solid' label={'Contact Us'} seoLabel={`to discuss your envolvement in Nigeria's sustainable future `} ariaLabel={`nav contact us button`} />
           </div>
         </div>
@@ -133,7 +133,7 @@ const Nav = () => {
     <button
         ref={mobileMenuButtonRef}
         onClick={toggleMobileMenu}
-        className="flex-shrink-0 flex items-center justify-center rounded-md"
+        className="shrink-0 flex items-center justify-center rounded-md"
         aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
         aria-expanded={isMobileMenuOpen}
     >
@@ -166,7 +166,7 @@ const Nav = () => {
     </Link>
 
     {/* Placeholder for spacing */}
-    <div className="flex-shrink-0 w-10 md:hidden"></div>
+    <div className="shrink-0 w-10 md:hidden"></div>
   </div>
       </nav>
 
@@ -176,9 +176,9 @@ const Nav = () => {
           ref={dropdownRef}
           id="investors-dropdown"
           className="hidden md:flex
-                     fixed top-[64px] left-0 z-20 bg-whitish-secondary shadow-md
-                     flex-col lg:flex-row justify-center items-start gap-8 md:gap-12 lg:gap-16
-                     py-8 md:py-10 lg:py-12 px-4 md:px-8 lg:px-12 w-full border-t border-b border-solid border-gray-300"
+                    fixed top-16 left-0 z-20 bg-whitish-secondary shadow-md
+                    lg:flex-row justify-center items-start gap-8 md:gap-12 lg:gap-16
+                    py-8 md:py-10 lg:py-12 px-4 md:px-8 lg:px-12 w-full border-t border-b border-solid border-gray-300"
         >
           <div key={'navsec1'} className="flex flex-col items-start gap-4 w-full md:w-1/2 lg:max-w-[500px]  mx-auto">{/*lg:max-w-none*/}
             <h3 className="font-bold font-headingFont text-xl md:text-2xl text-blackish-primary mb-2">{`Explore Our Sectors`}</h3> {/* Semantic h3 */}
@@ -201,7 +201,7 @@ const Nav = () => {
 
       {/* Mobile Full-Screen Menu (SM) */}
       {isMobileMenuOpen && (
-        <div className="fixed top-[48px] inset-0 bg-whitish-secondary z-10 flex flex-col pt-4 px-5  overflow-y-auto md:hidden">
+        <div className="fixed top-12 inset-0 bg-whitish-secondary z-10 flex flex-col pt-4 px-5  overflow-y-auto md:hidden">
           <ul className="font-poppins flex flex-col gap-4 font-headingFont text-blackish-primary text-lg mt-4 border-b border-b-gray-500">
             <li><Link href={`/`} className="block  hover:text-green-accent border-b border-b-gray-500" onClick={handleNavLinkClick}>Home</Link></li>
             <li><Link href={`/who-we-are`} className="block py- hover:text-green-accent border-b border-b-gray-500" onClick={handleNavLinkClick}>Who we are</Link></li>

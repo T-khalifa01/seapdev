@@ -29,17 +29,17 @@ export default function BgCarousel({ images }) {
   return (
     <div className="absolute inset-0 z-0 overflow-hidden">
       <div
-        className="flex h-full w-full transition-transform duration-[1500ms] ease-in-out"
+        className="flex h-full w-full transition-transform duration-1500 ease-in-out"
         style={{ transform: `translateX(-${current * 100}%)` }}
       >
         {images.map((src, index) => (
           <div
             key={index}
-            className="relative flex-shrink-0 w-full h-full overflow-hidden"
+            className="relative shrink-0 w-full h-full overflow-hidden"
           >
             {/* Zoom wrapper */}
             <div
-              className={`relative w-full h-full transition-transform duration-[8000ms] ease-out ${
+              className={`relative w-full h-full transition-transform duration-8000 ease-out ${
                 current === index ? "scale-130" : "scale-100"
               }`}
             >
@@ -71,7 +71,7 @@ export default function BgCarousel({ images }) {
       </button>
 
       {/* Dots */}
-      <div className="hidden sm:absolute bottom-6 w-full flex justify-center space-x-3 z-20">
+      <div className="hidden sm:absolute bottom-6 w-full  justify-center space-x-3 z-20">
         {images.map((_, index) => (
           <button
             key={index}

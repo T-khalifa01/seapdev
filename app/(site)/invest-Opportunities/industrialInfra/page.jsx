@@ -74,7 +74,7 @@ const industrialInfra = () => {
             {/* Heading */}
             <h1
               id="hero-title"
-              className="flex text-xl leading-[1.2] text-whitish-secondary z-[3] justify-self-start
+              className="flex text-xl leading-[1.2] text-whitish-secondary z-3 justify-self-start
                         md:text-lg md:font-semibold
                         lg:text-xl md:w-3/4
                         xl:text-xl"
@@ -83,7 +83,7 @@ const industrialInfra = () => {
             </h1>
             {/* Heading */}
             <h3              id="hero-sub-title"
-              className="flex text-xl leading-[1.2] text-whitish-secondary z-[3]
+              className="flex text-xl leading-[1.2] text-whitish-secondary z-3
                         md:text-2xl md:font-semibold
                         lg:text-3xl md:w-3/4
                         xl:text-5xl"
@@ -93,18 +93,18 @@ const industrialInfra = () => {
     
             {/* Subheading */}
             <div
-              className="flex  text-md leading-[1.6] text-whitish-secondary z-[3]
+              className="flex  text-md leading-[1.6] text-whitish-secondary z-3
                         md:text-base
                         lg:text-lg lg:leading-normal md:w-3/4
                         xl:text-xl"
             >
               <p>
-                Aligning clean energy investments with Nigeria's industrial corridors to foster sustainable economic development.
+                Aligning clean energy investments with Nigeria&apos;s industrial corridors to foster sustainable economic development.
               </p>
             </div>
     
             {/* CTA Button */}
-            <div className="z-[3] flex  self-stretch pr-10 pt-[3px] md:pr-0 md:pt-4 md:items-end">
+            <div className="z-3 flex  self-stretch pr-10 pt-[3px] md:pr-0 md:pt-4 md:items-end">
               <Button
                 href="/investment-form"
                 label="Invest in Nigeria's future"
@@ -130,7 +130,7 @@ const industrialInfra = () => {
                 className={`
                   flex flex-col items-start gap-6
                   w-full
-                  lg:flex-grow lg:max-w-[640px]
+                  lg:grow lg:max-w-[640px]
                 `}
               >
                 {/* Main Heading for the section */}
@@ -148,7 +148,7 @@ const industrialInfra = () => {
                 </h2>
                 {/* Description Paragraph */}
                 <p className="self-stretch text-base leading-normal sm:text-lg">
-                  SEAP's industrial infrastructure program aligns clean energy investments with Nigeria's emerging industrial corridors, ports, and logistics networks. By mapping electricity demand against trade hubs, rail lines, and special economic zones, we deliver hybrid power systems where they're most needed to drive job creation, manufacturing, and export growth.
+                  SEAP&apos;s industrial infrastructure program aligns clean energy investments with Nigeria&apos;s emerging industrial corridors, ports, and logistics networks. By mapping electricity demand against trade hubs, rail lines, and special economic zones, we deliver hybrid power systems where they're most needed to drive job creation, manufacturing, and export growth.
                 </p>
                 {/* Feature Cards List - Semantically a list of key features */}
                 <div className="pt-4 w-full flex flex-col gap-2 items-center leading-normal
@@ -166,11 +166,11 @@ const industrialInfra = () => {
               <div
                 className={`
                   relative w-full rounded-xl overflow-hidden
-                  aspect-[480/512]
+                  aspect-480/512
                   h-auto
   
-                  md:w-full md:h-[384px] md:justify-center
-                  lg:w-[480px] lg:h-[512px] lg:flex-shrink-0
+                  md:w-full md:h-96 md:justify-center
+                  lg:w-[480px] lg:h-[512px] lg:shrink-0
                 `}
               >
                 <Image
@@ -220,12 +220,12 @@ const industrialInfra = () => {
             className={`
               flex flex-col items-start gap-6
               w-full
-              lg:flex-grow xl:max-w-[640px]
+              lg:grow xl:max-w-[640px]
             `}
           >
             <div className="font-fira-sans flex flex-col gap-2 leading-[1.6] mt-6">
               <p className="text-base md:text-lg">
-                The Sustainable Energy Access Projects (SEAP) are strategically aligning clean energy deployment with Nigeria's expanding network of industrial corridors, ports, railways, and special economic zones. By leveraging satellite mapping, infrastructure datasets, and real-time demand intelligence, SEAP identifies areas where energy scarcity hinders productivity and deploys hybrid solar-gas mini-grids to meet industrial-scale power demands.
+                The Sustainable Energy Access Projects (SEAP) are strategically aligning clean energy deployment with Nigeria&apos;s expanding network of industrial corridors, ports, railways, and special economic zones. By leveraging satellite mapping, infrastructure datasets, and real-time demand intelligence, SEAP identifies areas where energy scarcity hinders productivity and deploys hybrid solar-gas mini-grids to meet industrial-scale power demands.
               </p>
               <div className="text-base md:text-lg" />
                 <p>
@@ -237,12 +237,12 @@ const industrialInfra = () => {
                 </p>
                 <div className="text-base md:text-lg" />
                 <p>
-                  By delivering clean, off-grid power with grid interface capability, SEAP reduces downtime, lowers production costs, and accelerates economic output. These energy investments are not only enabling industry they're positioning Nigeria as a greener, more globally competitive manufacturing base.
+                  By delivering clean, off-grid power with grid interface capability, SEAP reduces downtime, lowers production costs, and accelerates economic output. These energy investments are not only enabling industry they&apos;re positioning Nigeria as a greener, more globally competitive manufacturing base.
                 </p>
             </div>
             <div className={`leading-[1.6] w-full`}>
             <p className="mb-4">
-              Across Nigeria's six geopolitical zones, SEAP is catalyzing region-specific economic growth by matching energy solutions with the industrial needs of each hub. These tailored interventions help unlock productivity, reduce carbon footprints, and promote resilient, decentralized power access where it's most impactful.
+              Across Nigeria&apos;s six geopolitical zones, SEAP is catalyzing region-specific economic growth by matching energy solutions with the industrial needs of each hub. These tailored interventions help unlock productivity, reduce carbon footprints, and promote resilient, decentralized power access where it's most impactful.
             </p>
           </div>
           <div className="w-full pt-4 md:pt-0">
@@ -298,7 +298,7 @@ const industrialInfra = () => {
               <h1
                 id="about-us-heading"
                 className={`
-                  z-[2] md:text-3xl md:font-semibold
+                  z-2 md:text-3xl md:font-semibold
                           lg:text-4xl text-2xl leading-[1.2] text-whitish-secondary
                 `}
               >
@@ -308,14 +308,14 @@ const industrialInfra = () => {
               {/* Descriptive Paragraph */}
               <p
                 className={`
-                  z-[2] md:text-base
+                  z-2 md:text-base
                           lg:text-lg lg:leading-normal md:max-w-2/3
                   text-md leading-[1.6] text-whitish-secondary
                 `}
               >
-                Join us in transforming Nigeria's industrial landscape through clean energy and innovative infrastructure solutions.
+                Join us in transforming Nigeria&apos;s industrial landscape through clean energy and innovative infrastructure solutions.
               </p>
-              <div className={`z-[3] flex`}>
+              <div className={`z-3 flex`}>
                 <Button
                   label={"Invest in Nigeria's sustainable growth" }
                   type={'solid'}

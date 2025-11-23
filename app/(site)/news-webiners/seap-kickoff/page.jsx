@@ -142,10 +142,10 @@ const page = () => {
             National Energy Revolution Begins in Shagamu
           </h2>
           <p>
-            In a landmark move toward achieving universal energy access and sustainable development, the Federal Government has launched the <b>Sustainable Energy Access Projects (SEAP)</b> with the commissioning of a 30-megawatt power facility in <b>Shagamu Local Government Area (LGA), Ogun State</b>. This marks the first major step in the nationwide rollout of SEAP, designed to deliver a minimum of <b>5 MW of clean, decentralized power to each of Nigeria's 774 LGAs.</b>
+            In a landmark move toward achieving universal energy access and sustainable development, the Federal Government has launched the <b>Sustainable Energy Access Projects (SEAP)</b> with the commissioning of a 30-megawatt power facility in <b>Shagamu Local Government Area (LGA), Ogun State</b>. This marks the first major step in the nationwide rollout of SEAP, designed to deliver a minimum of <b>5 MW of clean, decentralized power to each of Nigeria&apos;s 774 LGAs.</b>
           </p>
           <p>
-            Announcing the launch on his official X (formerly Twitter) handle, the <b>Minister of Innovation, Science and Technology, Chief Uche Geoffrey Nnaji</b>, emphasized the project's alignment with <b>President Bola Ahmed Tinubu GCFR's Renewed Hope Agenda</b>, calling SEAP a “transformative solution to Nigeria's energy challenge.”
+            Announcing the launch on his official X (formerly Twitter) handle, the <b>Minister of Innovation, Science and Technology, Chief Uche Geoffrey Nnaji</b>, emphasized the project&apos;s alignment with <b>President Bola Ahmed Tinubu GCFR&apos;s Renewed Hope Agenda</b>, calling SEAP a &quot;transformative solution to Nigeria&apos;s energy challenge.&quot;
           </p>
 
           {/* <blockquote className="mt-6 border-l-4 border-green-600 bg-green-50 px-6 py-4 italic text-gray-900 rounded-md">
@@ -154,7 +154,7 @@ const page = () => {
           </blockquote> */}
           <blockquote className="mt-6 font-font-poppins border-l-4 border-green-600 bg-grayish-primary px-6 py-4 italic  rounded-md
                        flex flex-col items-start"> {/* Changed items-start to items-end */}
-              “This initiative will improve livelihoods in rural and peri-urban communities, stimulate local industries, and drive inclusive economic growth,”
+              &ldquo;This initiative will improve livelihoods in rural and peri-urban communities, stimulate local industries, and drive inclusive economic growth,&ldquo;
               <footer className="text-sm text-gray-700 mt-2 self-end flex">&mdash; Chief Uche Geoffrey Nnaji, Minister of Innovation, Science & Technology</footer>
           </blockquote>
         </section>
@@ -181,9 +181,9 @@ const page = () => {
             During the Shagamu commissioning, a tripartite Memorandum of Understanding (MoU) was formalized between:
           </p>
           <ul className="list-disc list-inside font-font-fira-sans space-y-3">
-            <li><strong>Association of Local Governments of Nigeria (ALGON)</strong> –  community and land liaison</li>
-            <li><strong>Data Analytics & Solutions International Ltd (DAS)</strong>–   project development, financing, analytics</li>
-            <li><strong>CCK Electric Power Technology Company (CKCEP)</strong>–  EPC, O&M, and technology transfer lead</li>
+            <li><strong>Association of Local Governments of Nigeria (ALGON)</strong> -  community and land liaison</li>
+            <li><strong>Data Analytics & Solutions International Ltd (DAS)</strong> -   project development, financing, analytics</li>
+            <li><strong>CCK Electric Power Technology Company (CKCEP)</strong> -  EPC, O&M, and technology transfer lead</li>
           </ul>
           <p>
             This collaboration ensures a seamless public-private model for delivering infrastructure at scale, supported by robust technical and local governance structures.
@@ -196,7 +196,7 @@ const page = () => {
             <div className="relative pl-8 sm:pl-6">
                 <span className="absolute left-0 top-0 text-6xl leading-none text-green-accent font-sans">“</span>
                 <p className="font-bold font-font-fira-sans italic text-lg sm:text-xl md:text-2xl lg:text-3xl leading-snug text-bleus-secondary">
-                    Nigeria is no longer the future —   <br/>   it's the present for infrastructure scale
+                    Nigeria is no longer the future —   <br/>   it&apos;s the present for infrastructure scale
                 </p>
             </div>
           </div>
@@ -207,7 +207,7 @@ const page = () => {
             Broader Impact and Development Goals
           </h2>
           <p>
-            The SEAP program is expected to create thousands of local jobs, accelerate productivity in agriculture and industry, and reduce Nigeria’s carbon footprint. It will directly contribute to several of the UN Sustainable Development Goals (SDGs), including:
+            The SEAP program is expected to create thousands of local jobs, accelerate productivity in agriculture and industry, and reduce Nigeria&apos;s carbon footprint. It will directly contribute to several of the UN Sustainable Development Goals (SDGs), including:
           </p>
           <ul className="list-disc list-inside font-font-fira-sans space-y-3">
             <li><strong>SDG 7 (Affordable & Clean Energy)</strong></li>

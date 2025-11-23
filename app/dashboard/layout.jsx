@@ -1,56 +1,4 @@
 'use client';
-// // Example in a layout component
-// import React from 'react';
-// import DashHeader from '../(common)/commponents/specific/DashHeader';
-// import DashSidebar from '../(common)/commponents/specific/DashSidebar';
-// import { DashProvider, useDashContext } from '../(common)/commponents/specific/DashContext';
-// import "../globals.css";
-
-
-// // export default DashboardLayout;
-// const DashboardLayoutContent =  ({ children }) => {
-//   // const [pageTitle, setPageTitle] = useState('Dashboard');
-//   const { pageTitle, setPageTitle, activeKey, setActiveKey } = useDashContext();
-  
-//   // This function is the bridge that the Sidebar will use to update the page.
-//   const handleSelect = (pageName, key) => {
-//     setPageTitle(pageName);
-//     setActiveKey(key);
-//   };
-//   return (
-//     <html lang="en" className="light" >
-//       <body>
-//         <div className="flex min-h-screen ">
-//           <DashSidebar onSelect={handleSelect} activeKey={activeKey} />
-
-//           {/* Main Content Area */}
-//           <div className="flex-1 flex flex-col">
-//             {/* Header Component - now part of the layout */}
-//             <div className="w-full max-w-screen-xl">
-//               <DashHeader pageTitle={pageTitle} />
-//             </div>
-
-//             {/* The dynamic page content goes here */}
-//             <main className="flex-1 w-full max-w-screen-xl mx-auto p-6 overflow-y-auto"> {/*flex-1 p-6 overflow-y-auto*/}
-//               {children}
-//             </main>
-//           </div>
-//         </div>
-//       </body>
-//     </html>
-//   );
-// }
-
-// const DashboardLayout = ({ children }) => {
-//   return (
-//     <DashProvider>
-//       <DashboardLayoutContent>{children}</DashboardLayoutContent>
-//     </DashProvider>
-//   );
-// };
-
-// export default DashboardLayout;
-
 
 import React from 'react';
 import DashHeader from '../(common)/commponents/specific/DashHeader';
@@ -72,10 +20,10 @@ const DashboardLayoutContent = ({ children }) => {
     <div className="flex min-h-screen">
       <DashSidebar onSelect={handleSelect} activeKey={activeKey} />
       <div className="flex-1 flex flex-col">
-        <div className="w-full max-w-screen-xl">
+        <div className="w-full max-w-7xl">
           <DashHeader pageTitle={pageTitle} />
         </div>
-        <main className="flex-1 w-full max-w-screen-xl mx-auto p-6 overflow-y-auto">
+        <main className="flex-1 w-full max-w-7xl mx-auto p-6 overflow-y-auto">
           {children}
         </main>
       </div>

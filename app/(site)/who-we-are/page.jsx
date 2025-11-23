@@ -85,17 +85,17 @@ const Page = () => {
         <h1
           id="about-us-heading"
           className={`
-            z-[2] md:text-3xl md:font-semibold
+            z-2 md:text-3xl md:font-semibold
                     lg:text-4xl text-2xl leading-[1.2] text-whitish-secondary
           `}
         >
-          Empowering Nigeria's Future
+          Empowering Nigeria&apos;s Future
         </h1>
 
         {/* Descriptive Paragraph */}
         <p
           className={`
-            z-[2] md:text-base
+            z-2 md:text-base
                     lg:text-lg lg:leading-normal md:max-w-2/3
             text-md leading-[1.6] text-whitish-secondary
           `}
@@ -202,7 +202,7 @@ const Page = () => {
               w-full max-w-lg
               sm:max-w-[600px] sm:mx-auto
               md:max-w-[700px] md:mx-auto
-              lg:w-[calc(50%-theme('spacing.10'))] lg:flex-shrink-0 lg:items-start lg:mx-0
+              lg:w-[calc(50%-(--spacing(10)))] lg:shrink-0 lg:items-start lg:mx-0
             `}
           >
             <PartnersCard
@@ -231,7 +231,7 @@ const Page = () => {
               w-full max-w-lg
               sm:max-w-[600px] sm:mx-auto
               md:max-w-[700px] md:mx-auto
-              lg:w-[calc(50%-theme('spacing.10'))] lg:flex-shrink-0 lg:items-start lg:mx-0
+              lg:w-[calc(50%-(--spacing(10)))] lg:shrink-0 lg:items-start lg:mx-0
             `}
           >
             <PartnersCard
@@ -255,7 +255,7 @@ const Page = () => {
               w-full max-w-lg
               sm:max-w-[600px] sm:mx-auto
               md:max-w-[700px] md:mx-auto
-              lg:w-[calc(50%-theme('spacing.10'))] lg:flex-shrink-0 lg:items-start lg:mx-0
+              lg:w-[calc(50%-(--spacing(10)))] lg:shrink-0 lg:items-start lg:mx-0
             `}
           >
             <PartnersCard

@@ -79,17 +79,17 @@ const CleanSolutions = () => {
         <h1
           id="about-us-heading"
           className={`
-            z-[2] md:text-3xl md:font-semibold
+            z-2 md:text-3xl md:font-semibold
                     lg:text-4xl text-2xl leading-[1.2] text-whitish-secondary
           `}
         >
-          Empowering Nigeria's Future
+          Empowering Nigeria&apos;s Future
         </h1>
 
         {/* Descriptive Paragraph */}
         <p
           className={`
-            z-[2] md:text-base
+            z-2 md:text-base
                     lg:text-lg lg:leading-normal md:max-w-2/3
             text-md leading-[1.6] text-whitish-secondary
           `}
@@ -135,15 +135,15 @@ const CleanSolutions = () => {
             className={`
               flex flex-col items-start gap-6
               w-full
-              lg:flex-grow xl:max-w-[640px]
+              lg:grow xl:max-w-[640px]
             `}
           >
             <div className={`leading-[1.6] w-full`}>
               <p>
-                <b>SEAP's Clean Cooking Solutions</b> tackle the health and environmental hazards of traditional cooking by introducing sustainable alternatives biogas and low-pressure compressed natural gas (LPCNG). With over 100 million Nigerians still cooking with firewood or charcoal, this program offers a safer, cleaner, and scalable path to household and institutional energy access, while unlocking jobs, reducing emissions, and improving public health outcomes nationwide.
+                <b>SEAP&apos;s Clean Cooking Solutions</b> tackle the health and environmental hazards of traditional cooking by introducing sustainable alternatives biogas and low-pressure compressed natural gas (LPCNG). With over 100 million Nigerians still cooking with firewood or charcoal, this program offers a safer, cleaner, and scalable path to household and institutional energy access, while unlocking jobs, reducing emissions, and improving public health outcomes nationwide.
               </p>
               <p className="mb-4">
-                SEAP targets over 20,000 households per LGA, providing access to clean cooking through decentralized refueling infrastructure, home delivery systems, and community hubs. Both biogas and LPCNG fuel sources are deployed—biogas produced locally from waste and organic matter, and LPCNG sourced through Nigeria"s expanding gas network. The program also equips schools, hospitals, religious centers, and correctional facilities with institutional-scale cooking systems.
+                SEAP targets over 20,000 households per LGA, providing access to clean cooking through decentralized refueling infrastructure, home delivery systems, and community hubs. Both biogas and LPCNG fuel sources are deployed—biogas produced locally from waste and organic matter, and LPCNG sourced through Nigeria&apos;s expanding gas network. The program also equips schools, hospitals, religious centers, and correctional facilities with institutional-scale cooking systems.
               </p>
               <p className="mb-4">
                 To make clean energy accessible for all income levels, SEAP uses a Pay-As-You-Cook model—allowing families to pre-pay for only what they use via metered stoves. This model encourages adoption while ensuring sustainability.
@@ -210,7 +210,7 @@ const CleanSolutions = () => {
               <h1
                 id="about-us-heading"
                 className={`
-                  z-[2] md:text-3xl md:font-semibold
+                  z-2 md:text-3xl md:font-semibold
                           lg:text-4xl text-2xl leading-[1.2] text-whitish-secondary
                 `}
               >
@@ -220,14 +220,14 @@ const CleanSolutions = () => {
               {/* Descriptive Paragraph */}
               <p
                 className={`
-                  z-[2] md:text-base
+                  z-2 md:text-base
                           lg:text-lg lg:leading-normal md:max-w-2/3
                   text-md leading-[1.6] text-whitish-secondary
                 `}
               >
                 Your contribution helps provide safe, low-emission cooking kits to families in need. Join us in ending toxic smoke and energy poverty!
               </p>
-              <div className={`z-[3] flex`}>
+              <div className={`z-3 flex`}>
         <Button
           href={'/investment-form'}
           label={"Invest in Nigeria's sustainable cooking future" }

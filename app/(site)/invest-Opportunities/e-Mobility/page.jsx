@@ -70,7 +70,7 @@ const EMobility = () => {
             {/* Heading */}
             <h1
               id="hero-title"
-              className="flex text-xl leading-[1.2] text-whitish-secondary z-[3] justify-self-start
+              className="flex text-xl leading-[1.2] text-whitish-secondary z-3 justify-self-start
                         md:text-lg md:font-semibold
                         lg:text-xl md:w-3/4
                         xl:text-xl"
@@ -79,7 +79,7 @@ const EMobility = () => {
             </h1>
             {/* Heading */}
             <h3              id="hero-sub-title"
-              className="flex text-xl leading-[1.2] text-whitish-secondary z-[3]
+              className="flex text-xl leading-[1.2] text-whitish-secondary z-3
                         md:text-2xl md:font-semibold
                         lg:text-3xl md:w-3/4
                         xl:text-5xl"
@@ -89,18 +89,18 @@ const EMobility = () => {
     
             {/* Subheading */}
             <div
-              className="flex  text-md leading-[1.6] text-whitish-secondary z-[3]
+              className="flex  text-md leading-[1.6] text-whitish-secondary z-3
                         md:text-base
                         lg:text-lg lg:leading-normal md:w-3/4
                         xl:text-xl"
             >
               <p>
-                Discover how SEAP's electric mobility initiatives are reshaping Nigeria's transportation landscape for a sustainable future.
+                Discover how SEAP&apos;s electric mobility initiatives are reshaping Nigeria&apos;s transportation landscape for a sustainable future.
               </p>
             </div>
     
             {/* CTA Button */}
-            <div className="z-[3] flex  self-stretch pr-10 pt-[3px] md:pr-0 md:pt-4 md:items-end">
+            <div className="z-3 flex  self-stretch pr-10 pt-[3px] md:pr-0 md:pt-4 md:items-end">
               <Button
                 href="/investment-form"
                 label="Invest in Nigeria's future"
@@ -126,7 +126,7 @@ const EMobility = () => {
         className={`
           flex flex-col items-start gap-6
           w-full
-          lg:flex-grow lg:max-w-[640px]
+          lg:grow lg:max-w-[640px]
         `}
       >
         {/* Main Heading for the section */}
@@ -165,7 +165,7 @@ const EMobility = () => {
                     `}
                 >
                     {/* <Communities className="h-12 w-12" /> */}
-                    <svg width="48" height="48" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className="flex justify-center items-center w-12 h-12 flex-shrink-0 mb-2
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className="flex justify-center items-center w-12 h-12 shrink-0 mb-2
                             lg:mb-2 ">
                       <path d={icons.communities} className="text-green-accent"/>
                     </svg>
@@ -186,7 +186,7 @@ const EMobility = () => {
                     `}
                 >
                     {/* <Electric_car className="h-12 w-12" /> */}
-                    <svg width="48" height="48" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className="flex justify-center items-center w-12 h-12 flex-shrink-0 mb-2
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className="flex justify-center items-center w-12 h-12 shrink-0 mb-2
                             lg:mb-2 ">
                       <path d={icons.electricCar} className="text-green-accent"/>
                     </svg>
@@ -194,7 +194,7 @@ const EMobility = () => {
                         EV Conversion Plan
                     </h3>
                     <p className="text-base leading-normal font-fira-sans">
-                        SEAP's approach supports both new EV rollouts and conversion of existing ICE vehicles through certified workshops.
+                        SEAP&apos;s approach supports both new EV rollouts and conversion of existing ICE vehicles through certified workshops.
                     </p>
                 </article>
         </div>
@@ -204,10 +204,10 @@ const EMobility = () => {
       <div
         className={`
           relative w-full rounded-xl overflow-hidden
-          aspect-[480/512]
+          aspect-480/512
           h-auto
           md:w-full   md:h-[512px]
-          xl:w-[480px] xl:h-[512px] lg:flex-shrink-0
+          xl:w-[480px] xl:h-[512px] lg:shrink-0
         `}
       >
         <Image
@@ -254,10 +254,10 @@ const EMobility = () => {
         </h2>
         <div className="font-fira-sans flex flex-col gap-6 leading-[1.6] mt-6">
           <p className="text-base md:text-lg">
-            SEAP's E-Mobility initiative is driving Nigeria's shift toward clean, electric transportation by focusing on the country's most commonly used commercial vehicles—motorcycles (okadas), tricycles (kekes), and mini-buses. Through the rollout of battery-swapping hubs, electric vehicle (EV) conversion support, and smart financing models, SEAP is tackling transport emissions, reducing fuel costs, and creating local green jobs across all LGAs.
+            SEAP&apos;s E-Mobility initiative is driving Nigeria&apos;s shift toward clean, electric transportation by focusing on the country's most commonly used commercial vehicles—motorcycles (okadas), tricycles (kekes), and mini-buses. Through the rollout of battery-swapping hubs, electric vehicle (EV) conversion support, and smart financing models, SEAP is tackling transport emissions, reducing fuel costs, and creating local green jobs across all LGAs.
           </p>
           <p>
-            Nigeria's informal transport sector is one of Africa's largest, with over 12 million motorcycles, 4 million tricycles, and 1.5 million mini-buses operating across urban and peri-urban routes. These vehicles account for more than 30% of road transport emissions, making them a strategic starting point for electrification. SEAP targets this high-use segment to enable quick adoption and maximum carbon reduction.
+            Nigeria&apos;s informal transport sector is one of Africa&apos;s largest, with over 12 million motorcycles, 4 million tricycles, and 1.5 million mini-buses operating across urban and peri-urban routes. These vehicles account for more than 30% of road transport emissions, making them a strategic starting point for electrification. SEAP targets this high-use segment to enable quick adoption and maximum carbon reduction.
           </p>
           <div className="text-base md:text-lg" />
           <p>
@@ -273,7 +273,7 @@ const EMobility = () => {
           </p>
           <div className="text-base md:text-lg" />
           <p>
-            Through this inclusive and practical approach, SEAP's E-Mobility platform is not just reshaping transport—but powering economic opportunity and climate resilience across Nigeria.
+            Through this inclusive and practical approach, SEAP&apos;s E-Mobility platform is not just reshaping transport—but powering economic opportunity and climate resilience across Nigeria.
           </p>
         </div>
       </div>

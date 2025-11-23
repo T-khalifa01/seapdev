@@ -54,7 +54,7 @@ const Footer = () => {
 
       <div className="flex w-full flex-col gap-2 pt-4 md:w-auto md:gap-4 md:pt-0 lg:w-40 lg:pt-0">
         <h4 className="font-semibold leading-[1.6]">About SEAP</h4>
-        <div className="text-sm leading-[1.6] md:pt-2 md:[max-width:158px]">
+        <div className="text-sm leading-[1.6] md:pt-2 md:max-w-[158px]">
           <Link href={'/who-we-are'}>Who are we</Link>
         </div>
         <div className="text-sm leading-[1.6]">
@@ -70,7 +70,7 @@ const Footer = () => {
 
       <div className="flex w-full flex-col gap-2 pt-4 md:w-40 md:gap-4 md:pt-0 lg:w-40 lg:pt-0">
         <h4 className="font-semibold leading-[1.6]">Key Sectors</h4>
-        <div className="text-sm leading-[1.6] md:pt-2 md:[max-width:158px]">
+        <div className="text-sm leading-[1.6] md:pt-2 md:max-w-[158px]">
           <Link href={'invest-Opportunities/e-Mobility'}>E-Mobility</Link>
         </div>
         <div className="text-sm leading-[1.6]">
@@ -93,7 +93,7 @@ const Footer = () => {
 
       <div className="flex w-full flex-col gap-2 pt-4 md:w-40 md:gap-4 md:pt-0 lg:w-40 lg:pt-0">
         <h4 className="font-semibold leading-[1.6]">Investor Tools</h4>
-        <div className="text-sm leading-[1.6] md:pt-2 md:[max-width:158px]">
+        <div className="text-sm leading-[1.6] md:pt-2 md:max-w-[158px]">
           <Link href={``}>Register Interest</Link>
         </div>
         <div className="text-sm leading-[1.6]">
@@ -111,7 +111,7 @@ const Footer = () => {
         <h4 id="newsletter-title">Subscribe to our Newsletter</h4>
       </div>
 
-      <div className="pt-1 md:pt-2 md:self-stretch md:[max-width:401px]">
+      <div className="pt-1 md:pt-2 md:self-stretch md:max-w-[401px]">
         <p className="flex items-center text-sm leading-[1.6]">
           Join our newsletter to stay informed on the latest updates.
         </p>
@@ -158,7 +158,7 @@ const Footer = () => {
   <div className="flex flex-col justify-end border-b-2 pt-2 md:pt-2"></div>
 
   <div className="flex flex-col pt-4 md:flex-row md:flex-wrap md:items-center md:justify-between md:gap-x-8 md:gap-y-4 md:pt-6 lg:gap-[11px] lg:min-[1270px]:flex-nowrap">
-    <div className="order-1 flex items-center justify-center gap-3 md:order-none">
+    <div className="order-1 flex items-center justify-center gap-3 md:order-0">
       <Link href="https://facebook.com" aria-label="Visit us on Facebook">
         <Image
           type="svg"
@@ -201,7 +201,7 @@ const Footer = () => {
       </Link>
     </div>
 
-    <div className="order-2 flex flex-col pt-6 md:order-none md:flex-row md:flex-wrap md:items-center md:justify-center md:gap-x-4 md:gap-y-2 md:pt-0 md:self-stretch md:text-sm md:leading-[1.6] lg:flex-nowrap lg:gap-x-6 lg:gap-y-[11px] lg:min-[1270px]:">
+    <div className="order-2 flex flex-col pt-6 md:order-0 md:flex-row md:flex-wrap md:items-center md:justify-center md:gap-x-4 md:gap-y-2 md:pt-0 md:self-stretch md:text-sm md:leading-[1.6] lg:flex-nowrap lg:gap-x-6 lg:gap-y-[11px] lg:min-[1270px]:">
       <p className="pt-2 text-sm leading-[1.6] md:pt-0">
         © 2025 S.E.A.P All rights reserved.
       </p>

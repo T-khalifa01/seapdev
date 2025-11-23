@@ -16,12 +16,16 @@ export const authOptions = {
         try {
           connection = await pool.getConnection();
 
+          if (!credentials?.email || !credentials?.password) {
+            throw new Error("MissingCredentials");
+          }
+
           // Look up the user by email
           const [rows] = await connection.query("SELECT * FROM users WHERE email = ?", [credentials.email]);
           const user = rows[0];
 
           if (!user) {
-            return null; // User not found
+            throw new Error("UserNotFound"); // User not found
           }
 
           // Check if the user is active
@@ -34,7 +38,7 @@ export const authOptions = {
           const isValid = await bcrypt.compare(credentials.password, user.password);
 
           if (!isValid) {
-            return null; // Passwords don't match
+            throw new Error("WrongPassword");; // Passwords don't match
           }
 
           // Return the user object if authentication succeeds

@@ -58,6 +58,7 @@ const UtilityScale = () => {
                 alt="an aerial view of a solar farm "
                 fill
                 style={{ objectFit: "cover", objectPosition: "center" }}
+                priority={true}
               />
             </div>
     

@@ -32,6 +32,7 @@ const BigInvestCard = ({ title, desc1, href , img, seoLabel }) => {
             alt={title}
             fill
             style={{ objectFit: "cover", objectPosition: "center" }}
+            priority={true}
             />
         </div>
     </article>

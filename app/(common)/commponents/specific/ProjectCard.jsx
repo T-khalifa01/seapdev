@@ -18,6 +18,7 @@ const ProjectCard = ({ id, title, desc1, desc2, link, img }) => {
                     alt={title}
                     fill
                     style={{ objectFit: "cover", objectPosition: "center" }}
+                    priority={true}
                     />
         </div>
 

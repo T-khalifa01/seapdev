@@ -21,7 +21,7 @@ const BigAboutCard = ({ sec, title, desc, imgSrc, imageOnLeft = false }) => {
         alt={`Logo for ${title}`}
         fill
         style={{ objectFit: "cover", objectPosition: "center" }}
-        priority={false}
+        priority={true}
       />
     </figure>
   );

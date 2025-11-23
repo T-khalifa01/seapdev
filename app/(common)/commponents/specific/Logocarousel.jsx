@@ -20,16 +20,16 @@ const LogoCarousel = () => {
           <div className="carousel-track flex gap-12 md:gap-20 items-center">
             {/* duplicated content for infinite scroll */}
             <div className="flex gap-12 md:gap-20 items-center ml-12 md:ml-20">
-              <Image src="/images/algon-horizontal-logo.svg" alt="Algon" width={180} height={64} className="h-12 w-auto md:h-16" />
-              <Image src="/images/CCK-Logo.svg" alt="CCK" width={120} height={64} className="h-12 w-auto md:h-16" />
-              <Image src="/images/DAS-Logo.svg" alt="DAS" width={130} height={64} className="h-12 w-auto md:h-16" />
-              <Image src="/images/seap-new-full-logo.svg" alt="SEAP" width={180} height={64} className="h-12 w-auto md:h-16" />
+              <Image src="/images/algon-horizontal-logo.svg" alt="Algon" width={180} height={64} priority={true} className="h-12 w-auto md:h-16" />
+              <Image src="/images/CCK-Logo.svg" alt="CCK" width={120} height={64} priority={true} className="h-12 w-auto md:h-16" />
+              <Image src="/images/DAS-Logo.svg" alt="DAS" width={130} height={64} priority={true} className="h-12 w-auto md:h-16" />
+              <Image src="/images/seap-new-full-logo.svg" alt="SEAP" width={180} height={64} priority={true} className="h-12 w-auto md:h-16" />
             </div>
             <div className="flex gap-12 md:gap-20 items-center">
-              <Image src="/images/algon-horizontal-logo.svg" alt="Algon" width={180} height={64} className="h-12 w-auto md:h-16" />
-              <Image src="/images/CCK-Logo.svg" alt="CCK" width={120} height={64} className="h-12 w-auto md:h-16" />
-              <Image src="/images/DAS-Logo.svg" alt="DAS" width={130} height={64} className="h-12 w-auto md:h-16" />
-              <Image src="/images/seap-new-full-logo.svg" alt="SEAP" width={180} height={64} className="h-12 w-auto md:h-16" />
+              <Image src="/images/algon-horizontal-logo.svg" alt="Algon" width={180} height={64} priority={true} className="h-12 w-auto md:h-16" />
+              <Image src="/images/CCK-Logo.svg" alt="CCK" width={120} height={64} priority={true} className="h-12 w-auto md:h-16" />
+              <Image src="/images/DAS-Logo.svg" alt="DAS" width={130} height={64} priority={true} className="h-12 w-auto md:h-16" />
+              <Image src="/images/seap-new-full-logo.svg" alt="SEAP" width={180} height={64} priority={true} className="h-12 w-auto md:h-16" />
             </div>
           </div>
         </div>

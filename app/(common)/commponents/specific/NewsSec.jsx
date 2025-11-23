@@ -51,7 +51,8 @@ const NewsSec = () => {
                   <Image src={`/images/news/pppsummit.jpg`}
                     alt="Featured blog post image"
                     fill
-                    style={{ objectFit: "cover", objectPosition: "center" }} />
+                    style={{ objectFit: "cover", objectPosition: "center" }}
+                    priority={true} />
               </div>
 
               {/* Featured Post Text Content */}

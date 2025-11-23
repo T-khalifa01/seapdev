@@ -71,6 +71,7 @@ const NewsWebiners = () => {
           alt="SEAP's team at an event"
           fill
           style={{ objectFit: "cover", objectPosition: "center" }} // If this image is above the fold
+          priority={true}
         />
       </div>
 

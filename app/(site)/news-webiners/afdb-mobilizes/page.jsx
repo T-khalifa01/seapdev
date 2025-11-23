@@ -54,6 +54,7 @@ const page = () => {
             fill
             style={{ objectFit: "cover", objectPosition: "center" }}
             className="rounded-xl md:rounded-2xl"
+            priority={true}
           />
         </figure>
 

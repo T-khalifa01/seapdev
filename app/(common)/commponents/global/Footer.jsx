@@ -192,7 +192,7 @@ const Footer = () => {
       <Link href="https://linkedin.com" aria-label="Visit us on LinkedIn">
         <Image
           type="svg"
-          src="/icons/linkedIn.svg"
+          src="/icons/linkedin.svg"
           alt=""
           width="24"
           height="24"

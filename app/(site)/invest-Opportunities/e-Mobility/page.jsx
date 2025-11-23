@@ -61,6 +61,7 @@ const EMobility = () => {
                 alt="Electric motorcycle riders at a motorcycle station, representing clean mobility and charging infrastructure "
                 fill
                 style={{ objectFit: "cover", objectPosition: "center" }}
+                priority={true}
               />
             </div>
     
@@ -216,6 +217,7 @@ const EMobility = () => {
           fill
           style={{ objectFit: "cover", objectPosition: "center" }}
           className={``}
+          priority={true}
         />
       </div>
     </section>

@@ -48,7 +48,7 @@ export default function InvestmentPage() {
           fill
           style={{ objectFit: 'cover' }}
           className="absolute inset-0 z-0"
-          priority
+          priority={true}
         />
         <div className="absolute inset-0 bg-black opacity-50 z-1"></div>
         <div className="relative w-full max-w-7xl flex flex-col justify-start items-center gap-12 md:gap-20 z-3">

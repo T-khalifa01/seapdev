@@ -48,7 +48,7 @@ export default function BgCarousel({ images }) {
                 alt={`Hero background ${index + 1}`}
                 fill
                 className="object-cover"
-                priority={index === 0}
+                priority={true}
               />
               <div className="absolute inset-0 bg-black/50" />
             </div>

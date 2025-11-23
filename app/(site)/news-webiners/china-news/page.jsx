@@ -55,6 +55,7 @@ const page = () => {
             fill
             style={{ objectFit: "cover", objectPosition: "center" }}
             className="rounded-xl md:rounded-2xl" // Rounded corners adjust slightly
+            priority={true}
             
           />
         </figure>

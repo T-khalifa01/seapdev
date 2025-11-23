@@ -50,7 +50,7 @@ const page = () => {
           fill
           style={{ objectFit: 'cover', objectPosition: "center" }}
           className="absolute inset-0 z-0"
-          priority
+          priority={true}
         />
         <div className="absolute inset-0 bg-black opacity-50 "></div>
         <div className="relative w-full max-w-7xl flex flex-col justify-start items-center gap-12 md:gap-20 z-1">

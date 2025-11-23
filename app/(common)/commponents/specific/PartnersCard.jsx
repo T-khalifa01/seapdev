@@ -28,6 +28,7 @@ const PartnersCard = ({pic, alt, partner, fullName, desc, styles}) => {
                 alt={alt }
                 fill
                 style={{ objectFit: "contain", objectPosition: "center" }}
+                priority={true}
                 />
       </div>
 

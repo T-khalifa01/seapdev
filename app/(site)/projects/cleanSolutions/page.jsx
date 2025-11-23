@@ -69,6 +69,7 @@ const CleanSolutions = () => {
             fill
             style={{ objectFit: "cover", objectPosition: "center" }}
             className="pointer-events-none"
+            priority={true}
           />
           {/* Overlay for Readability */}
           <div className="absolute inset-0 z-1 bg-black/50" />
@@ -200,6 +201,7 @@ const CleanSolutions = () => {
                   fill
                   style={{ objectFit: "cover", objectPosition: "center" }}
                   className="pointer-events-none"
+                  priority={true}
                 />
                 {/* Overlay for Readability */}
                 <div className="absolute inset-0 z-1 bg-black/50" />

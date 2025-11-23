@@ -14,7 +14,7 @@ const MidInvestCard = ({ title, description, img, link, seoLabel }) => {
                         lg:w-full lg:h-[340px] ">
         <div className={`relative flex w-full aspect-588/340 overflow-hidden  `}>
             <Image src={img} alt={title} fill
-            style={{ objectFit: "cover", objectPosition: "center" }}/>
+            style={{ objectFit: "cover", objectPosition: "center" }} priority={true} />
         </div>
 
         <div className="flex flex-col items-start gap-2  md:gap-4 py-6 w-full px-6 sm:px-12 md:px-4 md:pt-20 lg:pt-8

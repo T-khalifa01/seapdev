@@ -69,6 +69,7 @@ const Mining = () => {
                 alt="a picture of a mining field with mining vehicles"
                 fill
                 style={{ objectFit: "cover", objectPosition: "center" }}
+                priority={true}
               />
             </div>
     
@@ -182,6 +183,7 @@ const Mining = () => {
                 fill
                 style={{ objectFit: "cover", objectPosition: "center" }}
                 className={``}
+                priority={true}
               />
             </div>
           </section>

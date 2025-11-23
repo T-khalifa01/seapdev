@@ -71,6 +71,7 @@ const AgricAgriBusiness = () => {
                 alt="a field of crops and farmers cultivating"
                 fill
                 style={{ objectFit: "cover", objectPosition: "center" }}
+                priority={true}
               />
             </div>
     
@@ -207,6 +208,7 @@ const AgricAgriBusiness = () => {
                 fill
                 style={{ objectFit: "cover", objectPosition: "center" }}
                 className={``}
+                priority={true}
               />
             </div>
 

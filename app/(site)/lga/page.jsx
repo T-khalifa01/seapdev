@@ -157,6 +157,7 @@ const page = () => {
           fill
           style={{ objectFit: "cover", objectPosition: "center" }}
           className=" rounded-[30px]"
+          priority={true}
         />
       </div>
     </div>

@@ -66,6 +66,7 @@ const InvestOpp = () => {
                 alt="a field of crops and farmers cultivating"
                 fill
                 style={{ objectFit: "cover", objectPosition: "center" }}
+                priority={true}
               />
             </div>
     

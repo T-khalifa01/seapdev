@@ -22,7 +22,7 @@ const NewsCard = ({  tag, time, title, desc, imgSrc, link }) => {
                 alt={`${title} image`}
                 fill
                 style={{ objectFit: "cover", objectPosition: "center" }}
-                priority={false}
+                priority={true}
             />
         </div>
 

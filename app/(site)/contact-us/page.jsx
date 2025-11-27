@@ -47,11 +47,11 @@ const page = () => {
         <Image
           src='/images/projects/solar-3.jpg'
           alt="Background image of a solar farm"
-          fill
-          style={{ objectFit: 'cover', objectPosition: "center" }}
-          className="absolute inset-0 z-0"
-          priority={true}
-        />
+          fill={true}
+          sizes="100vw"
+          className="object-cover object-center absolute inset-0 z-0"
+          />
+
         <div className="absolute inset-0 bg-black opacity-50 "></div>
         <div className="relative w-full max-w-7xl flex flex-col justify-start items-center gap-12 md:gap-20 z-1">
           <div className="w-full max-w-3xl flex flex-col justify-start items-center gap-8">

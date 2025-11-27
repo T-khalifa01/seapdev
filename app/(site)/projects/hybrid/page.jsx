@@ -71,10 +71,9 @@ const Hybrid = () => {
                 <Image
                   src="/images/projects/industrial-infrastructure-4.jpg"
                   alt="two engineers coordinating operations"
-                  fill
-                  style={{ objectFit: "cover", objectPosition: "center" }}
-                  className="pointer-events-none"
-                  priority={true}
+                  fill={true}
+                  sizes="100vw"
+                  className="object-cover object-center pointer-events-none"
                 />
                 {/* Overlay for Readability */}
                 <div className="absolute inset-0 z-1 bg-black/50" />
@@ -372,10 +371,9 @@ const Hybrid = () => {
                 <Image
                   src="/images/projects/agriculture-3.jpg"
                   alt="a picture of a small green house with a female farmer working"
-                  fill
-                  style={{ objectFit: "cover", objectPosition: "center" }}
-                  className="pointer-events-none"
-                  priority={true}
+                  fill={true}
+                  sizes="100vw"
+                  className="object-cover object-center pointer-events-none"
                 />
                 {/* Overlay for Readability */}
                 <div className="absolute inset-0 z-1 bg-black/50" />

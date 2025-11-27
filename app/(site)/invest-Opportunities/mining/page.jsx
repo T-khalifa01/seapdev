@@ -67,9 +67,9 @@ const Mining = () => {
               <Image
                 src="/images/mining/mining-3.jpg"
                 alt="a picture of a mining field with mining vehicles"
-                fill
-                style={{ objectFit: "cover", objectPosition: "center" }}
-                priority={true}
+                fill={true}
+                sizes="100vw"
+                className="object-cover object-center"
               />
             </div>
     
@@ -180,10 +180,9 @@ const Mining = () => {
               <Image
                 src="/images/mining/mining-1.jpg"
                 alt="a picture of a mining field with mining vehicles"
-                fill
-                style={{ objectFit: "cover", objectPosition: "center" }}
-                className={``}
-                priority={true}
+                fill={true}
+                sizes="(max-width: 1280px) 100vw, 480px"
+                className="object-cover object-center"
               />
             </div>
           </section>

@@ -21,8 +21,8 @@ const NewsCard = ({  tag, time, title, desc, imgSrc, link }) => {
                 src={imgSrc} 
                 alt={`${title} image`}
                 fill
-                style={{ objectFit: "cover", objectPosition: "center" }}
-                priority={true}
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 616px"
+                className="object-cover object-center"
             />
         </div>
 

@@ -19,8 +19,9 @@ const BigAboutCard = ({ sec, title, desc, imgSrc, imageOnLeft = false }) => {
       <Image
         src={imgSrc}
         alt={`Logo for ${title}`}
-        fill
-        style={{ objectFit: "cover", objectPosition: "center" }}
+        fill = {true}
+        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 600px"
+        className="object-cover object-center"
         priority={true}
       />
     </figure>

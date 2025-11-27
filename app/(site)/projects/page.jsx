@@ -62,10 +62,8 @@ const page = () => {
                 <Image
                   src="/images/projects/solar-2.jpg"
                   alt="Abstract background representing sustainable energy"
-                  fill
-                  style={{ objectFit: "cover", objectPosition: "center" }}
-                  className="pointer-events-none"
-                  priority={true}
+                  fill={true}
+                  className="object-cover object-center pointer-events-none"
                 />
                 {/* Overlay for Readability */}
                 <div className="absolute inset-0 z-1 bg-black/50" />
@@ -277,10 +275,9 @@ const page = () => {
                 <Image
                   src="/images/cooking/cooking-sul.jpg"
                   alt="a piture of a pot on a mordern stove"
-                  fill
-                  style={{ objectFit: "cover", objectPosition: "center" }}
-                  className="pointer-events-none"
-                  priority={true}
+                  fill={true}
+                  sizes="100vw"
+                  className="object-cover object-center"
                 />
                 {/* Overlay for Readability */}
                 <div className="absolute inset-0 z-1 bg-black/50" />

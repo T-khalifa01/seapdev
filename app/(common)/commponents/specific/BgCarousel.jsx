@@ -44,11 +44,15 @@ export default function BgCarousel({ images }) {
               }`}
             >
               <Image
-                src={src}
+                src={src.image}
                 alt={`Hero background ${index + 1}`}
-                fill
+                // might need to add layout, but i am not sure what property to use
                 className="object-cover"
-                priority={true}
+                fill
+                // width={src.width}
+                // height={src.height}
+                // sizes="(max-width: 768px) 80vw, 120vw"
+                priority
               />
               <div className="absolute inset-0 bg-black/50" />
             </div>

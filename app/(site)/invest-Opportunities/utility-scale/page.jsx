@@ -56,9 +56,9 @@ const UtilityScale = () => {
               <Image
                 src="/images/projects/solar-1.jpg"
                 alt="an aerial view of a solar farm "
-                fill
-                style={{ objectFit: "cover", objectPosition: "center" }}
-                priority={true}
+                fill={true}
+                sizes="100vw"
+                className="object-cover object-center"
               />
             </div>
     

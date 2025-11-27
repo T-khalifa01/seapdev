@@ -69,9 +69,9 @@ const AgricAgriBusiness = () => {
               <Image
                 src="/images/projects/agriculture-1.jpg"
                 alt="a field of crops and farmers cultivating"
-                fill
-                style={{ objectFit: "cover", objectPosition: "center" }}
-                priority={true}
+                fill={true}
+                className="object-cover object-center"
+                sizes="100vw"
               />
             </div>
     
@@ -205,10 +205,9 @@ const AgricAgriBusiness = () => {
               <Image
                 src={`/images/projects/agriculture-4.jpg`}
                 alt="Electric motorcycle riders at a battery swapping station, representing clean mobility and charging infrastructure"
-                fill
-                style={{ objectFit: "cover", objectPosition: "center" }}
-                className={``}
-                priority={true}
+                fill={true}
+                className="object-cover object-center"
+                sizes="(max-width: 1280px) 100vw, 480px"
               />
             </div>
 

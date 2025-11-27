@@ -51,10 +51,9 @@ const page = () => {
           <Image
             src="/images/news/afdbnews.jpg" 
             alt="Overhead view of a power generation facility at sunset."
-            fill
-            style={{ objectFit: "cover", objectPosition: "center" }}
-            className="rounded-xl md:rounded-2xl"
-            priority={true}
+            fill={true}
+            className="rounded-xl md:rounded-2xl object-cover object-center"
+            sizes="100vw"
           />
         </figure>
 

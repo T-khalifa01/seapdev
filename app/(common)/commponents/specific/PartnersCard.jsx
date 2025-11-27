@@ -26,9 +26,9 @@ const PartnersCard = ({pic, alt, partner, fullName, desc, styles}) => {
                        lg:h-72 lg:w-72 */}
         <Image src={pic }
                 alt={alt }
-                fill
-                style={{ objectFit: "contain", objectPosition: "center" }}
-                priority={true}
+                fill = {true}
+                className="object-contain object-center"
+                sizes="(max-width: 1024px) 100vw, 550px"
                 />
       </div>
 

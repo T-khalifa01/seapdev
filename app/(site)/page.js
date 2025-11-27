@@ -74,12 +74,12 @@ export default function Home() {
   const investBigCardData2 = investBigCardData[1];
 
     const images = [
-      "/images/mining/mining-3.jpg",
-      "/images/projects/agriculture-1.jpg",
-      "/images/projects/industrial-infrastructure-4.jpg",
-      "/images/projects/solar-1.jpg",
-      "/images/seap-team/seap-team-1.jpg",
-      "/images/projects/solar-4.jpg",
+      {image: "/images/mining/mining-3.jpg", width: 8256, height: 5504},
+      {image: "/images/projects/agriculture-1.jpg", width: 5464, height: 3640},
+      {image: "/images/projects/industrial-infrastructure-4.jpg", width: 3122, height: 2081},
+      {image: "/images/projects/solar-1.jpg", width: 3992, height: 2992},
+      {image: "/images/seap-team/seap-team-1.jpg", width: 2560, height: 1621},
+      {image: "/images/projects/solar-4.jpg", width: 7008, height: 4672},
 
     ]
   return (

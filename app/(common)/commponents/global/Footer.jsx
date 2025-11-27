@@ -43,7 +43,6 @@ const Footer = () => {
     <div className="flex w-full flex-col gap-2 pb-6 pt-2 md:flex-row md:flex-wrap md:justify-between md:gap-x-4 md:gap-y-8 md:text-sm lg:flex-nowrap lg:gap-x-8 lg:gap-y-[18px]">
       <div className="hidden md:block md:order-first md:w-auto lg:w-auto">
         <Image
-          type="svg"
           src="/images/Normal-SEAP-logo.svg"
           alt="SEAP logo"
           width="84"
@@ -161,42 +160,42 @@ const Footer = () => {
     <div className="order-1 flex items-center justify-center gap-3 md:order-0">
       <Link href="https://facebook.com" aria-label="Visit us on Facebook">
         <Image
-          type="svg"
           src="/icons/facebook.svg"
-          alt=""
+          alt="facebook icon"
           width="24"
           height="24"
           priority={true}
+          className="h-6 w-auto"
         />
       </Link>
       <Link href="https://instagram.com" aria-label="Visit us on Instagram">
         <Image
-          type="svg"
           src="/icons/instagram.svg"
-          alt=""
+          alt="instagram icon"
           width="24"
           height="24"
           priority={true}
+          className="h-6 w-auto"
         />
       </Link>
       <Link href="https://twitter.com" aria-label="Visit us on X (Twitter)">
         <Image
-          type="svg"
           src="/icons/x.svg"
-          alt=""
-          width="24"
+          alt="x icon"
+          width="27"
           height="24"
           priority={true}
+          className="h-6 w-auto"
         />
       </Link>
       <Link href="https://linkedin.com" aria-label="Visit us on LinkedIn">
         <Image
-          type="svg"
           src="/icons/linkedin.svg"
-          alt=""
+          alt="linked in icon"
           width="24"
           height="24"
           priority={true}
+          className="h-6 w-auto"
         />
       </Link>
     </div>

@@ -17,8 +17,9 @@ const ProjectCard = ({ id, title, desc1, desc2, link, img }) => {
             <Image src={img} 
                     alt={title}
                     fill
-                    style={{ objectFit: "cover", objectPosition: "center" }}
-                    priority={true}
+                    // style={{ objectFit: "cover", objectPosition: "center" }}
+                    sizes="(max-width: 768px) 100vw, 395px"
+                    className="object-cover object-center"
                     />
         </div>
 

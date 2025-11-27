@@ -59,9 +59,9 @@ const EMobility = () => {
               <Image
                 src="/images/investments/e-mobility-3.jpg"
                 alt="Electric motorcycle riders at a motorcycle station, representing clean mobility and charging infrastructure "
-                fill
-                style={{ objectFit: "cover", objectPosition: "center" }}
-                priority={true}
+                fill={true}
+                sizes="100vw"
+                className="object-cover object-center"
               />
             </div>
     
@@ -214,10 +214,9 @@ const EMobility = () => {
         <Image
           src="/images/investments/e-mobility-charging-1.jpg"
           alt="Electric motorcycle riders at a battery swapping station, representing clean mobility and charging infrastructure"
-          fill
-          style={{ objectFit: "cover", objectPosition: "center" }}
-          className={``}
-          priority={true}
+          fill={true}
+          sizes="(max-width: 1280px) 100vw, 480px"
+          className="object-cover object-center"
         />
       </div>
     </section>

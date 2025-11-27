@@ -59,10 +59,9 @@ const GisMapping = () => {
               <Image
                 src="/images/projects/gis-satillite-mapping-1.jpg"
                 alt="a woman cooking in a kitchen"
-                fill
-                style={{ objectFit: "cover", objectPosition: "center" }}
-                className="pointer-events-none"
-                priority={true}
+                fill={true}
+                className="object-cover object-center pointer-events-none "
+                sizes="100vw"
               />
               <div className="absolute inset-0 z-1 bg-black/50" />
             </div>
@@ -164,10 +163,9 @@ const GisMapping = () => {
                 <Image
                   src="/images/projects/gis-sat-mapping-2.jpg"
                   alt="a piture of a pot on a mordern stove"
-                  fill
-                  style={{ objectFit: "cover", objectPosition: "center" }}
-                  className="pointer-events-none"
-                  priority={true}
+                  fill={true}
+                  sizes="100vw"
+                  className="object-cover object-center pointer-events-none"
                 />
                 {/* Overlay for Readability */}
                 <div className="absolute inset-0 z-1 bg-black/50" />

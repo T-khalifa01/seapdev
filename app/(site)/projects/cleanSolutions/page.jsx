@@ -66,10 +66,9 @@ const CleanSolutions = () => {
           <Image
             src="/images/cooking/woman-cooking-1.jpg"
             alt="a woman cooking in a kitchen"
-            fill
-            style={{ objectFit: "cover", objectPosition: "center" }}
-            className="pointer-events-none"
-            priority={true}
+            fill={true}
+            sizes="100vw"
+            className="object-cover object-center pointer-events-none "
           />
           {/* Overlay for Readability */}
           <div className="absolute inset-0 z-1 bg-black/50" />
@@ -198,10 +197,9 @@ const CleanSolutions = () => {
                 <Image
                   src="/images/cooking/cooking-sul.jpg"
                   alt="a piture of a pot on a mordern stove"
-                  fill
-                  style={{ objectFit: "cover", objectPosition: "center" }}
-                  className="pointer-events-none"
-                  priority={true}
+                  fill={true}
+                  sizes="100vw"
+                  className="object-cover object-center pointer-events-none "
                 />
                 {/* Overlay for Readability */}
                 <div className="absolute inset-0 z-1 bg-black/50" />

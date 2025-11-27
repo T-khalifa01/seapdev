@@ -46,9 +46,8 @@ export default function InvestmentPage() {
           src={'/images/investments/e-mobility-charging-1.jpg'}
           alt="Background image of clean energy infrastructure"
           fill
-          style={{ objectFit: 'cover' }}
-          className="absolute inset-0 z-0"
-          priority={true}
+          sizes="100vw"
+          className="object-cover object-center absolute inset-0 z-0"
         />
         <div className="absolute inset-0 bg-black opacity-50 z-1"></div>
         <div className="relative w-full max-w-7xl flex flex-col justify-start items-center gap-12 md:gap-20 z-3">

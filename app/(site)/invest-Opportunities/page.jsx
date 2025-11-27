@@ -64,9 +64,9 @@ const InvestOpp = () => {
               <Image
                 src="/images/projects/agriculture-1.jpg"
                 alt="a field of crops and farmers cultivating"
-                fill
-                style={{ objectFit: "cover", objectPosition: "center" }}
-                priority={true}
+                fill={true}
+                sizes="100vw"
+                className="object-cover object-center"
               />
             </div>
     

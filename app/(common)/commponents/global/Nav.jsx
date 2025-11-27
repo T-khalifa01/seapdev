@@ -87,8 +87,8 @@ const Nav = () => {
 
           {/* Logo and Main Links (MD & LG) */}
           <div className="flex items-center gap-x-8 lg:gap-x-12"> 
-            <Link href="/" className="shrink-0"  >
-              <Image src="/images/Normal-SEAP-logo.svg" alt="SEAP logo" width={84} height={36} priority={true} />
+            <Link href="/" className="shrink-0 "  >
+              <Image src="/images/Normal-SEAP-logo.svg" alt="SEAP logo" width="84" height="24" priority={true} />
             </Link>
             <ul className="flex items-center gap-x-6 text-blackish-primary font-poppins text-sm lg:text-base"> {/* Smaller font for MD */}
               <li><Link className="transition-colors duration-200 hover:text-green-accent" href={`/`} onClick={handleNavLinkClick}>Home</Link></li>
@@ -161,8 +161,8 @@ const Nav = () => {
     </button>
 
     {/* Logo (Middle) */}
-    <Link href="/" className="">
-        <Image src="/Images/Normal-SEAP-logo.svg" alt="SEAP-logo" width={84} height={36} priority={true} />
+    <Link href="/" className="shrink-0">
+        <Image src="/Images/Normal-SEAP-logo.svg" alt="SEAP-logo" width="84" height="24" priority={true} />
     </Link>
 
     {/* Placeholder for spacing */}

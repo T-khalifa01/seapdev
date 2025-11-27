@@ -64,10 +64,9 @@ const page = () => {
                             <Image
                               src="/images/mining-2.jpg"
                               alt="Abstract background representing sustainable energy"
-                              fill
-                              style={{ objectFit: "cover", objectPosition: "center" }}
-                              priority={true}
-                              className="pointer-events-none"
+                              fill={true}
+                              sizes="100vw"
+                              className="object-cover object-center pointer-events-none"
                             />
                             <div className="absolute inset-0 z-1 bg-black/50" />
                           </div>
@@ -154,10 +153,9 @@ const page = () => {
         <Image
           src="/images/projects/industrial-infrastructure-4.jpg"
           alt="A visual representation of sustainable energy projects, showing a mix of green landscapes and clean technology."
-          fill
-          style={{ objectFit: "cover", objectPosition: "center" }}
-          className=" rounded-[30px]"
-          priority={true}
+          fill={true}
+          sizes="(max-width: 640px) 100vw, 50vw"
+          className="rounded-[30px] object-cover object-center"
         />
       </div>
     </div>

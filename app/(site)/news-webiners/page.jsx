@@ -69,9 +69,9 @@ const NewsWebiners = () => {
         <Image
           src={`/images/seap-team/seap-team-1.jpg`}
           alt="SEAP's team at an event"
-          fill
-          style={{ objectFit: "cover", objectPosition: "center" }} // If this image is above the fold
-          priority={true}
+          fill={true}
+          sizes="100vw"
+          className="object-cover object-center"
         />
       </div>
 

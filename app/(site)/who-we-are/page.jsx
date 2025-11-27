@@ -73,9 +73,8 @@ const Page = () => {
             src="/images/seap-team/seap-team-1.jpg"
             alt="seap-team-in-a-meating"
             fill
-            style={{ objectFit: "cover", objectPosition: "center" }}
-            className="pointer-events-none"
-            priority={true}
+            sizes="100vw"
+            className="pointer-events-none object-cover object-center"
           />
           {/* Overlay for Readability */}
           <div className="absolute inset-0 z-1 bg-black/50" />

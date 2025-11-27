@@ -63,8 +63,9 @@ const industrialInfra = () => {
               <Image
                 src="/images/projects/industrial-infra-2.jpg"
                 alt="two engineers coordinating operations in an industrial site"
-                fill
-                style={{ objectFit: "cover", objectPosition: "center" }}
+                fill={true}
+                sizes="100vw"
+                className="object-cover object-center"
               />
             </div>
     
@@ -176,10 +177,9 @@ const industrialInfra = () => {
                 <Image
                   src="/images/projects/industrial-infra-3.jpg"
                   alt="a picture of a mining field with mining vehicles"
-                  fill
-                  style={{ objectFit: "cover", objectPosition: "center" }}
-                  className={``}
-                  priority={true}
+                  fill={true}
+                  sizes="(max-width: 1280px) 100vw, 480px"
+                  className="object-cover object-center"
                 />
               </div>
             </section>

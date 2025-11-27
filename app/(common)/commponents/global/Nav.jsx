@@ -162,7 +162,7 @@ const Nav = () => {
 
     {/* Logo (Middle) */}
     <Link href="/" className="shrink-0">
-        <Image src="/Images/Normal-SEAP-logo.svg" alt="SEAP-logo" width="84" height="24" priority={true} />
+        <Image src="/images/Normal-SEAP-logo.svg" alt="SEAP-logo" width="84" height="24" priority={true} />
     </Link>
 
     {/* Placeholder for spacing */}

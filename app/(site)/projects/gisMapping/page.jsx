@@ -57,7 +57,7 @@ const GisMapping = () => {
             {/* Background Image Container */}
             <div className="absolute inset-0 z-0">
               <Image
-                src="/images/projects/gis-satillite-mapping-1.jpg"
+                src="/images/projects/gis-satillite-mapping-1.webp"
                 alt="a woman cooking in a kitchen"
                 fill={true}
                 className="object-cover object-center pointer-events-none "
@@ -161,7 +161,7 @@ const GisMapping = () => {
           >
               <div className="absolute inset-0 z-0">
                 <Image
-                  src="/images/projects/gis-sat-mapping-2.jpg"
+                  src="/images/projects/gis-sat-mapping-2.webp"
                   alt="a piture of a pot on a mordern stove"
                   fill={true}
                   sizes="100vw"

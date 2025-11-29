@@ -64,7 +64,7 @@ const InvestOpp = async () => {
             {/* Background image */}
             <div className="absolute inset-0 z-0">
               <Image
-                src="/images/projects/agriculture-1.jpg"
+                src="/images/projects/agriculture-1.webp"
                 alt="a field of crops and farmers cultivating"
                 fill={true}
                 sizes="100vw"

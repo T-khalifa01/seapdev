@@ -59,7 +59,7 @@ const EMobility = async() => {
             {/* Background image */}
             <div className="absolute inset-0 z-0">
               <Image
-                src="/images/investments/e-mobility-3.jpg"
+                src="/images/investments/e-mobility-3.webp"
                 alt="Electric motorcycle riders at a motorcycle station, representing clean mobility and charging infrastructure "
                 fill={true}
                 sizes="100vw"
@@ -214,7 +214,7 @@ const EMobility = async() => {
         `}
       >
         <Image
-          src="/images/investments/e-mobility-charging-1.jpg"
+          src="/images/investments/e-mobility-charging-1.webp"
           alt="Electric motorcycle riders at a battery swapping station, representing clean mobility and charging infrastructure"
           fill={true}
           sizes="(max-width: 1280px) 100vw, 480px"

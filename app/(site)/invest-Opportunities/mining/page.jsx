@@ -65,7 +65,7 @@ const Mining = () => {
             {/* Background image */}
             <div className="absolute inset-0 z-0">
               <Image
-                src="/images/mining/mining-3.jpg"
+                src="/images/mining/mining-3.webp"
                 alt="a picture of a mining field with mining vehicles"
                 fill={true}
                 sizes="100vw"
@@ -178,7 +178,7 @@ const Mining = () => {
               `}
             >
               <Image
-                src="/images/mining/mining-1.jpg"
+                src="/images/mining/mining-1.webp"
                 alt="a picture of a mining field with mining vehicles"
                 fill={true}
                 sizes="(max-width: 1280px) 100vw, 480px"

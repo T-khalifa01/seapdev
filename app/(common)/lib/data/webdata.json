@@ -6,7 +6,7 @@
       "description1": "SEAP delivers 5MW hybrid mini-grids combining solar and gas to power rural economies.",
       "description2":"The pilot phase in Kano, Imo, and Cross River sets the stage for a nationwide energy rollout.",
       "links": "/projects/hybrid",
-      "img": "/images/projects/industrial-infrastructure-4.jpg"
+      "img": "/images/projects/industrial-infrastructure-4.webp"
     },
     {
       "id": "prjctcard2",
@@ -14,7 +14,7 @@
       "description1": "Our GIS platform provides real-time data for planning and tracking impact across all 774 LGAs.",
       "description2":"From site assessments to infrastructure monitoring, SEAP builds smarter, data-led energy systems.",
       "links": "/projects/gisMapping",
-      "img": "/images/projects/gis-satillite-mapping-1.jpg"
+      "img": "/images/projects/gis-satillite-mapping-1.webp"
     },
     {
       "id": "prjctcard3",
@@ -22,7 +22,7 @@
       "description1": "Replacing firewood and charcoal with biogas and LPCNG cylinders, SEAP is bringing clean, affordable cooking to over 20,000 households per LGA.",
       "description2":"This initiative improves health, protects forests, and empowers women across Nigeria.",
       "links": "/projects/cleanSolutions",
-      "img": "/images/cooking/cooking-sul.jpg"
+      "img": "/images/cooking/cooking-sul.webp"
     }
   ],
   "investBigCardData":[
@@ -30,20 +30,20 @@
       "id":"inbigdata1",
       "title": "E-Mobility",
       "description1": "Invest in EV conversions, battery-swapping hubs, and charging stations across high-density transport zones.",
-      "img":"/images/investments/e-mobility-3.jpg"
+      "img":"/images/investments/e-mobility-3.webp"
     },
     {
       "id":"inbigdata2",
       "title": "Industrial Infrastructure",
       "description1": "Power-ready industrial parks and corridors mapped for manufacturing and trade-based investment.",
-      "img": "/images/projects/industrial-infra-2.jpg"
+      "img": "/images/projects/industrial-infra-2.webp"
     }
   ],
   "investMidCardData":
     {
       "title": "Utility-Scale Solar",
       "description": "GIS-selected sites with strong irradiance and grid access for MW-scale solar development.",
-      "img": "/images/projects/solar-4.jpg",
+      "img": "/images/projects/solar-4.webp",
       "link": "/invest-Opportunities/utility-scale"
     },
   "investSmallCardData":[
@@ -69,7 +69,7 @@
       "time":"4",
       "desc":"A new PPP marks a major leap in delivering reliable, renewable energy to 1.5-2 million Nigerians.",
       "tag":"Energy",
-      "img": "/images/news/minigrid.jpg"
+      "img": "/images/news/minigrid.webp"
     },
     {
       "title":"AfDB Mobilizes $2.2B to Spark Nigeria's Agro-Processing Boom",
@@ -77,7 +77,7 @@
       "time":"6",
       "desc":"Huge investment to reduce food imports and bring processing capabilities closer to farmers in 28 states.",
       "tag":"Agriculture",
-      "img": "/images/news/afdbnews.jpg"
+      "img": "/images/news/afdbnews.webp"
     },
     {
       "title":"FG Commissions 30MW Power Project in Ogun to Kickstart Nationwide SEAP Rollout",
@@ -128,35 +128,35 @@
       "title": "E-Mobility",
       "desc1": "SEAP's E-Mobility initiative is accelerating Nigeria's transition to clean, electric transportation by targeting high-use commercial vehicles like motorcycles (okadas), tricycles (kekes), and mini-buses. By deploying battery-swapping hubs and supporting EV conversions at scale, we are reducing emissions, lowering transport costs, and creating new green jobs.",
       "href": "/invest-Opportunities/e-Mobility",
-      "img": "/images/investments/e-mobility-3.jpg"
+      "img": "/images/investments/e-mobility-3.webp"
     },
     {
       "id": "smallprjct2",
       "title": "Agriculture & Agribusiness",
       "desc1": "SEAP's integrated infrastructure model supports agricultural transformation by addressing energy, data, and value chain gaps across Nigeria's farming communities. From powering irrigation and processing to enabling storage and distribution, we're helping Nigeria unlock the full potential of its agri-economy—with technology, precision data, and clean energy at its core.",
       "href": "/invest-Opportunities/agric-agriBusiness",
-      "img": "/images/projects/agriculture-1.jpg"
+      "img": "/images/projects/agriculture-1.webp"
     },
     {
       "id": "smallprjct3",
       "title": "Mining",
       "desc1": "SEAP supports sustainable and energy-secure mining by enabling access to hybrid power, digital mapping tools, and sector-focused infrastructure in Nigeria's mineral-rich LGAs. By bridging operational gaps and improving visibility across the mining landscape, we are helping unlock Nigeria's vast untapped mineral wealth while promoting regulatory compliance and environmental stewardship.",
       "href": "/invest-Opportunities/mining",
-      "img": "/images/mining/mining-2.jpg"
+      "img": "/images/mining/mining-2.webp"
     },
     {
       "id": "smallprjct4",
       "title": "Industrial Infrastructure",
       "desc1": "SEAP's industrial infrastructure program aligns clean energy investments with Nigeria's emerging industrial corridors, ports, and logistics networks. By mapping electricity demand against trade hubs, rail lines, and special economic zones, we deliver hybrid power systems where they're most needed to drive job creation, manufacturing, and export growth.",
       "href": "/invest-Opportunities/industrialInfra",
-      "img": "/images/projects/industrial-infra-2.jpg"
+      "img": "/images/projects/industrial-infra-2.webp"
     },
     {
       "id": "smallprjct5",
       "title": "Utility-Scale Solar",
       "desc1": "Leveraging SEAP's GIS platform and satellite datasets (e.g., Global Solar Atlas), we identify optimal sites for utility-scale solar across Nigeria. Criteria include terrain suitability, land use, proximity to grid infrastructure, and irradiation levels—all essential for high-yield solar power plants.",
       "href": "/invest-Opportunities/utility-scale",
-      "img": "/images/projects/solar-1.jpg"
+      "img": "/images/projects/solar-1.webp"
     }
   ],
   "FAQs": [

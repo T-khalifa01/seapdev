@@ -64,7 +64,7 @@ const CleanSolutions = () => {
         {/* Background Image Container */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/cooking/woman-cooking-1.jpg"
+            src="/images/cooking/woman-cooking-1.webp"
             alt="a woman cooking in a kitchen"
             fill={true}
             sizes="100vw"
@@ -195,7 +195,7 @@ const CleanSolutions = () => {
           >
               <div className="absolute inset-0 z-0">
                 <Image
-                  src="/images/cooking/cooking-sul.jpg"
+                  src="/images/cooking/cooking-sul.webp"
                   alt="a piture of a pot on a mordern stove"
                   fill={true}
                   sizes="100vw"

@@ -75,7 +75,7 @@ const page = async () => {
                       >
                           <div className="absolute inset-0 z-0">
                             <Image
-                              src="/images/mining-2.jpg"
+                              src="/images/mining-2.webp"
                               alt="Abstract background representing sustainable energy"
                               fill={true}
                               sizes="100vw"
@@ -166,7 +166,7 @@ const page = async () => {
       {/* Image content */}
       <div className="flex-1 w-full sm:w-auto h-[50vh] max-h-[400px] relative rounded-[30px] overflow-hidden">
         <Image
-          src="/images/projects/industrial-infrastructure-4.jpg"
+          src="/images/projects/industrial-infrastructure-4.webp"
           alt="A visual representation of sustainable energy projects, showing a mix of green landscapes and clean technology."
           fill={true}
           sizes="(max-width: 640px) 100vw, 50vw"

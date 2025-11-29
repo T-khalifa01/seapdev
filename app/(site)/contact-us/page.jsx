@@ -47,7 +47,7 @@ const page = async () => {
       {/* Semantic Header Section */}
       <header className="self-stretch px-4 py-12 md:px-16 md:py-28 relative flex flex-col justify-center items-center gap-12 md:gap-20 overflow-hidden">
         <Image
-          src='/images/projects/solar-3.jpg'
+          src='/images/projects/solar-3.webp'
           alt="Background image of a solar farm"
           fill={true}
           sizes="100vw"

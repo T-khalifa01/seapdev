@@ -45,7 +45,7 @@ const NewsSec = ({ news, icons }) => {
                               sm:h-[300px]
                               md:w-[calc(50%-16px)] md:h-[360px]
                               lg:w-[calc(50%-24px)] lg:h-[360px]`}> {/*lg:w-[616px] lg:h-[360px] LG: fixed width/height */}
-                  <Image src={`/images/news/pppsummit.jpg`}
+                  <Image src={`/images/news/pppsummit.webp`}
                     alt="Featured blog post image"
                     fill
                     className="object-cover object-center"

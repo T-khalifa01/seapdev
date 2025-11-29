@@ -43,7 +43,7 @@ export default async function InvestmentPage() {
     <div className="flex flex-col items-center min-h-screen pt-12">
       <header className="self-stretch px-4 py-12 md:px-16 md:py-28 relative flex flex-col justify-center items-center gap-12 md:gap-20 overflow-hidden">
         <Image
-          src={'/images/investments/e-mobility-charging-1.jpg'}
+          src={'/images/investments/e-mobility-charging-1.webp'}
           alt="Background image of clean energy infrastructure"
           fill
           sizes="100vw"

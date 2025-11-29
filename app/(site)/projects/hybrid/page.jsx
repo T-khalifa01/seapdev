@@ -69,7 +69,7 @@ const Hybrid = () => {
               {/* Background Image Container */}
               <div className="absolute inset-0 z-0">
                 <Image
-                  src="/images/projects/industrial-infrastructure-4.jpg"
+                  src="/images/projects/industrial-infrastructure-4.webp"
                   alt="two engineers coordinating operations"
                   fill={true}
                   sizes="100vw"
@@ -369,7 +369,7 @@ const Hybrid = () => {
           >
               <div className="absolute inset-0 z-0">
                 <Image
-                  src="/images/projects/agriculture-3.jpg"
+                  src="/images/projects/agriculture-3.webp"
                   alt="a picture of a small green house with a female farmer working"
                   fill={true}
                   sizes="100vw"

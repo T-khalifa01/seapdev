@@ -69,7 +69,7 @@ const AgricAgriBusiness = async () => {
             {/* Background image */}
             <div className="absolute inset-0 z-0">
               <Image
-                src="/images/projects/agriculture-1.jpg"
+                src="/images/projects/agriculture-1.webp"
                 alt="a field of crops and farmers cultivating"
                 fill={true}
                 className="object-cover object-center"
@@ -205,7 +205,7 @@ const AgricAgriBusiness = async () => {
               `}
             >
               <Image
-                src={`/images/projects/agriculture-4.jpg`}
+                src={`/images/projects/agriculture-4.webp`}
                 alt="Electric motorcycle riders at a battery swapping station, representing clean mobility and charging infrastructure"
                 fill={true}
                 className="object-cover object-center"

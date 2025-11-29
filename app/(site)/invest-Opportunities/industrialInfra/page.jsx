@@ -61,7 +61,7 @@ const industrialInfra = () => {
             {/* Background image */}
             <div className="absolute inset-0 z-0">
               <Image
-                src="/images/projects/industrial-infra-2.jpg"
+                src="/images/projects/industrial-infra-2.webp"
                 alt="two engineers coordinating operations in an industrial site"
                 fill={true}
                 sizes="100vw"
@@ -175,7 +175,7 @@ const industrialInfra = () => {
                 `}
               >
                 <Image
-                  src="/images/projects/industrial-infra-3.jpg"
+                  src="/images/projects/industrial-infra-3.webp"
                   alt="a picture of a mining field with mining vehicles"
                   fill={true}
                   sizes="(max-width: 1280px) 100vw, 480px"
@@ -287,7 +287,7 @@ const industrialInfra = () => {
           >
               <div className="absolute inset-0 z-0">
                 <Image
-                  src="/images/projects/industrial-infrastructure-4.jpg"
+                  src="/images/projects/industrial-infrastructure-4.webp"
                   alt="a piture of a pot on a mordern stove"
                   fill
                   style={{ objectFit: "cover", objectPosition: "center" }}

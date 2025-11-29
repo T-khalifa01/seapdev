@@ -61,7 +61,7 @@ const page = async () => {
           >
               <div className="absolute inset-0 z-0">
                 <Image
-                  src="/images/projects/solar-2.jpg"
+                  src="/images/projects/solar-2.webp"
                   alt="Abstract background representing sustainable energy"
                   fill={true}
                   className="object-cover object-center pointer-events-none"
@@ -275,7 +275,7 @@ const page = async () => {
           >
               <div className="absolute inset-0 z-0">
                 <Image
-                  src="/images/cooking/cooking-sul.jpg"
+                  src="/images/cooking/cooking-sul.webp"
                   alt="a piture of a pot on a mordern stove"
                   fill={true}
                   sizes="100vw"

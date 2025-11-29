@@ -66,7 +66,7 @@ const page = async () => {
                            md:h-[400px] md:pt-16 
                            lg:h-[600px]">
           <Image
-            src="/images/news/pppsummit.jpg"
+            src="/images/news/pppsummit.webp"
             alt="Overhead view of a power generation facility at sunset."
             fill={true}
             className="rounded-xl md:rounded-2xl object-cover object-center"

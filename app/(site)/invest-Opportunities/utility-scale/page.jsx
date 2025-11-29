@@ -56,7 +56,7 @@ const UtilityScale = async () => {
             {/* Background image */}
             <div className="absolute inset-0 z-0">
               <Image
-                src="/images/projects/solar-1.jpg"
+                src="/images/projects/solar-1.webp"
                 alt="an aerial view of a solar farm "
                 fill={true}
                 sizes="100vw"

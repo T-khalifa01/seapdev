@@ -51,7 +51,7 @@ export const metadata = {
 
 const InvestOpp = async () => {
   const allData =  await getWebData();
-  const {smallprjct} = allData;
+  const {smallprjct, icons} = allData;
   return (
     <main>
       
@@ -204,6 +204,7 @@ const InvestOpp = async () => {
                         id={data.id}
                         link={data.href}
                         img={data.img}
+                        icons={icons}
                     />
                 ))}
             </div>

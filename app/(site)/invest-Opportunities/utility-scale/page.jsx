@@ -1,6 +1,7 @@
 import Image from "next/image";
 // data local
-import allData from "../../../(common)/lib/data/webdata.json";
+// import allData from "../../../(common)/lib/data/webdata.json";
+import { getWebData } from "../../../(common)/lib/getWebData";
 import Button from "../../../(common)/commponents/ui/Button.jsx";
 
 
@@ -40,7 +41,8 @@ export const metadata = {
 };
 
 
-const UtilityScale = () => {
+const UtilityScale = async () => {
+  const allData =  await getWebData();
   const {icons} = allData;
 
   return (
@@ -235,4 +237,6 @@ const UtilityScale = () => {
   );
 }
 
+
+export const revalidate = 86400; // Revalidate every 24 hours (86400 seconds)
 export default UtilityScale;

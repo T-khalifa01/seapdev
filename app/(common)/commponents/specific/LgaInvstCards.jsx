@@ -1,12 +1,12 @@
 import Link from "next/link";
 import Button from "../ui/Button";
 // data local
-import allData from "../../lib/data/webdata.json";
+// import allData from "../../lib/data/webdata.json";   // not needed here
 
 
 
-const LgaInvstCards = ({ title, description, iconSrc, linkHref, linkLabel }) => {
-  const {icons} = allData;
+const LgaInvstCards = ({ title, description, iconSrc, linkHref, linkLabel, icons }) => {
+
   return (
     <article className="flex flex-col gap-8 flex-1">
       <div className="w-12 h-12 text-green-500">

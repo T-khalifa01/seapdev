@@ -1,11 +1,8 @@
 import Image from "next/image";
-// data local
-import allData from "../../lib/data/webdata.json";
 import Button from "../ui/Button";
 
 
-const NewsCard = ({  tag, time, title, desc, imgSrc, link }) => {
-    const {icons} = allData
+const NewsCard = ({  tag, time, title, desc, imgSrc, link, icons }) => {
   return (
     <article className={`flex w-full flex-col gap-2 leading-[normal]
                          sm:w-full md:w-[calc(50%-24px)]
@@ -20,7 +17,7 @@ const NewsCard = ({  tag, time, title, desc, imgSrc, link }) => {
             <Image 
                 src={imgSrc} 
                 alt={`${title} image`}
-                fill
+                fill={true}
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 616px"
                 className="object-cover object-center"
             />

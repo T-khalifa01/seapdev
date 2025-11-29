@@ -1,12 +1,9 @@
 import Image from "next/image";
 import Button from "../ui/Button";
 import NewsCard from "./NewsCard";
-// data local
-import allData from "../../lib/data/webdata.json";
 
 
-const NewsSec = () => {
-  const { news, icons, FAQs} = allData;
+const NewsSec = ({ news, icons }) => {
     const news1 = news[0];
     const news2 = news[1];
     const news3 = news[2];
@@ -103,14 +100,14 @@ const NewsSec = () => {
         <div className={`flex flex-col items-center gap-8 self-stretch pt-4 pd-4
                          md:flex-row md:flex-wrap  md:items-stretch md:gap-12 md:pt-8
                          lg:pt-4 lg:flex-nowrap`}> {/* LG: original gap, no wrap */}
-            <NewsCard tag={news1.tag} time={news1.time} title={news1.title} desc={news1.desc} link={'/news-webiners/mini-grids'} imgSrc={news1.img} />
-            <NewsCard tag={news2.tag} time={news2.time} title={news2.title} desc={news2.desc} link={'/news-webiners/afdb-mobilizes'} imgSrc={news2.img}/>
+            <NewsCard tag={news1.tag} time={news1.time} title={news1.title} desc={news1.desc} link={'/news-webiners/mini-grids'} imgSrc={news1.img} icons={icons} />
+            <NewsCard tag={news2.tag} time={news2.time} title={news2.title} desc={news2.desc} link={'/news-webiners/afdb-mobilizes'} imgSrc={news2.img} icons={icons}/>
         </div>
         <div className={`flex flex-col items-center gap-8 self-stretch pt-4
                          md:flex-row md:flex-wrap  md:items-stretch md:gap-12 md:pt-4
                          lg:flex-nowrap`}> {/* LG: original gap, no wrap */}
-            <NewsCard tag={news3.tag} time={news3.time} title={news3.title} desc={news3.desc} link={'/news-webiners/seap-kickoff'} imgSrc={news3.img}/>
-            <NewsCard tag={news4.tag} time={news4.time} title={news4.title} desc={news4.desc} link={'/news-webiners/china-news'} imgSrc={news4.img}/>
+            <NewsCard tag={news3.tag} time={news3.time} title={news3.title} desc={news3.desc} link={'/news-webiners/seap-kickoff'} imgSrc={news3.img} icons={icons}/>
+            <NewsCard tag={news4.tag} time={news4.time} title={news4.title} desc={news4.desc} link={'/news-webiners/china-news'} imgSrc={news4.img} icons={icons}/>
         </div>
     </section>
   );

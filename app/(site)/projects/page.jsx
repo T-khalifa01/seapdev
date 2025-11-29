@@ -1,6 +1,6 @@
 import Image from "next/image";
 // data local
-import allData from "../../(common)/lib/data/webdata.json";
+import { getWebData } from "../../(common)/lib/getWebData";
 // components specific
 import ProjectCard from "../../(common)/commponents/specific/ProjectCard";
 import Button from "../../(common)/commponents/ui/Button";
@@ -46,7 +46,8 @@ export const metadata = {
 };
 
 
-const page = () => {
+const page = async () => {
+    const allData = await getWebData();
     const {projectsCardData, icons} = allData;
   return (
     <main className="pt-12">
@@ -159,6 +160,7 @@ const page = () => {
             id={data.id}
             link={data.links}
             img={data.img}
+            icons={icons}
           />
         ))}
       </div>
@@ -318,3 +320,5 @@ const page = () => {
 }
 
 export default page;
+
+export const revalidate = 86400; // Revalidate every 24 hours

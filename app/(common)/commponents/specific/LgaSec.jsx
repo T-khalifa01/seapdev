@@ -2,16 +2,16 @@
 import { useState, React, useEffect } from "react";
 import Link from "next/link";
 // import { statesSvg } from "../../lib/data/nigerianSvg.json";
-import nigerianSvg from "../../lib/data/nigerianSvg.json";
-import allData from "../../lib/data/webdata.json";
-import allLgas from "../../lib/data/statelgaList.json";
+// import nigerianSvg from "../../lib/data/nigerianSvg.json";
+// import allData from "../../lib/data/webdata.json";
+// import allLgas from "../../lib/data/statelgaList.json"; 
 import LgaInfoMd from "./LgaInfoMd";
 import LgaInfoSm from "./LgaInfoSm";
 import Button from "../ui/Button";
 
-const LgaSec = () => {
-    const statesSvg = nigerianSvg.statesSvg;
-    const { icons } = allData;
+const LgaSec = ({ allLgas, statesSvg, icons }) => {
+    // const statesSvg = nigerianSvg.statesSvg;
+    // const { icons } = allData;
     const [isLoading, setIsLoading] = useState(false);
     const [tooltipVisible, setTooltipVisible] = useState(false);
     const [stateOnly, setStateOnly] = useState(false);
@@ -89,7 +89,7 @@ const LgaSec = () => {
         } else {
             setSuggestions([]);
         }
-    }, [searchTerm]);
+    }, [searchTerm, allLgas, statesSvg]);
 
     useEffect(() => {
         if (selectedState && lgaPaths.length > 0 && searchTerm) {

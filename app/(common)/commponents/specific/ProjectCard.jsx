@@ -1,12 +1,11 @@
 import Image from "next/image";
-// data local
-import allData from "../../lib/data/webdata.json";
+
 import Button from "../ui/Button";
 
 
 
-const ProjectCard = ({ id, title, desc1, desc2, link, img }) => {
-    const {icons} = allData;
+const ProjectCard = ({ id, title, desc1, desc2, link, img, icons }) => {
+
   return (
     <article id={id} className={`flex flex-col items-start gap-1 max-w-[395px] w-full h-full
                                 md:max-w-[calc(100%-12px)]

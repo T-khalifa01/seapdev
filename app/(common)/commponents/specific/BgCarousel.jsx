@@ -48,10 +48,11 @@ export default function BgCarousel({ images }) {
                 alt={`Hero background ${index + 1}`}
                 // might need to add layout, but i am not sure what property to use
                 className="object-cover"
-                fill
+                fill={true}
                 // width={src.width}
                 // height={src.height}
                 // sizes="(max-width: 768px) 80vw, 120vw"
+                sizes="100vw"
                 priority
               />
               <div className="absolute inset-0 bg-black/50" />

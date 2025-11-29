@@ -1,8 +1,10 @@
 import Image from 'next/image';
-import allData from '../../(common)/lib/data/webdata.json'
+// import allData from '../../(common)/lib/data/webdata.json'
+import { getWebData } from '../../(common)/lib/getWebData';
 import LgaInvstCards from '../../(common)/commponents/specific/LgaInvstCards';
 import LgaSec from '../../(common)/commponents/specific/LgaSec';
 import Button from '../../(common)/commponents/ui/Button';
+import { getLgaMapData } from '../../(common)/lib/getLgaMapData';
 
 
 
@@ -47,8 +49,19 @@ export const metadata = {
 
 
 
-const page = () => {
-  const {lgaPageCards} = allData;
+const page = async () => {
+    // 1. Fetch Global Content Data
+  const allDataPromise = getWebData();
+  // 2. Fetch Map/Utility Data
+  const lgaMapDataPromise = getLgaMapData();
+
+  // Await both promises concurrently for faster execution
+  const [allData, lgaMapData] = await Promise.all([allDataPromise, lgaMapDataPromise]);
+  // const allData =  await getWebData();
+
+  const {lgaPageCards, icons} = allData;
+
+
 
   return (
     <main className="pt-12">
@@ -109,13 +122,15 @@ const page = () => {
       iconAlt={area.iconAlt}
       linkHref={area.linkHref}
       linkLabel={area.linkLabel}
+      icons={icons}
     />
   ))}
 </div>
               </div>
             </section>
 
-            <LgaSec/>
+            {/* <LgaSec/> */}
+            <LgaSec icons={icons} allLgas={lgaMapData.allLgas} statesSvg={lgaMapData.statesSvg} />
 
             <section className="bg-whitish-secondary px-4 py-8 sm:px-16 sm:py-16 flex justify-center items-center overflow-hidden">
   <div className="w-full max-w-7xl">
@@ -168,5 +183,7 @@ const page = () => {
     </main>
   );
 }
+
+export const revalidate = 86400; // Revalidate every 24 hours (86400 seconds)
 
 export default page;

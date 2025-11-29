@@ -1,7 +1,6 @@
-// 'use client';
-
 import Image from 'next/image';
-import allData from "../../(common)/lib/data/webdata.json";
+import { getWebData } from '../../(common)/lib/getWebData';
+// import allData from "../../(common)/lib/data/webdata.json";
 import InvestmentForm from '../../(common)/commponents/specific/InvestmentForm';
 
 
@@ -37,7 +36,8 @@ export const metadata = {
   },
 };
 
-export default function InvestmentPage() {
+export default async function InvestmentPage() {
+  const allData = await getWebData();
   const { icons } = allData;
   return (
     <div className="flex flex-col items-center min-h-screen pt-12">
@@ -101,3 +101,5 @@ export default function InvestmentPage() {
     </div>
   );
 }
+
+export const revalidate = 86400; // Revalidate every 24 hours (86400 seconds)

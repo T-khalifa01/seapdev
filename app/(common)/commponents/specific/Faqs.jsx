@@ -1,16 +1,14 @@
 'use client'
 // next react
 import { useState } from "react";
-// data local
-import allData from "../../lib/data/webdata.json";
+// data local not needed here
 
 
 
-const Faqs = ({ Questions, answers }) => {
+const Faqs = ({ Questions, answers, icons}) => {
 
   const [isOpen, setIsOpen] = useState(false);
 
-  const { icons} = allData;
 
   const toggleOpen = () => {
     setIsOpen(!isOpen);

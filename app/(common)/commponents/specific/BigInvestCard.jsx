@@ -1,13 +1,10 @@
 import Image from "next/image";
-// data local
-import allData from "../../lib/data/webdata.json";
 import Button from "../ui/Button";
 
 
 
 
-const BigInvestCard = ({ title, desc1, href , img, seoLabel }) => {
-    const {icons} = allData
+const BigInvestCard = ({ title, desc1, href , img, seoLabel, icons }) => {
   return (
     <article className={`flex flex-col items-center gap-6 overflow-clip rounded-xl md:rounded-2xl border border-solid border-neutral-950/10 bg-whitish-secondary pt-12 w-full
                         md:w-full`}>

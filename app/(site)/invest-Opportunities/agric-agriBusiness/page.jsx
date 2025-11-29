@@ -1,7 +1,8 @@
 // next, react
 import Image from "next/image";
 // data local
-import allData from "../../../(common)/lib/data/webdata.json";
+// import allData from "../../../(common)/lib/data/webdata.json";
+import { getWebData } from "../../../(common)/lib/getWebData";
 // componentspecific
 import Button from "../../../(common)/commponents/ui/Button";
 import ProjectAccordion from "../../../(common)/commponents/specific/ProjectAccordion";
@@ -46,7 +47,8 @@ export const metadata = {
 
 
 
-const AgricAgriBusiness = () => {
+const AgricAgriBusiness = async () => {
+  const allData =  await getWebData();
   const {icons} = allData;
   const projectsList =[
     { Milestone:"Solar Cold Rooms (5 units / LGA)", tdate:"18-22%"},
@@ -313,4 +315,6 @@ const AgricAgriBusiness = () => {
   );
 }
 
+
+export const revalidate = 86400; // Revalidate every 24 hours (86400 seconds)
 export default AgricAgriBusiness;

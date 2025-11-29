@@ -1,7 +1,8 @@
 // next, react
 import Image from "next/image";
 // data local
-import allData from "../../(common)/lib/data/webdata.json";
+import { getWebData } from "../../(common)/lib/getWebData";
+// import allData from "../../(common)/lib/data/webdata.json";
 // component specific
 import ProjectCard from "../../(common)/commponents/specific/ProjectCard";
 import Button from "../../(common)/commponents/ui/Button";
@@ -48,7 +49,8 @@ export const metadata = {
 
 
 
-const InvestOpp = () => {
+const InvestOpp = async () => {
+  const allData =  await getWebData();
   const {smallprjct} = allData;
   return (
     <main>
@@ -209,5 +211,7 @@ const InvestOpp = () => {
     </main>
   );
 }
+
+export const revalidate = 86400; // Revalidate every 24 hours (86400 seconds)
 
 export default InvestOpp;

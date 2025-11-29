@@ -1,6 +1,7 @@
 // src/app/contact/page.jsx (or wherever it's located)
 import Image from 'next/image';
-import allData from "../../(common)/lib/data/webdata.json";
+// import allData from "../../(common)/lib/data/webdata.json";
+import { getWebData } from '../../(common)/lib/getWebData';
 import ContactForm from '../../(common)/commponents/specific/ContactForm';
 
 // meta data (This is now a Server Component and can export metadata)
@@ -38,7 +39,8 @@ export const metadata = {
   },
 };
 
-const page = () => {
+const page = async () => {
+  const allData =  await getWebData();
   const { icons } = allData;
   return (
     <div className="flex flex-col items-center min-h-screen pt-12">

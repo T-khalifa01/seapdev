@@ -1,15 +1,14 @@
-'use client'
 import Image from "next/image";
-
-import allData from "../../../(common)/lib/data/webdata.json";
+import { getWebData } from "../../../(common)/lib/getWebData";
+// import allData from "../../../(common)/lib/data/webdata.json";
 import Link from "next/link";
 import NewsletterSub from "../../../(common)/commponents/specific/NewsletterSub";
 
 
-const page = () => {
+const page = async () => {
+  const allData =  await getWebData();
   const {icons} = allData
       const iconlink = icons.link;
-      const iconArray = Object.values(iconlink);
   return (
     <main id={4} className="w-full font-sans leading-relaxed">
       {/* HEADER */}
@@ -203,5 +202,7 @@ const page = () => {
     </main>
   );
 }
+
+export const revalidate = 86400; // Revalidate every 24 hours (86400 seconds)
 
 export default page;

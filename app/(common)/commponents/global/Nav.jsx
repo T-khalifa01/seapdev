@@ -4,16 +4,16 @@ import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 // data local
-import allData from "../../lib/data/webdata.json";
+// import allData from "../../lib/data/webdata.json";
 //components specific
 import NavList from '../specific/NavList';
 import Button from '../ui/Button';
 
 
 
-const Nav = () => {
+const Nav = ({navitems1, navitems, icons}) => {
 
-  const {navitems1, navitems, icons} = allData  //nalist data
+  // const {navitems1, navitems, icons} = allData  //nalist data
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false); // For "Investors" dropdown
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false); // For full mobile menu

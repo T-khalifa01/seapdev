@@ -59,7 +59,7 @@
 //         <Nav/>
 //         {children}
 //         <Footer/>
-//       </body>
+//       </body> 
 //     </html>
 //   );
 // }
@@ -67,13 +67,18 @@
 
 import Nav from "../(common)/commponents/global/Nav";
 import Footer from "../(common)/commponents/global/Footer";
+import { getWebData } from "../(common)/lib/getWebData";
 
-export default function SiteLayout({ children }) {
+export default async function SiteLayout({ children }) {
+  const allData = await getWebData();
+  const {navitems1, navitems, icons} = allData;
   return (
     <>
-      <Nav />
+      <Nav navitems={navitems} navitems1={navitems1} icons={icons} />
       {children}
       <Footer />
     </>
   );
 }
+
+export const revalidate = 86400; // Revalidate every 24 hours (86400 seconds)

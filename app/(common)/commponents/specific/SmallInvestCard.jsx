@@ -1,14 +1,8 @@
-import Image from "next/image";
-import CardButton from "../ui/CardButton";
-import Link from "next/link";
-// data local
-import allData from "../../lib/data/webdata.json";
 import Button from "../ui/Button";
 
 
 
-const SmallInvestCard = ({ title, description, icon, link, seoLabel }) => {
-  const {icons} = allData;
+const SmallInvestCard = ({ title, description, icon, link, seoLabel, icons }) => {
   return (
     <article className={`flex flex-col items-start gap-6 overflow-clip rounded-xl md:rounded-2xl border border-solid border-neutral-950/10 bg-whitish-secondary px-6 lg:px-2 md:px-6 pt-6 pb-6 w-full
                         sm:h-[349px]

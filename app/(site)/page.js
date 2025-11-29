@@ -11,7 +11,9 @@ import BgCarousel from "../(common)/commponents/specific/BgCarousel"
 // component ui
 import Button from "../(common)/commponents/ui/Button";
 // data local
-import allData from "../(common)/lib/data/webdata.json";
+// import allData from "../(common)/lib/data/webdata.json";
+import { getWebData } from "../(common)/lib/getWebData";
+import { getLgaMapData } from "../(common)/lib/getLgaMapData";
 
 
 
@@ -67,7 +69,17 @@ export const metadata = {
 
 
 
-export default function Home() {
+export default async function Home() {
+
+  // 1. Fetch Global Content Data
+  const allDataPromise = getWebData();
+  // 2. Fetch Map/Utility Data
+  const lgaMapDataPromise = getLgaMapData();
+
+  // Await both promises concurrently for faster execution
+  const [allData, lgaMapData] = await Promise.all([allDataPromise, lgaMapDataPromise]);
+
+  // const allData =  await getWebData();
 
   const {projectsCardData, investBigCardData, investMidCardData, investSmallCardData, news, keymetrics, icons} = allData;
   const investBigCardData1 = investBigCardData[0];
@@ -149,7 +161,7 @@ export default function Home() {
       </section>
       {/*lga sec*/}
 
-      <LgaSec />
+      <LgaSec icons={icons} allLgas={lgaMapData.allLgas} statesSvg={lgaMapData.statesSvg} />
 
       {/*lga sec ends */}
 
@@ -181,6 +193,7 @@ export default function Home() {
                         id={data.id}
                         link={data.links}
                         img={data.img}
+                        icons={icons}
                     />
                 ))}
             </div>
@@ -214,6 +227,7 @@ export default function Home() {
                         img={investBigCardData1.img}
                         href={'./invest-Opportunities/e-Mobility'}
                         seoLabel={`about our investment Opportunities in e-Mobility`}
+                        icons={icons}
                     />
 
                     <div className={`flex flex-col items-center gap-8 w-full
@@ -228,6 +242,7 @@ export default function Home() {
                                 icon={card.icon}
                                 link={card.link}
                                 seoLabel={`about our investment Opportunities in  mining`}
+                                icons={icons}
                             />
                         ))}
                     </div>
@@ -241,6 +256,7 @@ export default function Home() {
                         img={investMidCardData.img}
                         link={investMidCardData.link}
                         seoLabel={`about our  investment Opportunities in utility-scale solar`}
+                        icons={icons}
                     />
                     <BigInvestCard
                         title={investBigCardData2.title}
@@ -248,6 +264,7 @@ export default function Home() {
                         img={investBigCardData2.img}
                         href={'./invest-Opportunities/industrialInfra'}
                         seoLabel={`about our  investment Opportunities in industrail Infrastucture`}
+                        icons={icons}
                     />
                 </div>
             </div>
@@ -285,8 +302,10 @@ export default function Home() {
             </div>
         </section>
 
-        <NewsSec/>
+        <NewsSec news={news} icons={icons} />
 
     </main>
   );
 }
+
+export const revalidate = 86400; // Revalidate every 24 hours (86400 seconds)

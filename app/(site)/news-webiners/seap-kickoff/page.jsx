@@ -60,7 +60,7 @@ const page = async() => {
           and the parent's height controls its overall size.
           'mx-auto' keeps it centered. 'py-8 md:pt-16' adjusts vertical spacing.
         */}
-        <figure className="relative w-full h-[300px] mx-auto py-8 
+        {/* <figure className="relative w-full h-[300px] mx-auto py-8 
                            md:h-[400px] md:pt-16 
                            lg:h-[600px]">
           <Image
@@ -70,7 +70,18 @@ const page = async() => {
             className="rounded-xl md:rounded-2xl object-cover object-center"
             sizes="100vw"
           />
-        </figure>
+        </figure> */}
+        <div className="relative w-full h-[300px] mx-auto py-8
+                           md:h-[400px] md:pt-16 
+                           lg:h-[600px]">
+          <Image
+            src="/images/seap-team/seap-team-5.jpg"
+            alt="Overhead view of a power generation facility at sunset."
+            fill={true}
+            className="rounded-xl md:rounded-2xl object-cover object-center"
+            sizes="100vw"
+          />
+        </div>
 
         {/* Author + Date + Share */}
         {/*

@@ -15,7 +15,7 @@ const BigAboutCard = ({ sec, title, desc, imgSrc, imageOnLeft = false }) => {
                                  lg:h-[400px] lg:w-[600px] lg:rounded-[18px] lg:flex-shrink-0`;
 
   const imageContent = (
-    <figure className={imageContainerClasses}>
+    <div className={imageContainerClasses}>
       <Image
         src={imgSrc}
         alt={`Logo for ${title}`}
@@ -24,7 +24,7 @@ const BigAboutCard = ({ sec, title, desc, imgSrc, imageOnLeft = false }) => {
         className="object-cover object-center"
         priority={true}
       />
-    </figure>
+    </div>
   );
 
   const textContent = (

@@ -45,7 +45,7 @@ const page = async () => {
         </h1>
 
         {/* Featured Image */}
-        <figure className="relative w-full h-[300px] mx-auto py-8 
+        {/* <figure className="relative w-full h-[300px] mx-auto py-8 
                            md:h-[400px] md:pt-16 
                            lg:h-[600px]">
           <Image
@@ -56,7 +56,19 @@ const page = async () => {
             sizes="100vw"
             
           />
-        </figure>
+        </figure> */}
+        <div className="relative w-full h-[300px] mx-auto py-8 
+                           md:h-[400px] md:pt-16 
+                           lg:h-[600px]">
+          <Image
+            src="/images/seap-team/seap-team-1.jpg"
+            alt="Overhead view of a power generation facility at sunset."
+            fill={true}
+            className="rounded-xl md:rounded-2xl object-cover object-center"
+            sizes="100vw"
+            
+          />
+        </div>
 
         {/* Author + Date + Share */}
         <div className="flex flex-wrap items-start justify-between gap-y-8 pt-4 md:flex-nowrap">

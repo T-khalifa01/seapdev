@@ -4,6 +4,51 @@ import { getWebData } from "../../../(common)/lib/getWebData";
 import Link from "next/link";
 import NewsletterSub from "../../../(common)/commponents/specific/NewsletterSub";
 
+
+export const metadata = {
+  title: "Sustainable Energy Access Projects nationwide Kickoff | SEAP Nigeria",
+  description: "The Federal Government has launched the Sustainable Energy Access Projects (SEAP) with the commissioning of a 30-megawatt power facility in Shagamu Local Government Area (LGA), Ogun State. This marks the first major step in the nationwide rollout of SEAP, designed to deliver a minimum of 5 MW of clean, decentralized power, e-mobility, and clean cooking to each of Nigeria's 774 LGAs.",
+  keywords: [ "SEAP Nigeria", "SEAP kick-off", "Sustainable Energy Access Projects (SEAP) Nigeria", "SEAP nationwide launch", "Clean energy Nigeria", "Decentralized power Nigeria", "Renewable energy projects Nigeria", "Energy access initiatives Nigeria", "SEAP Ogun State", "Shagamu LGA energy project", "Shagamu 30MW power facility commissioning", "ALGON SEAP partnership Shagamu" ],
+  openGraph: {
+    title: "Sustainable Energy Access Projects nationwide Kickoff | SEAP Nigeria",
+    description: "The Federal Government has launched the Sustainable Energy Access Projects (SEAP) with the commissioning of a 30-megawatt power facility in Shagamu Local Government Area (LGA), Ogun State. This marks the first major step in the nationwide rollout of SEAP, designed to deliver a minimum of 5 MW of clean, decentralized power, e-mobility, and clean cooking to each of the 774 LGAs in Nigeria",
+    url: "https://www.seap.ng/news-webiners/seap-kickoff",
+    images: [
+      {
+        url: "https://www.seap.ng/images/seap-team/seap-team-5.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Sustainable Energy Access Projects nationwide Kickoff | SEAP Nigeria",
+      }
+    ],
+  },
+  twitter: {
+    card: "SEAP Kickoff: Powering 774 LGAs Starting with Shagamu 30MW | SEAP Nigeria",
+    title: "Sustainable Energy Access Projects nationwide Kickoff | SEAP Nigeria",
+    description: "The Federal Government has launched the Sustainable Energy Access Projects (SEAP) with the commissioning of a 30-megawatt power facility in Shagamu Local Government Area (LGA), Ogun State. This marks the first major step in the nationwide rollout of SEAP, designed to deliver a minimum of 5 MW of clean, decentralized power, e-mobility, and clean cooking to each of Nigeria's 774 LGAs.",
+    images: ["https://www.seap.ng/images/seap-team/seap-team-5.jpg"],
+  },
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: 'any', type: 'image/x-icon' },
+      { url: '/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' },
+
+    ],
+    apple: {
+      url: '/apple-touch-icon.png',
+      sizes: '180x180',
+    },
+  },
+  //manifest: '/site.webmanifest', // You'd need to create this file
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
+
 const page = async() => {
   const allData =  await getWebData();
   const {icons} = allData

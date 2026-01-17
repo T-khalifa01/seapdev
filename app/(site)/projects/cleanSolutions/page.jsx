@@ -20,6 +20,8 @@ export const metadata = {
     "public health energy solutions",
     "clean fuel Nigeria",
     "cooking with biogas",
+    "SEAP energy projects",
+    "SEAP Nigeria",
   ],
   openGraph: {
     title: "Clean Cooking Solutions | SEAP",
@@ -41,6 +43,24 @@ export const metadata = {
     description:
       "Discover SEAP's clean cooking projects replacing firewood and charcoal with biogas and LPCNG, serving 20,000+ households per LGA nationwide.",
     images: ["https://seap.com.ng/clean-cooking-og.jpg"],
+  },
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: 'any', type: 'image/x-icon' },
+      { url: '/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' },
+
+    ],
+    apple: {
+      url: '/apple-touch-icon.png',
+      sizes: '180x180',
+    },
+  },
+  //manifest: '/site.webmanifest', // You'd need to create this file
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 

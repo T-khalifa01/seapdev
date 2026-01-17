@@ -24,7 +24,8 @@ export const metadata = {
     "Nigeria development",
     "SEAP in Partnership with ALGON",
     "SEAP in Partnership with CCK Electric Power Technology (CCkEP) ",
-    "SEAP in Partnership with Data Analytics & Solutions"
+    "SEAP in Partnership with Data Analytics & Solutions",
+    "SEAP Nigeria",
   ],
   openGraph: {
     title: "About SEAP | Sustainable Energy Access Project",
@@ -46,6 +47,24 @@ export const metadata = {
     description:
       "Learn how SEAP empowers underserved communities with clean, affordable energy and digital solutions nationwide.",
     images: ["https://seap.com.ng/about-og.jpg"],
+  },
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: 'any', type: 'image/x-icon' },
+      { url: '/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' },
+
+    ],
+    apple: {
+      url: '/apple-touch-icon.png',
+      sizes: '180x180',
+    },
+  },
+  //manifest: '/site.webmanifest', // You'd need to create this file
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 

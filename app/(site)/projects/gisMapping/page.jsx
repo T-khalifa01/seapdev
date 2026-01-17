@@ -13,6 +13,7 @@ export const metadata = {
     "satellite analytics energy",
     "clean energy planning Nigeria",
     "SEAP projects",
+    "SEAP Nigeria",
     "energy impact tracking",
     "infrastructure monitoring Nigeria",
     "real-time site assessment",
@@ -38,6 +39,24 @@ export const metadata = {
     description:
       "Discover how SEAP uses geospatial intelligence to guide planning, site assessments, and real-time impact tracking for nationwide energy projects.",
     images: ["https://seap.com.ng/gis-og.jpg"],
+  },
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: 'any', type: 'image/x-icon' },
+      { url: '/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' },
+
+    ],
+    apple: {
+      url: '/apple-touch-icon.png',
+      sizes: '180x180',
+    },
+  },
+  //manifest: '/site.webmanifest', // You'd need to create this file
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 

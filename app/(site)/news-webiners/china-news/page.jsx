@@ -5,6 +5,51 @@ import Link from "next/link";
 import NewsletterSub from "../../../(common)/commponents/specific/NewsletterSub";
 
 
+export const metadata = {
+  title: "China, Nigeria, and Others Reaffirm Global Cooperation on Climate Action",
+  description: "A major milestone in global climate dialogue unfolded as the International Seminar on Climate Change Adaptation and Energy Transition concluded in Hangzhou, China, with renewed calls for international cooperation, knowledge-sharing, and green innovation.",
+  keywords: ["Climate Change", "Energy Transition", "International Cooperation", "Sustainable Development", "Renewable Energy", "Belt and Road Initiative", "Hydropower", "Clean Energy Innovation", "Low-Carbon Policy", "Global Climate Dialogue", "SEAP Nigeria News", "SEAP Nigeria China Seminar 2025", "SEAP Nigeria China relations"],
+  openGraph: {
+    title: "China, Nigeria, and Others Reaffirm Global Cooperation on Climate Action",
+    description: "A major milestone in global climate dialogue unfolded as the International Seminar on Climate Change Adaptation and Energy Transition concluded in Hangzhou, China, with renewed calls for international cooperation, knowledge-sharing, and green innovation.",
+    url: "https://www.seap.ng/news-webiners/china-news",
+    siteName: "SEAP Nigeria",
+    images: [
+      {
+        url: "https://www.seap.ng/images/seap-team/seap-team-1.jpg",
+        width: 1200,
+        height: 630,
+        alt: "China, Nigeria, and Others Reaffirm Global Cooperation on Climate Action|SEAP Team",
+      }
+    ],
+  },
+  twitter: {
+    card: "SEAP Nigeria/China Climate Seminar 2025",
+    title: "China, Nigeria, and Others Reaffirm Global Cooperation on Climate Action",
+    description: "A major milestone in global climate dialogue unfolded as the International Seminar on Climate Change Adaptation and Energy Transition concluded in Hangzhou, China, with renewed calls for international cooperation, knowledge-sharing, and green innovation.",
+    images: ["https://www.seap.ng/images/seap-team/seap-team-1.jpg"],
+  },
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: 'any', type: 'image/x-icon' },
+      { url: '/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' },
+
+    ],
+    apple: {
+      url: '/apple-touch-icon.png',
+      sizes: '180x180',
+    },
+  },
+  //manifest: '/site.webmanifest', // You'd need to create this file
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
+
 const page = async () => {
   const allData =  await getWebData();
   const {icons} = allData

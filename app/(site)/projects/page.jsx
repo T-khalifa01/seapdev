@@ -21,6 +21,7 @@ export const metadata = {
     "LPCNG cylinders",
     "renewable energy Nigeria",
     "energy access projects",
+    "SEAP Nigeria",
   ],
   openGraph: {
     title: "SEAP Projects | Transforming Nigeria's Energy Access",
@@ -42,6 +43,24 @@ export const metadata = {
     description:
       "Discover SEAP projects powering Nigeria's future — hybrid mini-grids, clean cooking tech, and data-driven energy mapping.",
     images: ["https://seap.com.ng/projects-og.jpg"],
+  },
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: 'any', type: 'image/x-icon' },
+      { url: '/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' },
+
+    ],
+    apple: {
+      url: '/apple-touch-icon.png',
+      sizes: '180x180',
+    },
+  },
+  //manifest: '/site.webmanifest', // You'd need to create this file
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 

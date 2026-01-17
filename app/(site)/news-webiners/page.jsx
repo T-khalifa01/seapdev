@@ -11,6 +11,56 @@ import ProjectAccordion from "../../(common)/commponents/specific/ProjectAccordi
 import NewsletterSub from "../../(common)/commponents/specific/NewsletterSub";
 
 
+export const metadata = {
+  title: "SEAP News & Webinars - Stay Informed on Sustainable Energy Developments",
+  description: "Stay updated with SEAP's latest news, webinars, and insights on sustainable energy solutions in Nigeria. Explore our initiatives, projects, and impact in driving clean energy access.",
+  keywords: [
+    "SEAP news",
+    "sustainable energy updates",
+    "clean energy webinars",
+    "renewable energy Nigeria",
+    "SEAP initiatives",
+    "energy access projects",
+    "sustainability news",
+    "SEAP media",
+    "clean cooking solutions",
+    "energy transition Nigeria",
+    "SEAP Nigeria",
+  ],
+  openGraph: {
+    title: "SEAP News & Webinars - Stay Informed on Sustainable Energy Developments",
+    description: "Stay updated with SEAP's latest news, webinars, and insights on sustainable energy solutions in Nigeria. Explore our initiatives, projects, and impact in driving clean energy access.",
+    url: "https://www.seap.ng/news-webiners",
+    siteName: "SEAP Nigeria",
+    images: [
+      {
+        url: "https://www.seap.ng/images/seap-team/seap-team-1.jpg",
+        width: 1200,
+        height: 630,
+        alt: "SEAP News & Webinars - Stay Informed on Sustainable Energy Developments",
+      }
+    ],
+  },
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: 'any', type: 'image/x-icon' },
+      { url: '/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' },
+
+    ],
+    apple: {
+      url: '/apple-touch-icon.png',
+      sizes: '180x180',
+    },
+  },
+  //manifest: '/site.webmanifest', // You'd need to create this file
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
 
 
 const NewsWebiners = async () => {

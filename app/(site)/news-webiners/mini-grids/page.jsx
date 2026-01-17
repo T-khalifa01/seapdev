@@ -4,6 +4,53 @@ import { getWebData } from "../../../(common)/lib/getWebData";
 import Link from "next/link";
 import NewsletterSub from "../../../(common)/commponents/specific/NewsletterSub";
 
+
+export const metadata = {
+  title: "$200M Renewable Energy Deal: Powering Rural Nigeria with Mini-Grids",
+  description: "A major milestone in global climate dialogue unfolded as the International Seminar on Climate Change Adaptation and Energy Transition concluded in Hangzhou, China, with renewed calls for international cooperation, knowledge-sharing, and green innovation.",
+  keywords: ["SEAP news", "SEAP Nigeria", "Nigeria Renewable Energy Deal $200M", "Rural Electrification Agency (REA) Nigeria mini-grids", "$200 million MoU for clean electricity", "WeLight Nigeria solar mini-grids", "SEAP hybrid power and e-mobility solutions", "Co-financing renewable energy projects Nigeria", "Renewable energy for 1.52 million Nigerians", ],
+  openGraph: {
+    title: "$200M Renewable Energy Deal: Powering Rural Nigeria with Mini-Grids",
+    description: "A major milestone in global climate dialogue unfolded as the International Seminar on Climate Change Adaptation and Energy Transition concluded in Hangzhou, China, with renewed calls for international cooperation, knowledge-sharing, and green innovation.",
+    url: "https://www.seap.ng/news-webiners/mini-grids",
+    sitename : "SEAP",
+    images: [
+      {
+        url: "https://www.seap.ng/images/news/minigrid.webp",
+        width: 800,
+        height: 600,
+        alt: "$200M Renewable Energy Deal: Powering Rural Nigeria with Mini-Grids",
+        type: "image/jpeg",
+      },
+    ],
+  },
+  twitter: {
+    card: "$200M Renewable Energy Deal| SEAP Nigeria Mini-Grids",
+    title: "$200M Renewable Energy Deal: Powering Rural Nigeria with Mini-Grids",
+    description: "A major milestone in global climate dialogue unfolded as the International Seminar on Climate Change Adaptation and Energy Transition concluded in Hangzhou, China, with renewed calls for international cooperation, knowledge-sharing, and green innovation.",
+    images: ["https://www.seap.ng/images/news/minigrid.webp"],
+  },
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: 'any', type: 'image/x-icon' },
+      { url: '/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' },
+
+    ],
+    apple: {
+      url: '/apple-touch-icon.png',
+      sizes: '180x180',
+    },
+  },
+  //manifest: '/site.webmanifest', // You'd need to create this file
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
+
 const page = async () => {
   const allData =  await getWebData();
   const {icons} = allData

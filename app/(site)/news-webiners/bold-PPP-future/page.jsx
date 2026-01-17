@@ -4,6 +4,51 @@ import { getWebData } from "../../../(common)/lib/getWebData";
 import Link from "next/link";
 import NewsletterSub from "../../../(common)/commponents/specific/NewsletterSub";
 
+
+export const metadata = {
+  title: "Nigeria PPP Summit 2025: Driving Infrastructure Transformation",
+  description: "Nigeria reaffirmed its commitment to Public-Private Partnerships (PPPs) as the foundation of national infrastructure delivery during the 2025 PPP Summit, held June 17-18 in Abuja.",
+  keywords: ["Nigeria PPP Summit 2025", "Infrastructure Development Nigeria", "Public-Private Partnerships Africa", "SEAP Nigeria News", "ICRC PPP Initiatives", "Nigeria Infrastructure Investment", "PPP Models Nigeria", "Sustainable Infrastructure Nigeria", "Nigeria Economic Growth PPPs", "Global Infrastructure Leaders Nigeria", "Nigeria infrastructure investment opportunities 2025", "Nigeria $2.3 trillion infrastructure gap", ],
+  openGraph: {
+    title: "Nigeria PPP Summit 2025: Driving Infrastructure Transformation",
+    description: "Highlights from the 2025 PPP Summit in Abuja. Learn how Nigeria is closing the $2.3T infrastructure gap and SEAP's role in bankable energy projects.",
+    url: "https://seap.ng/news-webiners/bold-PPP-future",
+    siteName: "SEAP Nigeria",
+    images: [
+      {
+        url: "https://seap.ng/images/news/pppsummit-og-image.webp",
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
+  twitter: {
+    card: "Nigeria PPP Summit 2025 | SEAP Nigeria",
+    title: "Nigeria PPP Summit 2025: Driving Infrastructure Transformation",
+    description: "Highlights from the 2025 PPP Summit in Abuja. Learn how Nigeria is closing the $2.3T infrastructure gap and SEAP's role in bankable energy projects.",
+    images: ["https://seap.ng/images/news/pppsummit-og-image.webp"],
+  },
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: 'any', type: 'image/x-icon' },
+      { url: '/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' },
+
+    ],
+    apple: {
+      url: '/apple-touch-icon.png',
+      sizes: '180x180',
+    },
+  },
+  //manifest: '/site.webmanifest', // You'd need to create this file
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
+
 const page = async () => {
   const allData =  await getWebData();
   const {icons} = allData

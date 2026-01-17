@@ -27,6 +27,11 @@ export const metadata = {
     "Sustainable Energy Access Project (SEAP) delivers clean, affordable energy and digital access across all 774 LGAs in Nigeria.",
   keywords: [
     "SEAP",
+    "Nigeria energy access",
+    "SEAP Nigeria",
+    "clean cooking technology",
+    "e-mobility Nigeria",
+    "investment opportunities Nigeria",
     "sustainable energy",
     "clean energy Nigeria",
     "hybrid solar-gas",

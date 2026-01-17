@@ -4,6 +4,64 @@ import { getWebData } from "../../../(common)/lib/getWebData";
 import Link from "next/link";
 import NewsletterSub from "../../../(common)/commponents/specific/NewsletterSub";
 
+
+export const metadata = {
+  title: "AfDB Mobilizes $2.2B to Spark Nigeria's Agro-Processing Boom | SEAP News",
+  description: "Discover how the African Development Bank is driving Nigeria's agro-processing revolution with a $2.2 billion initiative. Learn about the impact on food security, rural development, and SEAP's role in this transformative journey.",
+  keywords: [
+    "AfDB Nigeria agro-processing",
+    "Nigeria food security",
+    "SEAP agro-industrial zones",
+    "African Development Bank initiatives",
+    "Nigeria rural development",
+    "Agro-processing investment Nigeria 2025",
+    "Sustainable agriculture Nigeria",
+    "SEAP energy solutions",
+    "SEAP agro-processing virtual roundtable 2025",
+    "SEAP news",
+    "SEAP Nigeria",
+  ],
+  openGraph: {
+    title: "AfDB Mobilizes $2.2B to Spark Nigeria's Agro-Processing Boom | SEAP News",
+    description: "Discover how AfDB's $2.2B investment in 28 Nigerian states is transforming agro-processing. Learn how SEAP integrates hybrid energy into SAPZ frameworks.",
+    url: "https://seap.com.ng/news-webiners/afdb-mobilizes",
+    images: [
+      {
+        url: "https://seap.com.ng/images/news/afdbnews.webp",
+        width: 1200,
+        height: 630,
+        alt: "Aerial view of an agro-processing facility powered by renewable energy.",
+      },
+    ],
+  },
+  twitter: {
+    card: "SEAP News | AFDB Agro-Processing Boost",
+    title: "AFDB Mobilizes $2.2B to Spark Nigeria's Agro-Processing Boom | SEAP News",
+    description: "Learn how AfDB's $2.2B initiative is revolutionizing agro-processing in Nigeria and SEAP's role in integrating sustainable energy solutions.",
+    images: ["https://seap.com.ng/images/news/afdbnews.webp"],
+  },
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: 'any', type: 'image/x-icon' },
+      { url: '/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' },
+
+    ],
+    apple: {
+      url: '/apple-touch-icon.png',
+      sizes: '180x180',
+    },
+  },
+  //manifest: '/site.webmanifest', // You'd need to create this file
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
+
+
 const page = async () => {
   const allData =  await getWebData();
   const {icons} = allData

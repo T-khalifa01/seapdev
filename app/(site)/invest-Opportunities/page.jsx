@@ -28,7 +28,7 @@ export const metadata = {
     title: "SEAP Investment Opportunities | Powering Nigeria's Clean Energy Future",
     description:
       "From e-mobility to agribusiness, mining, utility-scale solar, and industrial hubs — SEAP connects investors with scalable, high-impact clean energy projects.",
-    url: "https://seap.com.ng/investment-opportunities",
+    url: "https://seap.com.ng/invest-Opportunities",
     images: [
       {
         url: "https://seap.com.ng/investment-og.jpg",

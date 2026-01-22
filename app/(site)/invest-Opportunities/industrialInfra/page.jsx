@@ -20,7 +20,7 @@ export const metadata = {
     title: "Industrial Infrastructure Investment | Powering Nigeria's Industry",
     description:
       "Invest in SEAP's industrial infrastructure projects providing hybrid power to Nigeria's trade hubs, corridors, and special economic zones.",
-    url: "https://seap.com.ng/investment-opportunities/industrial-infrastructure",
+    url: "https://seap.com.ng/invest-Opportunities/industrialInfra",
     images: [
       {
         url: "https://seap.com.ng/industrial.jpg",

@@ -1,10 +1,9 @@
-// src/app/contact/page.jsx (or wherever it's located)
 import Image from 'next/image';
 // import allData from "../../(common)/lib/data/webdata.json";
 import { getWebData } from '../../(common)/lib/getWebData';
 import ContactForm from '../../(common)/commponents/specific/ContactForm';
 
-// meta data (This is now a Server Component and can export metadata)
+// meta data
 export const metadata = {
   title: "Contact SEAP | Sustainable Energy Access Project Nigeria",
   description:
@@ -20,7 +19,7 @@ export const metadata = {
     title: "Contact SEAP | Sustainable Energy Access Project",
     description:
       "Reach out to SEAP for questions, collaborations, or support on sustainable energy projects across Nigeria.",
-    url: "https://seap.com.ng/contact",
+    url: "https://seap.com.ng/contact-us",
     images: [
       {
         url: "https://seap.com.ng/contact-og.jpg",

@@ -23,7 +23,7 @@ export const metadata = {
     title: "Mining Investment | Sustainable Energy for Nigeria's Resources",
     description:
       "SEAP supports mining with hybrid energy, GIS mapping, and infrastructure that unlock Nigeria's mineral wealth responsibly.",
-    url: "https://seap.com.ng/investment-opportunities/mining",
+    url: "https://seap.com.ng/invest-Opportunities/mining",
     images: [
       {
         url: "https://seap.com.ng/mining.jpg",

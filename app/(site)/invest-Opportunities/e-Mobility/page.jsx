@@ -23,7 +23,7 @@ export const metadata = {
     title: "E-Mobility Investment | Accelerating Clean Transport in Nigeria",
     description:
       "SEAP's E-Mobility initiative supports electric motorcycles, tricycles, and minibuses with battery-swapping hubs and EV conversions nationwide.",
-    url: "https://seap.com.ng/investment-opportunities/e-mobility",
+    url: "https://seap.com.ng/invest-Opportunities/e-Mobility",
     images: [
       {
         url: "https://seap.com.ng/e-mobility.jpg",

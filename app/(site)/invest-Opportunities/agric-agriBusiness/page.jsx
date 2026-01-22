@@ -25,7 +25,7 @@ export const metadata = {
     title: "Agriculture & Agribusiness | Investing in Nigeria's Agri-Economy",
     description:
       "Invest in SEAP's agri-energy infrastructure supporting farmers with irrigation, processing, storage, and distribution powered by clean energy.",
-    url: "https://seap.com.ng/investment-opportunities/agriculture",
+    url: "https://seap.com.ng/invest-Opportunities/agric-agriBusiness",
     images: [
       {
         url: "https://seap.com.ng/agriculture.jpg",

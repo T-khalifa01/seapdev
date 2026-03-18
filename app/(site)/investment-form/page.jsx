@@ -18,7 +18,7 @@ export const metadata = {
   openGraph: {
     title: "Invest with SEAP | Sustainable Energy Access Project",
     description: "Partner with us to fund and develop clean energy solutions across Nigeria.",
-    url: "https://seap.com.ng/invest",
+    url: "https://seap.com.ng/investment-form",
     images: [
       {
         url: "https://seap.com.ng/invest-og.jpg",

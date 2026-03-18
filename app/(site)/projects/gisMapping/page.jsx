@@ -23,7 +23,7 @@ export const metadata = {
     title: "GIS & Satellite Mapping | SEAP",
     description:
       "Through advanced GIS and satellite analytics, SEAP powers smarter, faster, and transparent clean energy deployment across Nigeria's 774 LGAs.",
-    url: "https://seap.com.ng/projects/gis-mapping",
+    url: "https://seap.com.ng/projects/gisMaping",
     images: [
       {
         url: "https://seap.com.ng/gis-og.jpg",

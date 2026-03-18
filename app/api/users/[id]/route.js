@@ -1,37 +1,3 @@
-// import { NextResponse } from 'next/server';
-// import { getServerSession } from 'next-auth';
-// import { authOptions } from '../../auth/[...nextauth]/route';
-// import { pool } from '../../../(common)/lib/db';
-
-// export async function PUT(request, { params }) {
-//   const { id } = params;
-//   const { is_active } = await request.json();
-//   const session = await getServerSession(authOptions);
-
-//   if (!session || session.user.role !== 'admin') {
-//     return NextResponse.json({ message: 'Unauthorized' }, { status: 401 });
-//   }
-
-//   if (session.user.id === id) {
-//     return NextResponse.json({ message: "Cannot disable your own account." }, { status: 400 });
-//   }
-
-//   let connection;
-//   try {
-//     connection = await pool.getConnection();
-//     await connection.query("UPDATE users SET is_active = ? WHERE id = ?", [is_active, id]);
-//     return NextResponse.json({ message: 'User status updated successfully' });
-//   } catch (error) {
-//     console.error("Database update failed:", error);
-//     return NextResponse.json({ message: 'Failed to update user status' }, { status: 500 });
-//   } finally {
-//     if (connection) {
-//       connection.release();
-//     }
-//   }
-// }
-
-
 import { NextResponse } from 'next/server';
 import { getServerSession } from 'next-auth';
 import { authOptions } from '../../auth/[...nextauth]/route';

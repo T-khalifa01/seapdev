@@ -16,7 +16,7 @@ export const metadata = {
     siteName: "SEAP Nigeria",
     images: [
       {
-        url: "https://seap.ng/images/news/pppsummit-og-image.webp",
+        url: "https://seap.ng/images/news/pppsummit.webp",
         width: 1200,
         height: 630,
       },
@@ -26,7 +26,7 @@ export const metadata = {
     card: "Nigeria PPP Summit 2025 | SEAP Nigeria",
     title: "Nigeria PPP Summit 2025: Driving Infrastructure Transformation",
     description: "Highlights from the 2025 PPP Summit in Abuja. Learn how Nigeria is closing the $2.3T infrastructure gap and SEAP's role in bankable energy projects.",
-    images: ["https://seap.ng/images/news/pppsummit-og-image.webp"],
+    images: ["https://seap.ng/images/news/pppsummit.webp"],
   },
   icons: {
     icon: [

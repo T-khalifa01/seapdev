@@ -31,7 +31,7 @@ export const metadata = {
     url: "https://seap.com.ng/invest-Opportunities",
     images: [
       {
-        url: "https://seap.com.ng/investment-og.jpg",
+        url: "https://seap.com.ng/images/projects/agriculture-1.webp",
         width: 1200,
         height: 630,
         alt: "Investment opportunities in Nigeria's clean energy future with SEAP",
@@ -43,7 +43,7 @@ export const metadata = {
     title: "SEAP Investment Opportunities | Clean Energy Projects in Nigeria",
     description:
       "Explore investment opportunities in Nigeria's clean energy future. SEAP projects span transport, agriculture, mining, solar, and industrial infrastructure.",
-    images: ["https://seap.com.ng/investment-og.jpg"],
+    images: ["https://seap.com.ng/images/projects/agriculture-1.webp"],
   },
   icons: {
     icon: [

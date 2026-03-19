@@ -21,7 +21,7 @@ export const metadata = {
     url: "https://seap.com.ng/investment-form",
     images: [
       {
-        url: "https://seap.com.ng/invest-og.jpg",
+        url: "https://seap.com.ng/images/investments/e-mobility-charging-1.webp",
         width: 1200,
         height: 630,
         alt: "Invest in Nigeria's clean energy infrastructure with SEAP",
@@ -32,7 +32,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Invest with SEAP | Sustainable Energy Access Project Nigeria",
     description: "Discover how your investment can power a brighter, cleaner future for Nigeria with SEAP.",
-    images: ["https://seap.com.ng/invest-og.jpg"],
+    images: ["https://seap.com.ng/images/investments/e-mobility-charging-1.webp"],
   },
   icons: {
     icon: [

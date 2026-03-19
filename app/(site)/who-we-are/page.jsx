@@ -31,10 +31,10 @@ export const metadata = {
     title: "About SEAP | Sustainable Energy Access Project",
     description:
       "The Sustainable Energy Access Project (SEAP) bridges Nigeria's energy gap with scalable clean technologies, innovation hubs, and strong partnerships across all 774 LGAs.",
-    url: "https://seap.com.ng/about",
+    url: "https://seap.com.ng/who-we-are",
     images: [
       {
-        url: "https://seap.com.ng/about-og.jpg",
+        url: "https://seap.com.ng/images/seap-team/seap-team-1.jpg",
         width: 1200,
         height: 630,
         alt: "SEAP team delivering sustainable energy in Nigeria",
@@ -46,7 +46,7 @@ export const metadata = {
     title: "About SEAP | Transforming Energy Access in Nigeria",
     description:
       "Learn how SEAP empowers underserved communities with clean, affordable energy and digital solutions nationwide.",
-    images: ["https://seap.com.ng/about-og.jpg"],
+    images: ["https://seap.com.ng/images/seap-team/seap-team-1.jpg"],
   },
   icons: {
     icon: [

@@ -24,7 +24,7 @@ export const metadata = {
     url: "https://seap.com.ng/invest-Opportunities/utility-scale",
     images: [
       {
-        url: "https://seap.com.ng/utility-solar.jpg",
+        url: "https://seap.com.ng/images/projects/solar-1.webp",
         width: 1200,
         height: 630,
         alt: "Utility-scale solar farm in Nigeria under SEAP investment program",
@@ -36,7 +36,7 @@ export const metadata = {
     title: "Utility-Scale Solar | SEAP Nigeria",
     description:
       "SEAP's utility-scale solar projects harness GIS data to deliver high-yield solar farms across Nigeria.",
-    images: ["https://seap.com.ng/utility-solar.jpg"],
+    images: ["https://seap.com.ng/images/projects/solar-1.webp"],
   },
   icons: {
     icon: [

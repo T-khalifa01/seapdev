@@ -26,7 +26,7 @@ export const metadata = {
     url: "https://seap.com.ng/projects/gisMaping",
     images: [
       {
-        url: "https://seap.com.ng/gis-og.jpg",
+        url: "https://seap.com.ng/images/projects/gis-satillite-mapping-1.webp",
         width: 1200,
         height: 630,
         alt: "SEAP GIS platform showing geospatial energy mapping",
@@ -38,7 +38,7 @@ export const metadata = {
     title: "SEAP GIS & Satellite Mapping | Smarter Energy Access",
     description:
       "Discover how SEAP uses geospatial intelligence to guide planning, site assessments, and real-time impact tracking for nationwide energy projects.",
-    images: ["https://seap.com.ng/gis-og.jpg"],
+    images: ["https://seap.com.ng/images/projects/gis-satillite-mapping-1.webp"],
   },
   icons: {
     icon: [
@@ -53,7 +53,7 @@ export const metadata = {
       sizes: '180x180',
     },
   },
-  //manifest: '/site.webmanifest', // You'd need to create this file
+  //manifest: '/site.webmanifest', //create this file
   robots: {
     index: true,
     follow: true,

@@ -26,7 +26,7 @@ export const metadata = {
     url: "https://seap.com.ng/invest-Opportunities/mining",
     images: [
       {
-        url: "https://seap.com.ng/mining.jpg",
+        url: "https://seap.com.ng/images/mining/mining-3.webp",
         width: 1200,
         height: 630,
         alt: "Sustainable mining operations powered by SEAP hybrid energy",
@@ -38,7 +38,7 @@ export const metadata = {
     title: "Mining Investment | SEAP Nigeria",
     description:
       "Invest in SEAP's mining projects delivering hybrid power and digital tools to Nigeria's mineral-rich LGAs.",
-    images: ["https://seap.com.ng/mining.jpg"],
+    images: ["https://seap.com.ng/images/mining/mining-3.webp"],
   },
   icons: {
     icon: [

@@ -27,10 +27,10 @@ export const metadata = {
     title: "Clean Cooking Solutions | SEAP",
     description:
       "SEAP transforms cooking in Nigeria with biogas and LPCNG solutions — reducing emissions, protecting forests, and improving health across all 774 LGAs.",
-    url: "https://seap.com.ng/projects/clean-cooking",
+    url: "https://seap.com.ng/projects/cleanSolutions",
     images: [
       {
-        url: "https://seap.com.ng/clean-cooking-og.jpg",
+        url: "https://seap.com.ng/images/cooking/woman-cooking-1.webp",
         width: 1200,
         height: 630,
         alt: "SEAP clean cooking with biogas and LPCNG in Nigerian households",
@@ -42,7 +42,7 @@ export const metadata = {
     title: "SEAP Clean Cooking Solutions | Biogas & LPCNG for All",
     description:
       "Discover SEAP's clean cooking projects replacing firewood and charcoal with biogas and LPCNG, serving 20,000+ households per LGA nationwide.",
-    images: ["https://seap.com.ng/clean-cooking-og.jpg"],
+    images: ["https://seap.com.ng/images/cooking/woman-cooking-1.webp"],
   },
   icons: {
     icon: [

@@ -30,7 +30,7 @@ export const metadata = {
     url: "https://seap.com.ng/lga",
     images: [
       {
-        url: "https://seap.com.ng/lga-og.jpg",
+        url: "https://seap.com.ng/images/mining-2.webp",
         width: 1200,
         height: 630,
         alt: "Interactive map of Nigeria showing SEAP energy projects by LGA",
@@ -42,7 +42,7 @@ export const metadata = {
     title: "SEAP LGA Map | Projects & Opportunities",
     description:
       "Discover SEAP's projects and investment opportunities in every LGA. Explore Nigeria's clean energy future with our interactive map.",
-    images: ["https://seap.com.ng/lga-og.jpg"],
+    images: ["https://seap.com.ng/images/mining-2.webp"],
   },
   icons: {
     icon: [

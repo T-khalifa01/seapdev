@@ -30,7 +30,7 @@ export const metadata = {
     url: "https://seap.com.ng/projects",
     images: [
       {
-        url: "https://seap.com.ng/projects-og.jpg",
+        url: "https://seap.com.ng/images/projects/solar-2.webp",
         width: 1200,
         height: 630,
         alt: "SEAP hybrid solar-gas and clean cooking projects",
@@ -42,7 +42,7 @@ export const metadata = {
     title: "SEAP Projects | Hybrid Solar, Clean Cooking & GIS Mapping",
     description:
       "Discover SEAP projects powering Nigeria's future — hybrid mini-grids, clean cooking tech, and data-driven energy mapping.",
-    images: ["https://seap.com.ng/projects-og.jpg"],
+    images: ["https://seap.com.ng/images/projects/solar-2.webp"],
   },
   icons: {
     icon: [

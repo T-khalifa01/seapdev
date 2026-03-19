@@ -28,7 +28,7 @@ export const metadata = {
     url: "https://seap.com.ng/invest-Opportunities/agric-agriBusiness",
     images: [
       {
-        url: "https://seap.com.ng/agriculture.jpg",
+        url: "https://seap.com.ng/images/projects/agriculture-1.webp",
         width: 1200,
         height: 630,
         alt: "Farmers using solar-powered irrigation and processing systems in Nigeria",
@@ -40,7 +40,7 @@ export const metadata = {
     title: "Agriculture & Agribusiness Investment | SEAP Nigeria",
     description:
       "Explore SEAP's agriculture projects enabling clean energy-powered irrigation, processing, and distribution across Nigeria.",
-    images: ["https://seap.com.ng/agriculture.jpg"],
+    images: ["https://seap.com.ng/images/projects/agriculture-1.webp"],
   },
   icons: {
     icon: [

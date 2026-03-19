@@ -22,7 +22,7 @@ export const metadata = {
     url: "https://seap.com.ng/contact-us",
     images: [
       {
-        url: "https://seap.com.ng/contact-og.jpg",
+        url: "https://seap.com.ng/images/projects/solar-3.webp",
         width: 1200,
         height: 630,
         alt: "Contact SEAP team for clean energy partnerships in Nigeria",
@@ -34,7 +34,7 @@ export const metadata = {
     title: "Contact SEAP | Sustainable Energy Access Project Nigeria",
     description:
       "Contact SEAP for inquiries, partnerships, or investment opportunities in Nigeria's clean energy sector.",
-    images: ["https://seap.com.ng/contact-og.jpg"],
+    images: ["https://seap.com.ng/images/projects/solar-3.webp"],
   },
   icons: {
     icon: [

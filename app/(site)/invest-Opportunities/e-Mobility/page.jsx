@@ -26,7 +26,7 @@ export const metadata = {
     url: "https://seap.com.ng/invest-Opportunities/e-Mobility",
     images: [
       {
-        url: "https://seap.com.ng/e-mobility.jpg",
+        url: "https://seap.com.ng/images/investments/e-mobility-3.webp",
         width: 1200,
         height: 630,
         alt: "Electric motorcycles and tricycles charging at SEAP battery-swapping hub",
@@ -38,7 +38,7 @@ export const metadata = {
     title: "E-Mobility Investment | SEAP Nigeria",
     description:
       "Invest in SEAP's clean transport initiative driving EV adoption, reducing emissions, and creating jobs across Nigeria.",
-    images: ["https://seap.com.ng/e-mobility.jpg"],
+    images: ["https://seap.com.ng/images/investments/e-mobility-3.webp"],
   },
   icons: {
     icon: [

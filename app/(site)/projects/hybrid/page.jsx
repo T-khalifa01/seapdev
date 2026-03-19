@@ -26,10 +26,10 @@ export const metadata = {
     title: "Hybrid Solar-Gas Power Systems | SEAP",
     description:
       "SEAP deploys up to 5MW hybrid solar-gas systems to power Nigeria's agriculture, mining, telecom, healthcare, and SMEs—scaling clean energy nationwide.",
-    url: "https://seap.com.ng/projects/hybrid-solar-gas",
+    url: "https://seap.com.ng/projects/hybrid",
     images: [
       {
-        url: "https://seap.com.ng/hybrid-og.jpg",
+        url: "https://seap.com.ng/images/projects/industrial-infrastructure-4.webp",
         width: 1200,
         height: 630,
         alt: "SEAP hybrid solar-gas mini-grid powering agriculture and SMEs",
@@ -41,7 +41,7 @@ export const metadata = {
     title: "SEAP Hybrid Solar-Gas Systems | Scalable Clean Energy",
     description:
       "Reliable 5MW hybrid solar-gas systems powering agriculture, telecom, healthcare, and SMEs across Nigeria's 774 LGAs.",
-    images: ["https://seap.com.ng/hybrid-og.jpg"],
+    images: ["https://seap.com.ng/images/projects/industrial-infrastructure-4.webp"],
   },
   icons: {
     icon: [
@@ -56,7 +56,7 @@ export const metadata = {
       sizes: '180x180',
     },
   },
-  //manifest: '/site.webmanifest', // You'd need to create this file
+  //manifest: '/site.webmanifest', // create this file
   robots: {
     index: true,
     follow: true,

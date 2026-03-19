@@ -51,7 +51,7 @@ export const metadata = {
     url: "https://seap.com.ng",
     images: [
       {
-        url: "https://seap.com.ng/og-image.jpg",
+        url: "https://seap.com.ng/images/projects/industrial-infrastructure-4.webp",
         width: 1200,
         height: 630,
         alt: "SEAP clean energy initiative",
@@ -63,7 +63,7 @@ export const metadata = {
     title: "Powering Nigeria's Sustainable Future | SEAP",
     description:
       "Clean, affordable energy and digital access for every Nigerian community. Discover SEAP's transformative national initiative.",
-    images: ["https://seap.com.ng/og-image.jpg"],
+    images: ["https://seap.com.ng/images/projects/industrial-infrastructure-4.webp"],
   },
   robots: {
     index: true,

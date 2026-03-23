@@ -101,11 +101,11 @@ const NewsWebiners = async () => {
         sm:py-16 sm:gap-16
         md:py-16 md:gap-20
         lg:pb-20
-        max-w-screen-2xl mx-auto
+        h-[80vh] md:h-[100vh] lg:h-[110vh] xl:h-[100vh]
       `}
       aria-labelledby="news-heading"
     >
-      {/* Full-width Image Section */}
+      {/*max-w-screen-2xl mx-auto Full-width Image Section */}
       <div
         className={`
           relative w-full overflow-hidden shrink-0
@@ -136,6 +136,7 @@ const NewsWebiners = async () => {
           gap-12
           md:gap-20
           min-[1430px]:flex-nowrap
+          max-w-screen-2xl mx-auto
         `}
       >
         {/* Left Text Column: Main Heading */}

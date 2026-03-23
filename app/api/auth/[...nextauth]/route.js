@@ -49,12 +49,15 @@ export const authOptions = {
             name: user.name, // to see name
           };
         } catch (error) {
-          console.error("Authentication failed:", error);
+          console.error("Authentication failed:", error.message);
           
-          if (error.message === "Account is disabled.") {
-              throw error; // Re-throw the specific error
-          }
-          return null;
+          // if (error.message === "Account is disabled.") {
+          //     throw error; // Re-throw the specific error
+          // }
+          // return null;
+
+          throw new Error(error.message);
+
         } finally {
           if (connection) {
             connection.release();
@@ -80,7 +83,7 @@ export const authOptions = {
     },
   },
   pages: {
-    signIn: '/login',
+    signIn: '/auth/login',
   },
 };
 
